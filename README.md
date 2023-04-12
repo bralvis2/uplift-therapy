@@ -8,7 +8,7 @@
 
 ## Credits
 
-This software uses the following open source packages:
+This website uses the following open source packages:
 
 - [React](https://reactjs.org/)
 - [ChatGPT](https://chat.openai.com/) used for generating descriptions. 

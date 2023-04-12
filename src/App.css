@@ -1,0 +1,14 @@
+:root {
+    --light: #F2F0EB;
+    --light2: #E9D8C8;
+    --tan: #9D6F4D;
+    --tan2: #967860;
+    --tupe: #9F9685;
+    --dark: #262626;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
