@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Home from './components/pages/Home';
 import About from './components/pages/About';
 import Couples from './components/pages/Couples';
+import Family from './components/pages/Family';
 import Individuals from './components/pages/Individuals';
 import Costs from './components/pages/Costs';
 import Contact from './components/pages/Contact';
@@ -31,6 +32,7 @@ const App = () => {
 
                 <li><Link to={'/about'}>About</Link></li>
                 <li><Link to={'/couples'}> Couples </Link></li>
+                <li><Link to={'/family'}> Family </Link></li>
                 <li><Link to={'/individuals'}>Individuals</Link></li>
                 <li><Link to={'/costs'}>Costs</Link></li>
                 <li><Link to={'/contact'}>Contact</Link></li>
@@ -45,6 +47,7 @@ const App = () => {
               <Route path="/" element={<Home/>} exact />
               <Route path="/about" element={<About/>} exact />
               <Route path="/couples" element={<Couples/>} exact />
+              <Route path="/family" element={<Family/>} exact />
               <Route path="/individuals" element={<Individuals/>} exact />
               <Route path="/costs" element={<Costs/>} exact />
               <Route path="/contact" element={<Contact/>} exact />

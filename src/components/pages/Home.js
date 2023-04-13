@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import CoverPage from '../site-images/home-cover.png'
+import DecorSun from '../site-images/home-decor-icon.png'
 
 import './Home.css'
 
@@ -17,21 +18,61 @@ class Home extends Component {
               <p>-therapy is not a sign of weakness, but a courageous act of self-care.</p>
             </div>
           </div>
-          
-          <h2>Home</h2>
-          <p>Therapy can provide a wide range of benefits to individuals who are struggling 
-            with various mental health concerns or life challenges. One of the primary benefits 
-            of therapy is the opportunity to gain insight into one's thoughts, feelings, and 
-            behaviors, and to develop a deeper understanding of oneself. Therapy can also provide 
-            a safe and supportive environment for individuals to explore their emotions, process 
-            difficult experiences, and develop coping strategies for managing stress and other 
-            challenges. In addition, therapy can improve communication skills, enhance 
-            relationships, and foster personal growth and development. Ultimately, therapy can help 
-            individuals to achieve greater self-awareness, increase their resilience, and lead a 
-            more fulfilling and satisfying life.</p>
+          <div className='welcome'>
+            <div className='welcome-container'>
+              <img src={DecorSun} alt=''/>
+              <h1>Welcome to Uplift Therapy!</h1>
+              <p>Uplift Therapy helps individuals, couples, and families who are experiencing emotional 
+                and behavioral difficulties. With growth in mind, Uplift Therapy aims to enhance 
+                relationships and improve functioning in daily life. Therapy is conducted in a safe, 
+                comfortable, and supportive atmosphere in which the therapist takes a highly 
+                collaborative treatment approach tailored to each of the client’s needs to help them 
+                attain the growth they are striving for.</p>
+            </div>
+          </div>
+          <div className='expertise'>
+            <div className='expertise-couples'>
+              <h2>Couples</h2>
+              <button>
+                <Link to={'/couples'}>Learn More &rarr;</Link>
+              </button>
+            </div>
+            <div className='expertise-family'>
+              <h2>family</h2>
+              <button>
+                <Link to={'/family'}>Learn More &rarr;</Link>
+              </button>
+            </div>
+            <div className='expertise-individuals'>
+              <h2>individuals</h2>
+              <button>
+                <Link to={'/individuals'}>Learn More &rarr;</Link>
+              </button>
+            </div>
+          </div>
+          <div className='about-therapist'>
+            <h2>MEET THE THERAPIST</h2>
+            <h3>Rosi Torres, MS, LMHP</h3>
+            <p>"As a therapist, witnessing my clients overcome their struggles and transform their lives 
+              is not just my job, it's my passion and the ultimate reward of my work."</p>
             <button>
-              <Link to={'/contact'} className="nav-link">Contact</Link>
+              <Link to={'/about'}>Learn More &rarr;</Link>
             </button>
+          </div>
+          <div className='what-to-expect'>
+            <div>
+              <h2>1.</h2>
+            </div>
+            <div>
+              <h2>2.</h2>
+            </div>
+            <div>
+              <h2>3.</h2>
+            </div>
+          </div>
+          <div className='testimonials'>
+            <h2>Testimonials</h2>
+          </div>
         </div>
     );
   }

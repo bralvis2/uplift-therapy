@@ -1,3 +1,4 @@
+/* Cover Page Section */
 .home-cover {
     position: relative;
 }
@@ -36,7 +37,37 @@
     font-size: 2rem;
 }
 
+/* Welcome Section */
+.welcome {
+    background-color: var(--light);
+    padding: 50px;
+}
+
+.welcome-container {
+    width: 75%;
+    margin: auto;
+    padding: 20px;
+    color: var(--tupe);
+    text-align: center;
+}
+
+.welcome-container img {
+    width: 30%;
+}
+
+.welcome-container h1{
+    font-size: 3rem;
+}
+
+.welcome-container p {
+    font-size: 1.5rem;
+}
+
 @media screen and (max-width: 950px) {
+    .welcome-container img {
+        width: 60%;
+    }
+
     .cover-quote h2{
         font-size: 2rem;
     }
@@ -47,6 +78,9 @@
 }
 
 @media screen and (max-width: 560px) {
+    .welcome-container img {
+        width: 80%;
+    }
     .cover-quote {
         position: static;
         background-color: hsla(0, 0%, 5%, 0.88);
