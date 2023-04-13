@@ -7,6 +7,7 @@ import Couples from './pages/Couples';
 import Individuals from './pages/Individuals';
 import Costs from './pages/Costs';
 import Contact from './pages/Contact';
+import Footer from './Footer';
 
 import logo from '../brand-images/uplift-logo-light.png'
 
@@ -39,7 +40,6 @@ const Nav = () => {
                   {isMobile ? <i className='fa fa-xmark'>&#10005;</i> : <i className='fa fa-bars'></i> } 
                 </button>
               </nav>
-            <hr />
             
             <Routes>
                 <Route path="/" element={<Home/>} exact />
@@ -49,6 +49,7 @@ const Nav = () => {
                 <Route path="/costs" element={<Costs/>} exact />
                 <Route path="/contact" element={<Contact/>} exact />
             </Routes>
+            <Footer/>
         </Router>
       );
 

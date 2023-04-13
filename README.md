@@ -13,6 +13,7 @@ This website uses the following open source packages:
 - [React](https://reactjs.org/)
 - [ChatGPT](https://chat.openai.com/) used for generating descriptions. 
 - [Font Awesome CDN](https://cdn.fontawesome.com/): Icon accessibility and faster loading.
+-[Pixabay](https://pixabay.com/photos/sunset-wales-coast-landscape-moody-4912143/)
 
 ## License
 

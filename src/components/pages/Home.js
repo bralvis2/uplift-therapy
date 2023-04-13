@@ -1,11 +1,23 @@
 import React, { Component } from 'react';
-
 import { Link } from 'react-router-dom';
+import CoverPage from '../site-images/home-cover.png'
+
+import './Home.css'
 
 class Home extends Component {
   render() {
     return (
-        <div>
+        <div className='home'>
+          <div className='home-cover'>
+            <div className='cover-page-image'>
+              <img src={CoverPage} alt='Sun set cover page'/>
+            </div>
+            <div className='cover-quote'>
+              <h2>TAKE THE FIRST STEP TOWARDS HEALING</h2>
+              <p>-therapy is not a sign of weakness, but a courageous act of self-care.</p>
+            </div>
+          </div>
+          
           <h2>Home</h2>
           <p>Therapy can provide a wide range of benefits to individuals who are struggling 
             with various mental health concerns or life challenges. One of the primary benefits 

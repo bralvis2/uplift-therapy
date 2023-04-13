@@ -1,0 +1,54 @@
+.home-cover {
+    position: relative;
+}
+
+.cover-page-image {
+    display: flex;
+    width: 100%;
+}
+
+.cover-page-image img {
+    width: 100%;
+}
+
+.cover-quote {
+    background-color: hsla(0, 0%, 5%, 0.38);
+    color: var(--light);
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.cover-quote h2{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 3.5rem;
+}
+
+.cover-quote p {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 2rem;
+}
+
+@media screen and (max-width: 950px) {
+    .cover-quote h2{
+        font-size: 2rem;
+    }
+    
+    .cover-quote p {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .cover-quote {
+        position: static;
+        background-color: hsla(0, 0%, 5%, 0.88);
+    }
+}
