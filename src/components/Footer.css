@@ -1,4 +1,4 @@
-.footer {
+.footer-content {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -14,11 +14,12 @@
 
 .footer-contact h3 {
     font-size: 1.75rem;
+    text-align: center;
 }
 
 .footer-contact ul {
-    width: 95%;
-    margin: auto;
+    width: 100%;
+    text-align: center;
 }
 
 .footer-contact, .footer-nav, .footer-nav a {
@@ -36,6 +37,30 @@
 
 .email a:hover {
     color: var(--tupe);
+}
+
+.footer-location a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;;
+}
+
+.footer-location a:hover {
+    color: var(--tupe);
+}
+
+.footer-location a {
+    color: var(--light);
+    text-decoration: none;
+}
+
+.location-icon {
+    fill: var(--light);
+    width: 30px;
+}
+
+.location-icon:hover {
+    fill: var(--tupe);
 }
 
 .footer-logo {
@@ -58,13 +83,13 @@
 }
 
 .social-icons {
-    fill: var(--tupe);
+    fill: var(--light);
     width: 30px;
     margin-left: 10px;
 }
 
 .social-icons:hover {
-    fill: var(--light);
+    fill: var(--tupe);
 }
 
 .footer-nav{
@@ -96,6 +121,13 @@
     color: var(--tupe);
 }
 
+.copywrite {
+    text-align: center;
+    padding: 20px;
+    background-color: var(--dark);
+    color: var(--light);
+}
+
 @media screen and (max-width: 765px) {
     .footer {
         flex-direction: column;
@@ -110,6 +142,14 @@
 
     .footer-logo {
         width: 30%;
+    }
+
+    .socials {
+        flex-direction: column;
+    }
+
+    .social-icons {
+        margin-left: 0;
     }
 
     .footer-nav{
