@@ -127,6 +127,69 @@
     cursor: pointer;
 }
 
+/* About the Therapist */
+.about-therapist {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: var(--light);
+    padding: 50px 0px;
+}
+
+.about-therapist-content {
+    width: 50%;
+    height: 90%;
+    text-align: center;
+}
+
+.about-therapist-content h2 {
+    color: var(--tupe);
+    font-size: 2.5rem;
+    padding-bottom: 50px;
+}
+
+.about-therapist-content h3{
+    font-size: 1.75rem;
+    padding-bottom: 10px;
+}
+
+.about-therapist-content p{
+    font-size: 1.5rem;
+    padding-bottom: 10px;
+    width: 70%;
+    margin: auto;
+}
+
+.learn-more-btn-two {
+    background-color: var(--light);
+    width: 200px;
+    font-size: 1.25rem;
+    font-family: 'Playfair Display', serif;
+    padding: 5px;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid var(--dark);
+    color: var(--dark);
+}
+
+.learn-more-btn-two:hover {
+    color: var(--tupe);
+    border-bottom: 1px solid var(--tupe);
+    cursor: pointer;
+}
+
+.about-therapist-image {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+}
+
+.about-therapist-image img {
+    width: 70%;
+    outline: 3px solid black;
+    outline-offset: -10px;
+}
+
 @media screen and (max-width: 950px) {
     .welcome-container img {
         width: 60%;
@@ -139,6 +202,67 @@
     .cover-quote p {
         font-size: 1rem;
     }
+
+    .expertise-cards-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .expertise-cards {
+        width: 95%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+
+    .expertise-cards img {
+        width: 40%;
+        border-radius: 10px 0px 0px 10px;
+    }
+
+    .expertise-card-content {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+
+    .expertise-cards {
+        width: 85%;
+        flex-direction: column;
+    }
+
+    .expertise-cards img {
+        width: 100%;
+        border-radius: 10px 0px 0px 10px;
+    }
+
+    .expertise-card-content {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .about-therapist {
+        flex-direction: column-reverse;
+    }
+
+    .about-therapist-content {
+        width: 80%;
+    }
+
+    .about-therapist-image {
+        width: 80%;
+        margin-bottom: 30px;
+    }
+
+    .about-therapist-image img {
+        width: 100%;
+    }
+
 }
 
 @media screen and (max-width: 560px) {
