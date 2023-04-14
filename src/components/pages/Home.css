@@ -190,6 +190,46 @@
     outline-offset: -10px;
 }
 
+/* Process Section */
+.home-process {
+    background-color: var(--light);
+}
+
+.home-process h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    color: var(--tan2);
+    padding: 20px 0;
+}
+
+.home-process-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+.process-card {
+    width: 30%;
+    text-align: center;
+    color: var(--tan2);
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+
+.process-card img {
+    width: 75%;
+}
+
+.process-card h3 {
+    font-size: 1.5rem;
+    font-family: 'Playfair Display', serif;
+    padding: 10px 0px;
+}
+
+.process-card p {
+    font-size: 1.25rem;
+    font-family: sans-serif;
+    padding: 10px;
+}
+
 @media screen and (max-width: 950px) {
     .welcome-container img {
         width: 60%;
@@ -261,6 +301,15 @@
 
     .about-therapist-image img {
         width: 100%;
+    }
+
+    .home-process-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .process-card {
+        width: 70%;
     }
 
 }

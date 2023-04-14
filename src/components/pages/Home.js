@@ -6,6 +6,7 @@ import CoupleImg from '../site-images/home-couple.png'
 import FamilyImg from '../site-images/home-family.png'
 import IndImg from '../site-images/home-individual.png'
 import Owner from '../site-images/owner.png'
+import DecorIcon from '../site-images/decor-icon.png'
 
 import './Home.css'
 
@@ -97,18 +98,30 @@ class Home extends Component {
               <img src={Owner} alt='Rosi Torres, MS, LMHP'/>
             </div>
           </div>
-          {/* <div className='what-to-expect'>
-            <div>
-              <h2>1.</h2>
-            </div>
-            <div>
-              <h2>2.</h2>
-            </div>
-            <div>
-              <h2>3.</h2>
+          <div className='home-process'>
+            <h2>THE PROCESS</h2>
+            <div className='home-process-container'>
+              <div className='process-card'>
+                <img src={DecorIcon} alt=''/>
+                <h3><span>1.</span> SCHEDULE YOUR CONSULTATION</h3>
+                <p>Contact us to schedule your first appointment. We can provide information about insurance
+                   coverage and help clients understand their payment options.</p>
+              </div>
+              <div className='process-card'>
+              <img src={DecorIcon} alt=''/>
+                <h3><span>2.</span> CREATE A PLAN</h3>
+                <p>By working collaboratively with clients, we can help create a roadmap for success 
+                  and provide ongoing support and guidance along the way.</p>
+              </div>
+              <div className='process-card'>
+              <img src={DecorIcon} alt=''/>
+                <h3><span>3.</span> BEGIN YOUR JOURNEY</h3>
+                <p> Begin your journey towards self-discovery and personal growth with tools and strategies 
+                  to navigate challenges.</p>
+              </div>
             </div>
           </div>
-          <div className='testimonials'>
+          {/* <div className='testimonials'>
             <h2>Testimonials</h2>
           </div> */}
         </div>
