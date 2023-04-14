@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import CoverPage from '../site-images/home-cover.png'
 import DecorSun from '../site-images/home-decor-icon.png'
+import CoupleImg from '../site-images/home-couple.png'
+import FamilyImg from '../site-images/home-family.png'
+import IndImg from '../site-images/home-individual.png'
 
 import './Home.css'
 
@@ -31,23 +34,45 @@ class Home extends Component {
             </div>
           </div>
           <div className='expertise'>
-            <div className='expertise-couples'>
-              <h2>Couples</h2>
-              <button>
-                <Link to={'/couples'}>Learn More &rarr;</Link>
-              </button>
-            </div>
-            <div className='expertise-family'>
-              <h2>family</h2>
-              <button>
-                <Link to={'/family'}>Learn More &rarr;</Link>
-              </button>
-            </div>
-            <div className='expertise-individuals'>
-              <h2>individuals</h2>
-              <button>
-                <Link to={'/individuals'}>Learn More &rarr;</Link>
-              </button>
+            <h1>OUR FOCUS</h1>
+            <div className='expertise-cards-container'>
+              <div className='expertise-cards'>
+                <img src={CoupleImg} alt='A couple looking at sunset'/>
+                <h2>Couples</h2>
+                <p>Couples Therapy helps people reconnect with their partner by reducing conflict, 
+                  restoring friendship, fun and intimacy. With the intention of  resolving past hurts 
+                  and resentments, it creates a more loving, close, healthy relationship.</p>
+                 <Link to={'/couples'}>
+                    <button className='learn-more-btn'>
+                      Learn More &rarr;
+                    </button>
+                  </Link>
+              </div>
+              <div className='expertise-cards'>
+                <img src={FamilyImg} alt='A couple looking at sunset'/>
+                <h2>Family</h2>
+                <p>Families can benefit from therapy when they experience a stressful event that strains 
+                  family relationships. Family therapy is designed to improve communication, problem-solving, 
+                  coping skills, and enhance the connection of the family unit.</p>
+               
+                <Link to={'/family'}>
+                  <button className='learn-more-btn'>
+                    Learn More &rarr;
+                  </button>
+                </Link>
+              </div>
+              <div className='expertise-cards'>
+                <img src={IndImg} alt='A couple looking at sunset'/>
+                <h2>Individuals</h2>
+                <p>Individual therapy is a personal journey toward personal growth and an increase in life 
+                  satisfaction. Through the process of therapy, you will develop an increased understanding 
+                  and insight toward yourself and those around you.</p>
+                <Link to={'/individuals'}>
+                  <button className='learn-more-btn'>
+                    Learn More &rarr;
+                  </button>
+                </Link>
+              </div>
             </div>
           </div>
           <div className='about-therapist'>
@@ -55,9 +80,11 @@ class Home extends Component {
             <h3>Rosi Torres, MS, LMHP</h3>
             <p>"As a therapist, witnessing my clients overcome their struggles and transform their lives 
               is not just my job, it's my passion and the ultimate reward of my work."</p>
-            <button>
-              <Link to={'/about'}>Learn More &rarr;</Link>
-            </button>
+            <Link to={'/about'}>
+              <button className='learn-more-btn'>
+                Learn More &rarr;
+              </button>
+            </Link>
           </div>
           <div className='what-to-expect'>
             <div>
