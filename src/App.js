@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import ScrollToTop from './components/ScrollToTop'
 // import Nav from './components/Nav.js'
 import Home from './components/pages/Home';
 import About from './components/pages/About';
@@ -9,6 +10,7 @@ import Individuals from './components/pages/Individuals';
 import Costs from './components/pages/Costs';
 import Contact from './components/pages/Contact';
 import Footer from './components/Footer'
+
 
 import logo from './brand-images/uplift-logo-light.png'
 
@@ -42,7 +44,7 @@ const App = () => {
                 {isMobile ? <i className='fa fa-xmark'>&#10005;</i> : <i className='fa fa-bars'></i> } 
               </button>
             </nav>
-          
+          <ScrollToTop/>
           <Routes>
               <Route path="/" element={<Home/>} exact />
               <Route path="/about" element={<About/>} exact />

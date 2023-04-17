@@ -29,7 +29,92 @@
     font-size: 4rem;
 }
 
-.about-therapist-text {
+/* Experience Section  */
+
+.experience {
+    background-color: var(--dark);
+    color: var(--tupe);
+}
+
+.experience h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    text-align: center;
+    padding: 20px 0px;
+
+}
+
+.experience-container {
+    display: flex;
+}
+
+.experience-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+}
+
+.experience-content img {
+    width: 50px;
+    fill: var(--tupe);
+    margin: auto;
+}
+
+.experience-content h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+}
+
+.experience-content p {
     font-family: 'Alegreya Sans', sans-serif;
     font-weight: 600;
+    font-size: 2rem;
+}
+
+.qualifications-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.q-cards {
+    width: 40%;
+}
+
+.q-card-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.q-card-content img {
+    width: 50px;
+    margin: 10px;
+}
+
+.q-card-content h4 {
+    font-family: 'Playfair Display', serif;
+}
+
+.q-card-content p {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 600px;
+    font-size: 1.25rem;
+}
+
+@media screen and (max-width: 765px) {
+    .experience-container {
+        flex-direction: column;
+    }
+
+    .qualifications-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .q-cards {
+        width: 95%;
+        margin-bottom: 30px;
+    }
+
 }
