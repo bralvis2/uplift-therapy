@@ -1,0 +1,36 @@
+.testimonial-container {
+    width:80%;
+    background-color: var(--light);
+    text-align: center;
+}
+
+.testimonial h3 {
+    font-family: 'Playfair Display', serif;
+    /* font-family: 'Alegreya Sans', sans-serif; */
+    font-size: 2rem;
+    color:var(--tupe);
+}
+
+.testimonial-content {
+    padding: 0px 120px;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.testimonial .client {
+    padding-bottom: 20px;
+    color: var(--tupe);
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width: 765px) {
+    .testimonial-container {
+        width:95%;
+    }
+
+    .testimonial-content {
+        padding: 0px 80px;
+    }
+}

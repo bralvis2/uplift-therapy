@@ -7,6 +7,7 @@ import FamilyImg from '../site-images/home-family.png'
 import IndImg from '../site-images/home-individual.png'
 import Owner from '../site-images/owner.png'
 import DecorIcon from '../site-images/decor-icon.png'
+import Testimonials from './Testimonials/Testimonials';
 
 import './Home.css'
 
@@ -36,7 +37,7 @@ class Home extends Component {
             </div>
           </div>
           <div className='expertise'>
-            <h1>OUR FOCUS</h1>
+            <h1>OUR CLINICAL FOCUS</h1>
             <div className='expertise-cards-container'>
               <div className='expertise-cards'>
                 <img src={CoupleImg} alt='A couple looking at sunset'/>
@@ -121,9 +122,10 @@ class Home extends Component {
               </div>
             </div>
           </div>
-          {/* <div className='testimonials'>
-            <h2>Testimonials</h2>
-          </div> */}
+          <div className='testimonial-section'>
+            <h2>TESTIMONIALS</h2>
+            <Testimonials/>
+          </div>
         </div>
     );
   }
