@@ -21,13 +21,13 @@ const App = () => {
 
   return (
       <Router>
-            <nav className='navbar'>
+            <nav className='main-navbar'>
               <div className='logo-item'>
                 <Link to={'/'}>
                     <img src={logo} width={'400px'} alt='Uplift Therapy, Lincoln, Nebraska'/>
                 </Link>
               </div>
-              <ul className={isMobile ? 'nav-links-mobile' : 'nav-links'}
+              <ul className={isMobile ? 'nav-links-mobile' : 'main-nav-links'}
               onClick={() => setIsMobile(false)}>
 
                 <li><Link to={'/about'}>About</Link></li>
