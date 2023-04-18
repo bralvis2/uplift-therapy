@@ -253,6 +253,15 @@
     padding: 20px 0;
 }
 
+.ratings {
+    display: flex;
+    justify-content: center;
+}
+
+.ratings img {
+    width: 30px;
+}
+
 @media screen and (max-width: 950px) {
     .welcome-container img {
         width: 60%;

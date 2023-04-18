@@ -8,6 +8,7 @@ import IndImg from '../site-images/home-individual.png'
 import Owner from '../site-images/owner.png'
 import DecorIcon from '../site-images/decor-icon.png'
 import Testimonials from './Testimonials/Testimonials';
+import Star from '../SVG-icons/star.svg'
 
 import './Home.css'
 
@@ -50,7 +51,7 @@ class Home extends Component {
                       <button className='learn-more-btn'>
                         Learn More &rarr;
                       </button>
-                    </Link>
+                  </Link>
                 </div>
               </div>
               <div className='expertise-cards'>
@@ -124,6 +125,13 @@ class Home extends Component {
           </div>
           <div className='testimonial-section'>
             <h2>TESTIMONIALS</h2>
+            <div className='ratings'>
+              <img src={Star}></img>
+              <img src={Star}></img>
+              <img src={Star}></img>
+              <img src={Star}></img>
+              <img src={Star}></img>
+            </div>
             <Testimonials/>
           </div>
         </div>
