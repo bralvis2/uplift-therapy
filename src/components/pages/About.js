@@ -6,7 +6,6 @@ import CheckMark from '../SVG-icons/check-mark.svg'
 import ImgA from '../site-images/about-img-a.png'
 import DecorIconL from '../site-images/decor-icon-light.png'
 import DecorIcon from '../site-images/decor-icon.png'
-import CoverPage from '../site-images/home-cover.png'
 
 // Style Sheet
 import './About.css'
@@ -114,20 +113,15 @@ class About extends Component {
               </div>
             </div>
           </div>
-          <div className='about-contact-section'>
-            <div className='about-contact'>
-              {/* <div className='about-contact-image'>
-                <img src={CoverPage} alt=''/>
-              </div> */}
-              <div className='about-contact-content'>
-                <h2>ARE YOU READY TO BEGIN YOUR JOURNEY TOWARDS HEALING?</h2>
-                <img src={DecorIcon} alt=''/>
-                <Link to={'/contact'}>
-                      SEND US AN INQUIRY
-                </Link>
-              </div>
+            <div className='about-contact-section'>
+                <div className='about-contact-content'>
+                  <h2>ARE YOU READY TO BEGIN YOUR JOURNEY TOWARDS HEALING?</h2>
+                  <img src={DecorIcon} alt=''/>
+                  <Link to={'/contact'}>
+                        SEND US AN INQUIRY
+                  </Link>
+                </div>
             </div>
-          </div>
         </div>
     );
   }
