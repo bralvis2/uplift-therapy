@@ -27,18 +27,147 @@
     padding: 20px;
 }
 
-.cover-quote-two h2{
+.cover-quote-two h2 {
     font-family: 'Alegreya Sans', sans-serif;
     font-size: 3.5rem;
 }
 
+/* Message */
+
+.message {
+    text-align: center;
+    font-size: 3rem;
+    color: var(--tan2);
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 0px;
+    padding-top: 50px;
+    background-color: var(--light);
+}
+
+.message h2 {
+    border: 8px double var(--tan2);
+    width: 60%;
+    margin: auto;
+    padding: 20px 0px;
+}
+
+/* Contact INFO */
+.contact-info-section {
+    background-color: var(--light);
+    padding: 50px 0px;
+}
+
+.contact-info-container {
+    width: 90%;
+    background-color: white;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.space-image {
+    width: 45%;
+    display: flex;
+}
+
+.space-image img {
+    width: 100%;
+}
+
+.contact-info-content {
+    text-align: center;
+}
+
+.contact-info-content h2 {
+    font-family: 'Playfair Display', serif;
+    color: var(--tupe);
+    margin-top: 10px;
+    margin-bottom: 5%;
+}
+
+.contact-info-content ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.contact-info a {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 1.75rem;
+    text-decoration: none;
+    color: var(--tupe);
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 800;
+    padding: 10px 0px;
+}
+
+.contact-info a:hover {
+    color: var(--dark);
+}
+
+.contact-icons {
+    width: 30px;
+    fill: var(--tupe);
+    margin-right: 15px;
+}
+
+.contact-icons:hover {
+    fill: var(--dark);
+}
+
+
+
+/* Contact Form  */
 .contact-form-section {
     background-color: var(--light);
 }
 
+@media screen and (max-width:950px) {
+    .contact-info-content h2 {
+        font-size: 1.5rem;
+    }
+
+
+    .contact-info a {
+        width: 95%;
+        font-size: 1.25rem;
+    }
+}
+
+@media screen and (max-width:750px) {
+    .contact-info-container {
+        flex-direction: column;
+        width: 75%;
+    }
+
+    .space-image {
+        width: 100%;
+        display: flex;
+    }
+    
+    .space-image img {
+        width: 100%;
+    }
+
+    .contact-info-content h2 {
+        margin-top: 40px;
+    }
+
+    .contact-info a {
+        width: 95%;
+        font-size: 1.5rem;
+    }
+}
+
+
 @media screen and (max-width:550px) {
-    .cover-quote-two h2{
+    .cover-quote-two h2 {
         font-family: 'Alegreya Sans', sans-serif;
         font-size: 1.5rem;
     }
+
+    
 }
