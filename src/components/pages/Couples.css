@@ -135,11 +135,11 @@
 }
 
 /* What to Expect */
-.couples-process {
+.process {
     background-color: var(--light);
 }
 
-.couples-process h2 {
+.process h2 {
     font-size: 2.75rem;
     font-family: 'Playfair Display', serif;
     text-align: center;
@@ -147,13 +147,13 @@
     padding: 0px 20px;
 }
 
-.couples-process-container {
+.process-container {
     display: flex;
     justify-content: space-evenly;
     padding: 40px 10px;
 }
 
-.couples-process-cards {
+.process-cards {
     width: 30%;
     background-color: white;
     padding: 20px;
@@ -162,21 +162,21 @@
     color: var(--dark);
 }
 
-.couples-process-cards img {
+.process-cards img {
     width: 40px;
     display: block;
     margin: auto;
 }
 
 
-.couples-process-cards h3 {
+.process-cards h3 {
     font-size: 2rem;
     font-family: 'Playfair Display', serif;
     text-align: center;
     padding: 10px;
 }
 
-.couples-process-cards p {
+.process-cards p {
     font-size: 1.5rem;
     font-family: 'Alegreya Sans', sans-serif;
     padding: 10px;
@@ -232,8 +232,8 @@
 }
 
 .couple-b-container img {
-   width: 100%;
-   outline: 10px double black;
+    width: 100%;
+    outline: 10px double black;
     outline-offset: -10px;
 }
 
@@ -250,6 +250,17 @@
 
     .couples-list-container li p {
         font-size: 1.25rem;
+    }
+
+    .process-container {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .process-cards {
+        width: 80%;
+        margin: 20px auto;
+        text-align: center;
     }
 }
 
@@ -276,17 +287,6 @@
 
     .couples-list-container li p {
         font-size: 1.75rem;
-    }
-
-    .couples-process-container {
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    .couples-process-cards {
-        width: 80%;
-        margin: 20px auto;
-        text-align: center;
     }
 
     .couples-contact-section {

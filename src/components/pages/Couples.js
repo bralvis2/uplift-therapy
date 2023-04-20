@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import CoupleBanner from '../site-images/couples-banner.png'
 import DecorIconL from '../site-images/decor-icon-light.png'
-import DecorIcon from '../site-images/decor-icon.png'
-import DecorIconD from '../site-images/decor-icon-dark.png'
 import CoupleA from '../site-images/couple-a.png'
 import CoupleB from '../site-images/couple-b.png'
 import CheckMark from '../SVG-icons/check-mark-dark.svg'
@@ -17,7 +15,7 @@ import './Couples.css'
 class Couples extends Component {
   render() {
     return (
-      <div>
+      <div className='couples'>
         <div className='couples-banner-container'>
           <div className='couples-banner-image'>
             <img src={CoupleBanner} alt='Couple on the beach' />
@@ -37,9 +35,9 @@ class Couples extends Component {
         </div>
         <div className='couples-intro-two'>
           <h2>Is couples therapy right for us?</h2>
-          <p>Couples therapy can be beneficial for any couple struggling with relationship challenges. 
-                Through therapy, you can work together to improve communication, rebuild trust, and establish 
-                healthier patterns that can lead to a stronger and more fulfilling relationship.</p>
+          <p>Couples therapy can be beneficial for any couple struggling with relationship challenges.
+            Through therapy, you can work together to improve communication, rebuild trust, and establish
+            healthier patterns that can lead to a stronger and more fulfilling relationship.</p>
           <div className='couples-intro-two-container'>
             <div className='couples-intro-two-image'>
               <img src={CoupleA} alt='couple embrasing' />
@@ -74,38 +72,38 @@ class Couples extends Component {
             </div>
           </div>
         </div>
-        <div className='couples-process'>
+        <div className='process'>
           <h2>WHAT TO EXPECT</h2>
-          <div className='couples-process-container'>
-            <div className='couples-process-cards'>
-              <img src={Goal} alt=''/>
+          <div className='process-container'>
+            <div className='process-cards'>
+              <img src={Goal} alt='' />
               <h3>GOALS</h3>
               <p><span>Session 1 & 2: </span>Assesss and identify needs and goals.</p>
             </div>
-            <div className='couples-process-cards'>
-              <img src={Progress} alt=''/>
+            <div className='process-cards'>
+              <img src={Progress} alt='' />
               <h3>PLAN</h3>
               <p><span>Session 3 +: </span>Create a plan and meet weekly to monitor progress.</p>
             </div>
-            <div className='couples-process-cards'>
-              <img src={Month} alt=''/>
+            <div className='process-cards'>
+              <img src={Month} alt='' />
               <h3>FOLLOW UP</h3>
               <p>Meet monthly to monitor progress and make adjustments towards your goals.</p>
             </div>
           </div>
         </div>
         <div className='couples-contact-section'>
-                <div className='couples-contact-content'>
-                  <h2>ARE YOU READY TO BEGIN YOUR JOURNEY TOWARDS HEALING?</h2>
-                  <img src={DecorIconL} alt=''/>
-                  <Link to={'/contact'}>
-                        SEND US AN INQUIRY
-                  </Link>
-                </div>
-                <div className='couple-b-container'>
-                  <img src={CoupleB} alt='Second Couple example'/>
-                </div>
-            </div>
+          <div className='couples-contact-content'>
+            <h2>ARE YOU READY TO BEGIN YOUR JOURNEY TOWARDS HEALING?</h2>
+            <img src={DecorIconL} alt='' />
+            <Link to={'/contact'}>
+              SEND US AN INQUIRY
+            </Link>
+          </div>
+          <div className='couple-b-container'>
+            <img src={CoupleB} alt='Second Couple example' />
+          </div>
+        </div>
       </div>
     );
   }

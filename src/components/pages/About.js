@@ -13,7 +13,7 @@ import './About.css'
 class About extends Component {
   render() {
     return (
-      <div>
+      <div className='about'>
           <div className='about-cover'>
             <div className='about-page-image'>
               <img src={AboutBanner} alt='Tall Grass in wind'/>

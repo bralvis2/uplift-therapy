@@ -11,7 +11,7 @@ import './Contact.css'
 class Contact extends Component {
   render() {
     return (
-      <div>
+      <div className='contact'>
         <div className='contact-cover'>
           <div className='contact-page-image'>
             <img src={ContactBanner} alt='Road towards the sunset' />
