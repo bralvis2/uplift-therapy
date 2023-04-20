@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import ContactBanner from '../site-images/contact-banner-a.png'
+import ContactBanner from '../site-images/contact-banner.png'
 import Space from '../site-images/contact-space.png'
 import ContactForm from './Form/Form.js'
 import Testimonials from './Testimonials/Testimonials.js'

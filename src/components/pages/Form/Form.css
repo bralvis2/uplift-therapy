@@ -50,6 +50,10 @@ input:focus, textarea:focus {
     outline-color: var(--light);
 }
 
+input[type="radio"]:checked{
+    accent-color: var(--tupe);
+}
+
 
 .form-button {
     border-radius: 15px;

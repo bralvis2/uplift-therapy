@@ -28,7 +28,7 @@
 }
 
 .cover-quote-two h2 {
-    font-family: 'Alegreya Sans', sans-serif;
+    font-family: 'Playfair Display', serif;
     font-size: 3.5rem;
 }
 
@@ -46,7 +46,7 @@
 
 .message h2 {
     border: 8px double var(--tan2);
-    width: 60%;
+    width: 70%;
     margin: auto;
     padding: 20px 0px;
 }
@@ -77,6 +77,7 @@
 
 .contact-info-content {
     text-align: center;
+    padding: 10px;
 }
 
 .contact-info-content h2 {
