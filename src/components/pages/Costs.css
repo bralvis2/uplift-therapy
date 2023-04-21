@@ -1,0 +1,147 @@
+/* Cover Page Section */
+.cost-banner {
+    position: relative;
+}
+
+.cost-banner-image {
+    display: flex;
+    width: 100%;
+}
+
+.cost-banner-image img {
+    width: 100%;
+}
+
+.cost-banner-quote {
+    background-color: hsla(0, 0%, 5%, 0.38);
+    color: var(--light);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.cost-banner-quote h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+}
+
+/* Private Pay Section */
+.private-pay {
+    background-color: var(--light);
+    padding: 40px 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.private-pay-content {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.private-pay-content h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.payment-card {
+    width: 80%;
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: center;
+    outline: 2px solid var(--light);
+    outline-offset: -10px;
+}
+
+.payment-card h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+}
+
+.payment-card p {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 1.5rem;
+}
+
+.private-pay-image {
+   height: 450px;
+    display: flex;
+    margin-top: 10px;
+}
+
+.private-pay-image img {
+    height: 100%;
+    outline: 2px solid var(--light);
+    outline-offset: -10px;
+}
+
+/* Insurance Section */
+.insurance-section {
+    background-color: var(--light);
+    padding: 20px 0px;
+}
+
+.insurance-section h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    text-align: center;
+    color: var(--tupe);
+}
+
+.insurance-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.insurance {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.insurance img {
+    width: 80%;
+}
+
+.insurance h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    text-align: center;
+    color: var(--tupe);
+}
+
+@media screen and (max-width:765px) {
+    .private-pay {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .private-pay-content {
+        width: 90%;
+        margin: 20px 0px;
+    }
+
+    .private-pay-image {
+        height: 300px;
+     }
+
+     .insurance-container {
+        flex-direction: column;
+    }
+
+    .insurance {
+        width: 80%;
+        margin: auto;
+    }
+}

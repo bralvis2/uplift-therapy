@@ -78,17 +78,21 @@ class Couples extends Component {
             <div className='process-cards'>
               <img src={Goal} alt='' />
               <h3>GOALS</h3>
-              <p><span>Session 1 & 2: </span>Assesss and identify needs and goals.</p>
+              <p><span>Session 1:</span>Conduct assessments to gain a better understanding of the couple's 
+              communication style, attachment style, and any underlying mental health issues.</p>
+              <p><span>Session 2: </span>Goal-setting to establish what the couple hopes to achieve through therapy.</p>
             </div>
             <div className='process-cards'>
               <img src={Progress} alt='' />
               <h3>PLAN</h3>
-              <p><span>Session 3 +: </span>Create a plan and meet weekly to monitor progress.</p>
+              <p><span>Session 3: </span>After identifying areas for growth, develop a plan to reach goals.</p>
+              <p><span>Session 4 +: </span>Weekly sessions and introduce activities to practice outside of the therapy session. </p>
             </div>
             <div className='process-cards'>
               <img src={Month} alt='' />
               <h3>FOLLOW UP</h3>
-              <p>Meet monthly to monitor progress and make adjustments towards your goals.</p>
+              <p><span>Session +: </span>Set goals for the future and develop strategies for maintaining progress made in therapy. 
+              Prepare the couple for the end of therapy and providing resources for continued growth and improvement.</p>
             </div>
           </div>
         </div>

@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
 
+// Style Sheet
+import './Individuals.css'
+
 class Individuals extends Component {
   render() {
     return (
         <div>
-          <h2>Individuals</h2>
+          <h1>INDIVIDUALS</h1>
         </div>
     );
   }

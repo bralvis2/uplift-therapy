@@ -72,17 +72,17 @@ class About extends Component {
             <div className='experience-container'>
               <div className='experience-content'>
                 <img src={CheckMark} alt='check mark icon'/>
-                <h3>PRIVATE PRACTICE</h3>
+                <h3>UPLIFT THERAPY</h3>
                 <p>Individualized mental health treatment for clients</p>
               </div>
               <div className='experience-content'>
                 <img src={CheckMark} alt='check mark icon'/>
-                <h3>PRIVATE PRACTICE #2</h3>
+                <h3>Generation Hope Family Counseling & Consulting, LLC</h3>
                 <p>Mental health services for adults and families.</p>
               </div>
               <div className='experience-content'>
                 <img src={CheckMark} alt='check mark icon'/>
-                <h3>SCHOOL THERAPIST</h3>
+                <h3>HopeSpoke</h3>
                 <p>Mental health services for children and families.</p>
               </div>
             </div>
@@ -91,7 +91,7 @@ class About extends Component {
                 <h2>LICENSE</h2>
                 <div className='q-card-content'>
                   <img src={CheckMark} alt='check mark icon'/>
-                  <h4>Health Practictioner</h4>
+                  <h4>Mental Health Practictioner</h4>
                 </div>
               </div>
               <div className='q-cards'>
