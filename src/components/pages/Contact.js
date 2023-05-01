@@ -2,8 +2,9 @@ import React, { Component } from 'react';
 import ContactBanner from '../site-images/contact-banner.png'
 import Space from '../site-images/contact-space.png'
 import ContactForm from './Form/Form.js'
-import Testimonials from './Testimonials/Testimonials.js'
-import Star from '../SVG-icons/star.svg'
+// import Testimonials from './Testimonials/Testimonials.js'
+// import Star from '../SVG-icons/star.svg'
+import DecorIcon from '../site-images/decor-icon.png'
 
 // Style Sheet
 import './Contact.css'
@@ -85,7 +86,24 @@ class Contact extends Component {
         <div className='contact-form-section'>
           <ContactForm />
         </div>
-        <div className='testimonial-section'>
+        <div className='insurance-section'>
+          <h2>We Accept Insurance</h2>
+          <div className='insurance-container'>
+            <div className='insurance'>
+              <img src={DecorIcon} alt='' />
+              <h3>BLUE CROSS BLUE SHIELD</h3>
+            </div>
+            <div className='insurance'>
+              <img src={DecorIcon} alt='' />
+              <h3>MIDLANDS CHOICE</h3>
+            </div>
+            <div className='insurance'>
+              <img src={DecorIcon} alt='' />
+              <h3>MEDICAID</h3>
+            </div>
+          </div>
+        </div>
+        {/* <div className='testimonial-section'>
           <h2>TESTIMONIALS</h2>
           <div className='ratings'>
             <img src={Star}></img>
@@ -95,6 +113,16 @@ class Contact extends Component {
             <img src={Star}></img>
           </div>
           <Testimonials />
+        </div> */}
+         <div className='policies-section'>
+          <div className='policies-content'>
+            <h2>POLICIES</h2>
+            <p>We understand that unforeseen circumstances may arise, and you may need to reschedule or cancel 
+              your appointment. However, we kindly request a 24-hour notice for any cancellation or rescheduling 
+              of your appointment. Failure to provide a 24-hour notice or repeated cancellations may result in 
+              a cancellation fee. Clients with Medicaid insurance will be referred out after repeated 
+              cancellations.</p>
+          </div>
         </div>
       </div>
     );
