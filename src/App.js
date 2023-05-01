@@ -45,7 +45,7 @@ const App = () => {
               </button>
             </nav>
           <ScrollToTop/>
-          <Routes>
+          <Routes basename='/uplift-therapy'>
               <Route path="/" element={<Home/>} exact />
               <Route path="/about" element={<About/>} exact />
               <Route path="/couples" element={<Couples/>} exact />
