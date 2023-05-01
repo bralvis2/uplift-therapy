@@ -1,19 +1,40 @@
-# ![Uplift Therapy](./src/brand-images/uplift-logo-tupe.png)
+# <a href='https://bralvis2.github.io/uplift-therapy/' target='_blank'>![Uplift Therapy](./src/brand-images/uplift-logo-tupe.png)</a>
 
-<h2 align='center'>COMING SOON</h2>
+<p align="center">
+  <a href="#About">About</a> •
+  <a href="#how-to-use">How To Use</a> •
+  <a href="#credits">Credits</a> •
+  <a href="#license">License</a>
+</p>
 
+<p align="center">
+    <a href='https://bralvis2.github.io/uplift-therapy/' target='_blank' >
+        <img src="./src/brand-images/uplift-therapy.gif" alt="animated" />
+    </a>
+</p>
 
+## About
 
+The Uplift Therapy website is a beautifully designed platform that offers visitors a convenient and user-friendly experience. The site's clean and modern interface makes it easy to navigate and find the necessary information, whether you're looking to learn about the different therapy services offered or schedule an appointment with a licensed therapist. The website is optimized for both desktop and mobile devices, ensuring that users can access the site's features regardless of the device they're using.
 
+The website was created using a variety of modern technologies, including HTML5, CSS3, and JavaScript, and was designed to be lightweight and fast-loading. Additionally, the site was built with accessibility in mind, ensuring that it is easily navigable and usable for all visitors, regardless of their abilities. With a focus on user experience, the Uplift Therapy website is a great example of a modern and effective website for mental health services.
+
+## How To Use
+- [Deployed Website](https://bralvis2.github.io/uplift-therapy/)
+<br>
+To access this website, you can click on the link above and naviate the site using the navigation bar. 
 
 ## Credits
 
 This website uses the following open source packages:
 
 - [React](https://reactjs.org/)
+- [Router NPM](https://www.npmjs.com/package/router)
 - [ChatGPT](https://chat.openai.com/) used for generating descriptions. 
 - [Font Awesome CDN](https://cdn.fontawesome.com/): Icon accessibility and faster loading.
--[Pixabay](https://pixabay.com/photos/sunset-wales-coast-landscape-moody-4912143/)
+- [Pixabay](https://pixabay.com/): Images
+- [Bootstrap](https://react-bootstrap.github.io/getting-started/introduction/): Carousel (not used)
+- [Google Fonts](https://fonts.google.com/): Fonts
 
 ## License
 
@@ -22,75 +43,3 @@ MIT
 ---
 
 > GitHub [@bralvis2](https://github.com/bralvis2) &nbsp;&middot;&nbsp;
-
-
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

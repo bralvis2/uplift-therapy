@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter as  HashRouter, Routes, Route, Link } from 'react-router-dom';
 import ScrollToTop from './components/ScrollToTop'
 // import Nav from './components/Nav.js'
 import Home from './components/pages/Home';
@@ -22,7 +22,7 @@ const App = () => {
   const[isMobile, setIsMobile] = useState(false);
 
   return (
-      <Router>
+      <HashRouter basename='uplift-therapy'>
             <nav className='main-navbar'>
               <div className='logo-item'>
                 <Link to={'/'}>
@@ -45,8 +45,8 @@ const App = () => {
               </button>
             </nav>
           <ScrollToTop/>
-          <Routes basename='/uplift-therapy'>
-              <Route path="/" element={<Home/>} exact />
+          <Routes>
+              <Route path="" element={<Home/>} exact />
               <Route path="/about" element={<About/>} exact />
               <Route path="/couples" element={<Couples/>} exact />
               <Route path="/family" element={<Family/>} exact />
@@ -55,9 +55,10 @@ const App = () => {
               <Route path="/contact" element={<Contact/>} exact />
           </Routes>
           <Footer/>
-      </Router>
+      </HashRouter>
     );
 
 }
+
 
 export default App;

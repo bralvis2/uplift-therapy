@@ -428,6 +428,10 @@
 }
 
 @media screen and (max-width: 560px) {
+    .welcome-container {
+        width: 97%;
+    }
+
     .welcome-container img {
         width: 80%;
     }
