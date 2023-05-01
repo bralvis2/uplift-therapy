@@ -1,0 +1,217 @@
+.individual-banner {
+    position: relative;
+}
+
+.individual-cover {
+    width: 100%;
+    display: flex;
+}
+
+.individual-cover img {
+    width: 100%;
+}
+
+.indiv-banner-quote {
+    background-color: hsla(0, 0%, 5%, 0.38);
+    color: var(--light);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Playfair Display', serif;
+}
+
+/* Individual Therapy Intro */
+.indiv-intro {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--light);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px 0px;
+}
+
+.indiv-intro img {
+    width: 30%;
+}
+
+.indiv-intro h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    color: var(--tan2);
+}
+
+.indiv-intro p {
+    width: 70%;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 1.5rem;
+}
+
+/* How individual therapy can help */
+.indiv-benefits {
+    display: flex;
+    background-color: var(--light);
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 40px 0px;
+}
+
+.indiv-benefits-content {
+    width: 50%;
+}
+
+.indiv-benefits-content h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    text-align: center;
+    color: var(--tupe);
+}
+
+.indiv-list-container {
+    padding-left: 0px;
+    list-style-type: none;
+}
+
+.indiv-list-container li {
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+    justify-content: flex-start;
+}
+
+
+.indiv-list-container li img {
+    width: 35px;
+    margin-right: 15px;
+}
+
+.indiv-list-container li p {
+    margin-bottom: 0px;
+    font-size: 1.5rem;
+    margin: 0px;
+    padding-bottom: 0px;
+    text-align: left;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+.indiv-benefit-image {
+    width: 30%;
+    display: flex;
+}
+
+.indiv-benefit-image img {
+    width: 100%;
+    outline: 10px double var(--tupe);
+    outline-offset: -10px;
+}
+
+/* Contact Section  */
+.individual-contact-section {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: var(--light);
+    padding: 40px 0px;
+}
+
+.individual-c-container {
+    width: 30%;
+    display: flex;
+}
+
+.individual-c-container img {
+    width: 100%;
+    outline: 10px double var(--tan2);
+    outline-offset: -10px;
+}
+
+.individual-contact-content {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.individual-contact-content h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    text-align: center;
+    color: var(--tan2);
+}
+
+.individual-contact-content img {
+    width: 70%;
+    display: flex;
+    margin: 0px auto;
+}
+
+.individual-contact-content a {
+    font-size: 2.5rem;
+    font-family: 'Alegreya Sans', sans-serif;
+    color: var(--tan2);
+    text-align: center;
+    text-decoration: none;
+}
+
+.individual-contact-content a:hover {
+    color: var(--dark);
+    border-bottom: 1px solid var(--dark);
+}
+
+@media screen and (max-width: 1200px) {
+    .indiv-benefits-content {
+        width: 60%;
+    }
+
+    .indiv-list-container li p {
+        font-size: 1.25rem;
+    }
+   }
+
+   @media screen and (max-width: 900px) {
+    .indiv-benefits {
+        flex-direction: column-reverse;
+    }
+
+    .indiv-benefit-image {
+        width: 60%;
+        padding-bottom: 30px;
+    }
+
+    .indiv-benefits-content {
+        width: 80%;
+    }
+
+    .indiv-list-container li p {
+        font-size: 1.5rem;
+    }
+   }
+
+
+   @media screen and (max-width: 765px) {
+    .individual-contact-section {
+        flex-direction: column;
+    }
+
+    .individual-c-container {
+        width: 70%;
+        margin: auto;
+    }
+
+    .individual-contact-content {
+        width: 80%;
+        margin: 40px auto;
+    }
+}
+
+@media screen and (max-width: 350px) {
+ .indiv-banner-quote h1 {
+    font-size: 1rem;
+ }   
+}

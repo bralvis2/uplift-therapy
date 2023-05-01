@@ -75,7 +75,7 @@
         flex-direction: column;
         align-items: center;
         list-style: none;
-        background-color: var(--tan);
+        background-color: var(--dark);
         transition: all 0.5s ease-out;
         width: 100%;
     }
@@ -84,4 +84,11 @@
         color: var(--tupe);
     }
 
+}
+
+@media screen and (max-width: 415px) {
+    .mobile-menu-icon {
+        top: 1%;
+        font-size: 25px;
+    }
 }

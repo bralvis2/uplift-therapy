@@ -10,7 +10,6 @@ import DecorIcon from '../site-images/decor-icon.png'
 // import Testimonials from './Testimonials/Testimonials';
 // import Star from '../SVG-icons/star.svg'
 import Telehealth from '../site-images/telehealth.png'
-import CheckMark from '../SVG-icons/check-mark.svg'
 
 import './Home.css'
 
