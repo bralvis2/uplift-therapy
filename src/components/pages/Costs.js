@@ -55,11 +55,11 @@ class Costs extends Component {
             <img src={CostA} alt='' />
           </div>
         </div>
-        <div className='what-we-offer-section'>
-          <div className='wwo-image'>
+        <div className='telehealth-section'>
+          <div className='telehealth-image'>
             <img src={Telehealth} alt='Online mental health services' />
           </div>
-          <div className='wwo-content'>
+          <div className='telehealth-content'>
             <h2>TELEHEALTH</h2>
             <p>
               Telehealth services are mental health services that are provided remotely through electronic

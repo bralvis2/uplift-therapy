@@ -42,7 +42,6 @@ class Couples extends Component {
             <div className='couples-intro-two-image'>
               <img src={CoupleA} alt='couple embrasing' />
             </div>
-            <div className='couples-intro-two-text'>
               <ul className='couples-list-container'>
                 <li>
                   <img src={CheckMark} />
@@ -69,7 +68,6 @@ class Couples extends Component {
                   <p>Overall Increase Satisfaction in Relationship</p>
                 </li>
               </ul>
-            </div>
           </div>
         </div>
         <div className='process'>

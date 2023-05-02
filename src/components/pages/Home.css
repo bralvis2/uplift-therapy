@@ -53,23 +53,17 @@
 
 .welcome-container h1 {
     font-family: 'Playfair Display', serif;
+    font-size: 3rem;
 }
 
 .welcome-container p {
     font-family: 'Alegreya Sans', sans-serif;
     font-weight: 800;
+    font-size: 1.5rem;
 }
 
 .welcome-container img {
     width: 30%;
-}
-
-.welcome-container h1{
-    font-size: 3rem;
-}
-
-.welcome-container p {
-    font-size: 1.5rem;
 }
 
 /* Expertise Section */
@@ -109,28 +103,27 @@
 .expertise-cards h2 {
     font-family: 'Playfair Display', serif;
     font-size: 2rem;
+    padding-top: 20px;
 }
 
 .expertise-cards p {
     font-family: sans-serif;
     font-weight: 200;
     font-size: 1.25rem;
-    padding: 20px;
+    padding: 15px;
 }
 
-.learn-more-btn {
-    width: 200px;
-    font-size: 1.25rem;
+.expertise-card-content a {
     font-family: 'Playfair Display', serif;
-    padding: 5px;
-    margin-bottom: 20px;
-    background-color: var(--tupe);
-    border: none;
-    border-bottom: 1px solid var(--light);
     color: var(--light);
+    font-size: 1.25rem;
+    margin-top: 10px;
+    text-decoration: none;
+    border-bottom: 1px solid var(--light);
+    margin-bottom: 10px;
 }
 
-.learn-more-btn:hover {
+.expertise-card-content a:hover {
     color: var(--dark);
     border-bottom: 1px solid var(--dark);
     cursor: pointer;
@@ -173,19 +166,15 @@
     font-weight: 600;
 }
 
-.learn-more-btn-two {
-    background-color: var(--light);
-    width: 200px;
-    font-size: 1.25rem;
+.about-therapist-content a {
     font-family: 'Playfair Display', serif;
-    padding: 5px;
-    margin-bottom: 20px;
-    border: none;
-    border-bottom: 1px solid var(--dark);
     color: var(--dark);
+    font-size: 1.25rem;
+    text-decoration: none;
+    border-bottom: 1px solid var(--dark);
 }
 
-.learn-more-btn-two:hover {
+.about-therapist-content a:hover {
     color: var(--tupe);
     border-bottom: 1px solid var(--tupe);
     cursor: pointer;
@@ -272,7 +261,7 @@
 }
 
 /* WHAT WE OFFER */
-.what-we-offer-section {
+.telehealth-section {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -280,44 +269,44 @@
     padding: 50px 0px;
 }
 
-.wwo-image {
+.telehealth-image {
     width: 35%;
     display: flex;
 }
 
-.wwo-image img {
+.telehealth-image img {
     width: 100%;
     outline: 3px solid var(--tupe);
     outline-offset: -10px;
 }
 
-.wwo-content {
+.telehealth-content {
     width: 45%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.wwo-content h2 {
+.telehealth-content h2 {
     font-size: 2.5rem;
     font-family: 'Playfair Display', serif;
     color: var(--tupe);
     padding: 0px 0px 15px 0px;
 }
 
-.wwo-content p {
+.telehealth-content p {
     font-family: 'Alegreya Sans', sans-serif;
     font-size: 1.5rem;
 }
 
-.wwo-content a {
+.telehealth-content a {
     font-family: 'Playfair Display', serif;
     font-size: 1.5rem;
     color: var(--tupe);
     text-decoration: none;
 }
 
-.wwo-content a:hover {
+.telehealth-content a:hover {
     color: black;
     border-bottom: 1px solid black;
 }
@@ -359,11 +348,11 @@
         padding: 10px;
     }
 
-    .wwo-content h2 {
+    .telehealth-content h2 {
         font-size: 2rem;
     }
     
-    .wwo-content p {
+    .telehealth-content p {
         font-size: 1.25rem;
     }
 
@@ -379,7 +368,7 @@
 
     .expertise-cards img {
         width: 100%;
-        border-radius: 10px 0px 0px 10px;
+        border-radius: 10px 10px 0px 10px;
     }
 
     .expertise-card-content {
@@ -414,22 +403,26 @@
         width: 70%;
     }
 
-    .what-we-offer-section {
+    .telehealth-section {
         flex-direction: column;
     }
-    .wwo-image {
+    .telehealth-image {
         width: 70%;
         padding-bottom: 30px;
     }
 
-    .wwo-content {
+    .telehealth-content {
         width: 70%;
     }
 }
 
 @media screen and (max-width: 560px) {
     .welcome-container {
-        width: 97%;
+        width: 98%;
+    }
+
+    .welcome-container h1 {
+        font-size: 2.75rem;
     }
 
     .welcome-container img {
@@ -439,4 +432,40 @@
         position: static;
         background-color: hsla(0, 0%, 5%, 0.88);
     }
+
+    .expertise h1 {
+        font-size: 2rem;
+        padding: 0px 10px;
+    }
+
+    .expertise-cards {
+        width: 100%;
+    }
+
+    .expertise-cards p {
+        padding: 5px;
+    }
+
+    .about-therapist-content h2 {
+        font-size: 2rem;
+        padding-bottom: 30px;
+    }
+
+    .about-therapist-content p{
+        width: 97%;
+    }
+
+    .home-process h2 {
+        font-size: 2rem;
+    }
+
+    .process-card {
+        width: 95%;
+        text-align: center;
+        color: var(--tan2);
+        font-family: sans-serif;
+        margin-bottom: 20px;
+    }
+
+
 }

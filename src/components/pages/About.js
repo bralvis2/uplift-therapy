@@ -89,7 +89,7 @@ class About extends Component {
             <div className='qualifications-container'>
               <div className='q-cards'>
                 <h2>LICENSE</h2>
-                <div className='q-card-content'>
+                <div className='q-card-content license-card'>
                   <img src={CheckMark} alt='check mark icon'/>
                   <h4>Mental Health Practictioner</h4>
                 </div>

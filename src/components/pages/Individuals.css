@@ -210,6 +210,22 @@
     }
 }
 
+@media screen and (max-width: 550px) {
+    .indiv-intro p {
+        width: 90%;
+    }
+
+    .indiv-intro img {
+        width: 50%;
+    }
+
+    .indiv-benefit-image {
+        width: 70%;
+        display: flex;
+    }
+
+}
+
 @media screen and (max-width: 350px) {
  .indiv-banner-quote h1 {
     font-size: 1rem;

@@ -2,7 +2,7 @@
     position: relative;
 }
 
-.about-page-image{
+.about-page-image {
     display: flex;
     width: 100%;
 }
@@ -39,6 +39,7 @@
     color: var(--light);
     margin-bottom: 0px;
 }
+
 .about-section-3-container {
     background-color: var(--dark);
     display: flex;
@@ -93,7 +94,6 @@
 .experience {
     background-color: var(--light);
     color: var(--tupe);
-    padding-bottom: 50px;
 }
 
 .experience h2 {
@@ -136,7 +136,7 @@
 .qualifications-container {
     display: flex;
     justify-content: space-evenly;
-    padding: 50px 0px;
+    padding-top: 50px;
 }
 
 .q-cards {
@@ -145,6 +145,13 @@
     outline: 3px solid var(--light);
     outline-offset: -10px;
     min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.license-card h4 {
+    font-size: 2rem;
 }
 
 .q-card-content {
@@ -241,7 +248,7 @@
     }
 
     .q-cards {
-        width: 80%;
+        width: 90%;
         margin-bottom: 30px;
     }
 
@@ -255,12 +262,25 @@
 
 }
 
-@media screen and (max-width: 550px ){
+@media screen and (max-width: 550px) {
     .about-section-3-image {
-        height: 300px;
+        height: 400px;
     }
 
     .q-card-content img {
         width: 35px;
     }
+
+    .license-card img {
+        margin-left: 7%;
+    }
+
+    .about-contact-content h2 {
+        font-size: 2rem;
+    }
+
+    .about-contact-content a {
+        font-size: 2.5rem;
+    }
+
 }
