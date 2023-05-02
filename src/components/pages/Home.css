@@ -40,7 +40,7 @@
 /* Welcome Section */
 .welcome {
     background-color: var(--light);
-    padding: 50px;
+    padding: 10px;
 }
 
 .welcome-container {

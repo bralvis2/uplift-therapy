@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { BrowserRouter as  HashRouter, Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter as  Router, Routes, Route, Link } from 'react-router-dom';
 import ScrollToTop from './components/ScrollToTop'
 // import Nav from './components/Nav.js'
 import Home from './components/pages/Home';
@@ -22,7 +22,7 @@ const App = () => {
   const[isMobile, setIsMobile] = useState(false);
 
   return (
-      <HashRouter basename='uplift-therapy'>
+      <Router basename='/uplift-therapy'>
             <nav className='main-navbar'>
               <div className='logo-item'>
                 <Link to={'/'}>
@@ -55,7 +55,7 @@ const App = () => {
               <Route path="/contact" element={<Contact/>} exact />
           </Routes>
           <Footer/>
-      </HashRouter>
+      </Router>
     );
 
 }
