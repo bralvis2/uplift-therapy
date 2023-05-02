@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/uplift-therapy/static/css/main.f20a898d.css",
-    "main.js": "/uplift-therapy/static/js/main.983b3005.js",
+    "main.js": "/uplift-therapy/static/js/main.a49c2119.js",
     "static/media/couple-b.png": "/uplift-therapy/static/media/couple-b.a533e6643fa50c50ac0b.png",
     "static/media/couple-a.png": "/uplift-therapy/static/media/couple-a.051caa2e9b805266cca1.png",
     "static/media/telehealth.png": "/uplift-therapy/static/media/telehealth.55c418630bd3aac550ae.png",
@@ -35,10 +35,10 @@
     "index.html": "/uplift-therapy/index.html",
     "static/media/progress.svg": "/uplift-therapy/static/media/progress.f1d3c9810c7f45f81ad197e1f922dea7.svg",
     "main.f20a898d.css.map": "/uplift-therapy/static/css/main.f20a898d.css.map",
-    "main.983b3005.js.map": "/uplift-therapy/static/js/main.983b3005.js.map"
+    "main.a49c2119.js.map": "/uplift-therapy/static/js/main.a49c2119.js.map"
   },
   "entrypoints": [
     "static/css/main.f20a898d.css",
-    "static/js/main.983b3005.js"
+    "static/js/main.a49c2119.js"
   ]
 }
