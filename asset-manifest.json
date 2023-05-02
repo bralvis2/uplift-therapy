@@ -1,9 +1,8 @@
 {
   "files": {
-    "main.css": "/uplift-therapy/static/css/main.f20a898d.css",
-    "main.js": "/uplift-therapy/static/js/main.a49c2119.js",
+    "main.css": "/uplift-therapy/static/css/main.955692e1.css",
+    "main.js": "/uplift-therapy/static/js/main.5cd37f71.js",
     "static/media/couple-b.png": "/uplift-therapy/static/media/couple-b.a533e6643fa50c50ac0b.png",
-    "static/media/couple-a.png": "/uplift-therapy/static/media/couple-a.051caa2e9b805266cca1.png",
     "static/media/telehealth.png": "/uplift-therapy/static/media/telehealth.55c418630bd3aac550ae.png",
     "static/media/about-img-a.png": "/uplift-therapy/static/media/about-img-a.7f1c162570401f7127aa.png",
     "static/media/family-b.png": "/uplift-therapy/static/media/family-b.53cd53e41af7cb8aa7fa.png",
@@ -14,6 +13,7 @@
     "static/media/about-cover.png": "/uplift-therapy/static/media/about-cover.5af259c1dd6c890e4af1.png",
     "static/media/individual-cover.png": "/uplift-therapy/static/media/individual-cover.16b42bfe8c116c6d0964.png",
     "static/media/cost-banner.png": "/uplift-therapy/static/media/cost-banner.8496b202d15f33adee52.png",
+    "static/media/couple-a.png": "/uplift-therapy/static/media/couple-a.85890a3e7283ab57fbbf.png",
     "static/media/individual-a.png": "/uplift-therapy/static/media/individual-a.1b6e4ebb7624bdf61500.png",
     "static/media/home-cover.png": "/uplift-therapy/static/media/home-cover.8ac4ce74efdb8d7a17bf.png",
     "static/media/contact-space.png": "/uplift-therapy/static/media/contact-space.54651bdb74d9d7aa59f3.png",
@@ -34,11 +34,11 @@
     "static/media/check-mark-dark.svg": "/uplift-therapy/static/media/check-mark-dark.e903b9180f487723d1ad759f5fe06ccd.svg",
     "index.html": "/uplift-therapy/index.html",
     "static/media/progress.svg": "/uplift-therapy/static/media/progress.f1d3c9810c7f45f81ad197e1f922dea7.svg",
-    "main.f20a898d.css.map": "/uplift-therapy/static/css/main.f20a898d.css.map",
-    "main.a49c2119.js.map": "/uplift-therapy/static/js/main.a49c2119.js.map"
+    "main.955692e1.css.map": "/uplift-therapy/static/css/main.955692e1.css.map",
+    "main.5cd37f71.js.map": "/uplift-therapy/static/js/main.5cd37f71.js.map"
   },
   "entrypoints": [
-    "static/css/main.f20a898d.css",
-    "static/js/main.a49c2119.js"
+    "static/css/main.955692e1.css",
+    "static/js/main.5cd37f71.js"
   ]
 }
