@@ -2,7 +2,7 @@
   "name": "uplift-therapy",
   "version": "0.1.0",
   "homepage": "https://uplifttherapy.org",
-  "private": false,
+  "private": true,
   "dependencies": {
     "@formspree/react": "^2.4.1",
     "@testing-library/jest-dom": "^5.16.5",
