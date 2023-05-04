@@ -5,7 +5,7 @@
 }
 
 .family-banner img {
-    width: 50%;
+    height: 470px;
 }
 
 .family-banner-content {
@@ -161,18 +161,22 @@
 }
 
 .family-c-container {
-    width: 35%;
+    height: 610px;
     display: flex;
 }
 
 .family-c-container img {
-    width: 100%;
+    height: 100%;
     outline: 10px double white;
     outline-offset: -10px;
 }
 
 
 @media screen and (max-width: 1200px) {
+    .family-banner img {
+        height: 350px;
+    }
+
     .family-issue-image {
         height: 500px;
     }
@@ -197,6 +201,10 @@
 
 
 @media screen and (max-width: 960px) {
+    .family-banner img {
+        height: 300px;
+    }
+
     .family-banner-content h1 {
         font-size: 2rem;
         padding-bottom: 0px;
@@ -213,6 +221,10 @@
     .family-therapy-about-content {
         width: 90%;
     }
+
+    .family-c-container {
+        height: 450px;
+    }
 }
 
 @media screen and (max-width: 765px) {
@@ -221,7 +233,7 @@
     }
 
     .family-banner img {
-        width: 100%;
+        height: 100%;
     }
 
     .family-banner-content {
@@ -267,12 +279,18 @@
     }
 
     .family-c-container {
-        width: 70%;
+        height: 550px;
         margin: auto;
     }
 
     .family-contact-content {
         width: 80%;
         margin: 40px auto;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .family-c-container {
+        height: 350px;
     }
 }

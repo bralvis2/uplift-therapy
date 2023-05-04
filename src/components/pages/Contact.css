@@ -58,7 +58,7 @@
 }
 
 .contact-info-container {
-    width: 90%;
+    width: 80%;
     background-color: white;
     display: flex;
     margin: auto;
@@ -66,13 +66,8 @@
     align-items: center;
 }
 
-.space-image {
-    width: 45%;
-    display: flex;
-}
-
-.space-image img {
-    width: 100%;
+.contact-info-container img {
+    width: 40%;
 }
 
 .contact-info-content {
@@ -127,10 +122,12 @@
 }
 
 @media screen and (max-width:950px) {
+    .contact-info-container {
+        width:90%;
+    }
     .contact-info-content h2 {
         font-size: 1.5rem;
     }
-
 
     .contact-info a {
         width: 95%;
@@ -141,15 +138,10 @@
 @media screen and (max-width:750px) {
     .contact-info-container {
         flex-direction: column;
-        width: 75%;
+        width: 80%;
     }
 
-    .space-image {
-        width: 100%;
-        display: flex;
-    }
-    
-    .space-image img {
+    .contact-info-container img {
         width: 100%;
     }
 

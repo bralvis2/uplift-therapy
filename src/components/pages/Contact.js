@@ -26,9 +26,7 @@ class Contact extends Component {
         </div>
         <div className='contact-info-section'>
           <div className='contact-info-container'>
-            <div className='space-image'>
-              <img src={Space}  alt="Office Space"/>
-            </div>
+            <img src={Space}  alt="Office Space"/>
             <div className='contact-info-content'>
               <h2>EMAIL IS THE PREFFERED METHOD OF COMMUNICATION</h2>
               <ul>
