@@ -22,7 +22,7 @@ const App = () => {
   const[isMobile, setIsMobile] = useState(false);
 
   return (
-      <Router basename='/uplift-therapy'>
+      <Router basename='/'>
             <nav className='main-navbar'>
               <div className='logo-item'>
                 <Link to={'/'}>
