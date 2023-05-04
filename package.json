@@ -1,7 +1,7 @@
 {
   "name": "uplift-therapy",
   "version": "0.1.0",
-  "homepage": "https://bralvis2.github.io",
+  "homepage": "https://www.uplifttherapy.org",
   "private": true,
   "dependencies": {
     "@formspree/react": "^2.4.1",
