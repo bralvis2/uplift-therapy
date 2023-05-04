@@ -183,12 +183,12 @@
 .about-therapist-image {
     width: 45%;
     display: flex;
-    align-self: center;
     justify-content: center;
 }
 
 .about-therapist-image img {
     width: 70%;
+    flex-shrink: 0;
     outline: 3px solid black;
     outline-offset: -10px;
 }
