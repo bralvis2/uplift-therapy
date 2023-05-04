@@ -90,13 +90,13 @@
 }
 
 .couples-intro-two-image {
-    width: 30%;
+    height: 510px;
     display: flex;
     margin-left: 10%;
 }
 
 .couples-intro-two-image img {
-    width: 100%;
+    height: 100%;
     outline: 10px double black;
     outline-offset: -10px;
 }
@@ -230,12 +230,13 @@
 
 
 .couple-b-container {
-    width: 30%;
+    height: 600px;
     display: flex;
+    justify-content: center;
 }
 
 .couple-b-container img {
-    width: 100%;
+    height: 100%;
     outline: 10px double black;
     outline-offset: -10px;
 }
@@ -243,7 +244,9 @@
 
 
 @media screen and (max-width:1050px) {
-
+    .couples-intro-two-image {
+        height: 400px;
+    }
     .couples-list-container {
         width: 60%;
     }
@@ -270,14 +273,8 @@
     }
 
     .couples-intro-two-image {
-        width: 80%;
-        margin: auto;
-    }
-
-    .couples-intro-two-image img {
-        width: 100%;
-        height: auto;
-        margin: auto;
+        height: 560px;
+        margin-left: 0px;
     }
 
     .couples-list-container {
@@ -294,8 +291,7 @@
     }
 
     .couple-b-container {
-        width: 70%;
-        margin: auto;
+        height: 500px;
     }
 
     .couples-contact-content {
@@ -320,6 +316,11 @@
         font-size: 1.5rem;
     }
 
+    .couples-intro-two-image {
+        height: 350px;
+        margin-left: 0px;
+    }
+
     .couples-intro-two h2 {
         font-size: 2rem;
         padding: 0px 10px;
@@ -335,5 +336,9 @@
 
     .process-cards {
         width: 90%;
+    }
+
+    .couple-b-container {
+        height: 400px;
     }
 }
