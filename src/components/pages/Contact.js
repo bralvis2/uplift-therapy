@@ -21,9 +21,9 @@ class Contact extends Component {
             <h2>SEND US AN INQUIRY</h2>
           </div>
         </div>
-        <div className='message'>
+        {/* <div className='message'>
           <h2>WE ARE CURRENTLY NOT TAKING NEW CLIENTS</h2>
-        </div>
+        </div> */}
         <div className='contact-info-section'>
           <div className='contact-info-container'>
             <img src={Space}  alt="Office Space"/>
