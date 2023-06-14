@@ -17,6 +17,7 @@ function ContactForm() {
                 id="firstname"
                 type="name"
                 name="firstname"
+                required
             />
             <ValidationError
                 prefix="FirstName"
@@ -30,24 +31,25 @@ function ContactForm() {
                 id="lastname"
                 type="name"
                 name="lastname"
+                required
             />
             <ValidationError
                 prefix="LastName"
                 field="lastname"
                 errors={state.errors}
             />
-            <label htmlFor="number">
-                Phone Number
+            <label for="telephone">
+                Telephone Number (Optional)
             </label>
             <input
-                id="number"
-                type="phonenumber"
-                name="number"
-                placeholder='xxx-xxx-xxxx'
-            />
+                id="telephone"
+                type="telephone"
+                name="telephone"
+                placeholder="(555) 555-5555">
+            </input>
             <ValidationError
-                prefix="number"
-                field="number"
+                prefix="Telephone"
+                field="telephone"
                 errors={state.errors}
             />
             <label htmlFor="email">
@@ -58,6 +60,7 @@ function ContactForm() {
                 id="email"
                 type="email"
                 name="email"
+                required
             />
             <ValidationError
                 prefix="Email"
@@ -68,7 +71,7 @@ function ContactForm() {
             <h4>Are you covered by an accepted insurance?</h4>
             <div className='radio-buttons-container'>
                 <div className='radio-button'>
-                    <input type="radio" id="yes" name="insurance" value="yes" />
+                    <input type="radio" id="yes" name="insurance" value="yes" required />
                     <label for="yes">Yes</label>
                 </div>
                 <div className='radio-button'>
@@ -83,6 +86,7 @@ function ContactForm() {
             <textarea
                 id="message"
                 name="message"
+                required
             />
             <ValidationError
                 prefix="Message"

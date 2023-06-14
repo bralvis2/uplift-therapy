@@ -40,6 +40,7 @@ textarea {
     font-family: 'Alegreya Sans', sans-serif;
     padding: 10px;
     font-size: 1.5rem;
+    resize: none;
 }
 
 input:hover, textarea:hover {

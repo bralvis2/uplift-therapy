@@ -68,30 +68,34 @@ class About extends Component {
             </div>
           </div>
           <div className='experience'>
-            <h2>CLINICAL EXPERIENCE</h2>
+            <h2>CONTINUING EDUCATION</h2>
             <div className='experience-container'>
               <div className='experience-content'>
                 <img src={CheckMark} alt='check mark icon'/>
-                <h3>UPLIFT THERAPY</h3>
-                <p>Individualized mental health treatment for clients</p>
+                <h3>Trauma-Focused Cognitive Behavioral Therapy (TF-CBT)</h3>
+                {/* <p>"Evidence-based treatment for children and adolescents impacted by trauma and their parents or caregivers."</p> */}
               </div>
               <div className='experience-content'>
                 <img src={CheckMark} alt='check mark icon'/>
-                <h3>Generation Hope Family Counseling & Consulting, LLC</h3>
-                <p>Mental health services for adults and families.</p>
+                <h3>Eye Movement Desensitization and Reprocessing (EMDR)</h3>
+                {/* <p>Mental health services for adults and families.</p> */}
               </div>
               <div className='experience-content'>
                 <img src={CheckMark} alt='check mark icon'/>
-                <h3>HopeSpoke</h3>
-                <p>Mental health services for children and families.</p>
+                <h3>Gottman Level 2 trained </h3>
+                {/* <p>Mental health services for children and families.</p> */}
               </div>
             </div>
             <div className='qualifications-container'>
               <div className='q-cards'>
-                <h2>LICENSE</h2>
+                <h2>LICENSES</h2>
                 <div className='q-card-content license-card'>
                   <img src={CheckMark} alt='check mark icon'/>
-                  <h4>Mental Health Practictioner</h4>
+                  <h4>Licensed Independent Mental Health Practictioner</h4>
+                </div>
+                <div className='q-card-content license-card'>
+                  <img src={CheckMark} alt='check mark icon'/>
+                  <h4>Licensed Marriage and Family Therapist</h4>
                 </div>
               </div>
               <div className='q-cards'>
