@@ -27,7 +27,7 @@
     padding: 20px;
 }
 
-.cover-quote h2{
+.cover-quote h2 {
     font-family: 'Alegreya Sans', sans-serif;
     font-size: 3.5rem;
 }
@@ -68,7 +68,7 @@
 
 /* Expertise Section */
 
-.expertise{
+.expertise {
     width: 100%;
     background-color: var(--light);
 
@@ -151,13 +151,13 @@
     font-family: 'Playfair Display', serif;
 }
 
-.about-therapist-content h3{
+.about-therapist-content h3 {
     font-size: 1.75rem;
     padding-bottom: 10px;
     font-family: 'Playfair Display', serif;
 }
 
-.about-therapist-content p{
+.about-therapist-content p {
     font-size: 1.5rem;
     padding-bottom: 10px;
     width: 70%;
@@ -209,6 +209,7 @@
     display: flex;
     justify-content: space-evenly;
 }
+
 .process-card {
     width: 30%;
     text-align: center;
@@ -322,10 +323,10 @@
         width: 60%;
     }
 
-    .cover-quote h2{
+    .cover-quote h2 {
         font-size: 2rem;
     }
-    
+
     .cover-quote p {
         font-size: 1rem;
     }
@@ -365,7 +366,7 @@
     .telehealth-content h2 {
         font-size: 2rem;
     }
-    
+
     .telehealth-content p {
         font-size: 1.25rem;
     }
@@ -416,6 +417,7 @@
     .telehealth-section {
         flex-direction: column;
     }
+
     .telehealth-image {
         height: 450px;
         padding-bottom: 30px;
@@ -438,6 +440,7 @@
     .welcome-container img {
         width: 80%;
     }
+
     .cover-quote {
         position: static;
         background-color: hsla(0, 0%, 5%, 0.88);
@@ -470,7 +473,7 @@
         padding-bottom: 30px;
     }
 
-    .about-therapist-content p{
+    .about-therapist-content p {
         width: 97%;
     }
 

@@ -6,13 +6,15 @@ form {
     padding: 30px 0px;
 }
 
-label, form h4 {
+label,
+form h4 {
     font-family: 'Alegreya Sans', sans-serif;
     font-size: 1.75rem;
     padding-top: 20px;
 }
 
-input, textarea {
+input,
+textarea {
     height: 40px;
     padding: 10px;
     font-size: 1.5rem;
@@ -43,15 +45,17 @@ textarea {
     resize: none;
 }
 
-input:hover, textarea:hover {
+input:hover,
+textarea:hover {
     border: 2px solid var(--light);
 }
 
-input:focus, textarea:focus {
+input:focus,
+textarea:focus {
     outline-color: var(--light);
 }
 
-input[type="radio"]:checked{
+input[type="radio"]:checked {
     accent-color: var(--tupe);
 }
 

@@ -177,9 +177,9 @@
         height: 350px;
         display: flex;
     }
-   }
+}
 
-   @media screen and (max-width: 900px) {
+@media screen and (max-width: 900px) {
     .indiv-benefits {
         flex-direction: column-reverse;
     }
@@ -196,10 +196,10 @@
     .indiv-list-container li p {
         font-size: 1.5rem;
     }
-   }
+}
 
 
-   @media screen and (max-width: 765px) {
+@media screen and (max-width: 765px) {
     .individual-contact-section {
         flex-direction: column;
     }
@@ -235,7 +235,7 @@
 }
 
 @media screen and (max-width: 350px) {
- .indiv-banner-quote h1 {
-    font-size: 1rem;
- }   
+    .indiv-banner-quote h1 {
+        font-size: 1rem;
+    }
 }

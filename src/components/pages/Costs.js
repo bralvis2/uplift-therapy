@@ -75,10 +75,10 @@ class Costs extends Component {
         <div className='policies-section'>
           <div className='policies-content'>
             <h2>POLICIES</h2>
-            <p>We understand that unforeseen circumstances may arise, and you may need to reschedule or cancel 
-              your appointment. However, we kindly request a 24-hour notice for any cancellation or rescheduling 
-              of your appointment. Failure to provide a 24-hour notice or repeated cancellations may result in 
-              a cancellation fee. Clients with Medicaid insurance will be referred out after repeated 
+            <p>We understand that unforeseen circumstances may arise, and you may need to reschedule or cancel
+              your appointment. However, we kindly request a 24-hour notice for any cancellation or rescheduling
+              of your appointment. Failure to provide a 24-hour notice or repeated cancellations may result in
+              a cancellation fee. Clients with Medicaid insurance will be referred out after repeated
               cancellations.</p>
           </div>
         </div>

@@ -1,5 +1,5 @@
 .testimonial-container {
-    width:80%;
+    width: 80%;
     background-color: var(--light);
     text-align: center;
 }
@@ -8,7 +8,7 @@
     font-family: 'Playfair Display', serif;
     /* font-family: 'Alegreya Sans', sans-serif; */
     font-size: 2rem;
-    color:var(--tupe);
+    color: var(--tupe);
 }
 
 .testimonial-content {
@@ -27,7 +27,7 @@
 
 @media screen and (max-width: 765px) {
     .testimonial-container {
-        width:95%;
+        width: 95%;
     }
 
     .testimonial-content {

@@ -51,7 +51,7 @@
 .private-pay-content h2 {
     font-family: 'Playfair Display', serif;
     font-size: 3rem;
-    padding: 20px 0px ;
+    padding: 20px 0px;
     color: var(--tan2);
 }
 
@@ -163,9 +163,9 @@
 
     .private-pay-image {
         height: 300px;
-     }
+    }
 
-     .insurance-container {
+    .insurance-container {
         flex-direction: column;
     }
 

@@ -42,32 +42,32 @@ class Couples extends Component {
             <div className='couples-intro-two-image'>
               <img src={CoupleA} alt='couple embrasing' />
             </div>
-              <ul className='couples-list-container'>
-                <li>
-                  <img src={CheckMark} />
-                  <p>Strengthen Communication</p>
-                </li>
-                <li>
-                  <img src={CheckMark} alt='check mark icon' />
-                  <p>Problem Solving & Resolution Skills</p>
-                </li>
-                <li>
-                  <img src={CheckMark} alt='check mark icon' />
-                  <p>Rebuild Trust & Intimicy</p>
-                </li>
-                <li>
-                  <img src={CheckMark} alt='check mark icon' />
-                  <p>Manage Stressors and Disagreements</p>
-                </li>
-                <li>
-                  <img src={CheckMark} alt='check mark icon' />
-                  <p>Estabish Healthy Habbits</p>
-                </li>
-                <li>
-                  <img src={CheckMark} alt='check mark icon' />
-                  <p>Overall Increase Satisfaction in Relationship</p>
-                </li>
-              </ul>
+            <ul className='couples-list-container'>
+              <li>
+                <img src={CheckMark} />
+                <p>Strengthen Communication</p>
+              </li>
+              <li>
+                <img src={CheckMark} alt='check mark icon' />
+                <p>Problem Solving & Resolution Skills</p>
+              </li>
+              <li>
+                <img src={CheckMark} alt='check mark icon' />
+                <p>Rebuild Trust & Intimicy</p>
+              </li>
+              <li>
+                <img src={CheckMark} alt='check mark icon' />
+                <p>Manage Stressors and Disagreements</p>
+              </li>
+              <li>
+                <img src={CheckMark} alt='check mark icon' />
+                <p>Estabish Healthy Habbits</p>
+              </li>
+              <li>
+                <img src={CheckMark} alt='check mark icon' />
+                <p>Overall Increase Satisfaction in Relationship</p>
+              </li>
+            </ul>
           </div>
         </div>
         <div className='process'>
@@ -76,8 +76,8 @@ class Couples extends Component {
             <div className='process-cards'>
               <img src={Goal} alt='' />
               <h3>GOALS</h3>
-              <p><span>Session 1:</span>Conduct assessments to gain a better understanding of the couple's 
-              communication style, attachment style, and any underlying mental health issues.</p>
+              <p><span>Session 1:</span>Conduct assessments to gain a better understanding of the couple's
+                communication style, attachment style, and any underlying mental health issues.</p>
               <p><span>Session 2: </span>Goal-setting to establish what the couple hopes to achieve through therapy.</p>
             </div>
             <div className='process-cards'>
@@ -89,8 +89,8 @@ class Couples extends Component {
             <div className='process-cards'>
               <img src={Month} alt='' />
               <h3>FOLLOW UP</h3>
-              <p><span>Session +: </span>Set goals for the future and develop strategies for maintaining progress made in therapy. 
-              Prepare the couple for the end of therapy and providing resources for continued growth and improvement.</p>
+              <p><span>Session +: </span>Set goals for the future and develop strategies for maintaining progress made in therapy.
+                Prepare the couple for the end of therapy and providing resources for continued growth and improvement.</p>
             </div>
           </div>
         </div>

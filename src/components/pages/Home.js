@@ -47,7 +47,7 @@ class Home extends Component {
                 <h2>Couples</h2>
                 <p>Couples Therapy helps people reconnect with their partner by reducing conflict,
                   restoring friendship, fun and intimacy. With the intention of  resolving past hurts
-                  and resentments, it creates a more loving, close, healthy relationship.<br/><br/>
+                  and resentments, it creates a more loving, close, healthy relationship.<br /><br />
                   <Link to={'/couples'}>
                     Learn More &rarr;
                   </Link></p>
@@ -59,7 +59,7 @@ class Home extends Component {
                 <h2>Family</h2>
                 <p>Families can benefit from therapy when they experience a stressful event that strains
                   family relationships. Family therapy is designed to improve communication, problem-solving,
-                  coping skills, and enhance the connection of the family unit.<br/><br/>
+                  coping skills, and enhance the connection of the family unit.<br /><br />
                   <Link to={'/family'}>
                     Learn More &rarr;
                   </Link>
@@ -72,7 +72,7 @@ class Home extends Component {
                 <h2>Individuals</h2>
                 <p>Individual therapy is a personal journey toward personal growth and an increase in life
                   satisfaction. Through the process of therapy, you will develop an increased understanding
-                  and insight toward yourself and those around you.<br/><br/>
+                  and insight toward yourself and those around you.<br /><br />
                   <Link to={'/individuals'}>
                     Learn More &rarr;
                   </Link>
@@ -88,7 +88,7 @@ class Home extends Component {
             <p>"As a therapist, witnessing my clients overcome their struggles and transform their lives
               is not just my job, it's my passion and the ultimate reward of my work."</p>
             <Link to={'/about'}>
-                Learn More &rarr;
+              Learn More &rarr;
             </Link>
           </div>
           <div className='about-therapist-image'>

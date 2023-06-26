@@ -38,7 +38,7 @@ class Family extends Component {
         </div>
         <div className='family-issues-section'>
           <div className='family-issue-image'>
-            <img src={FamilyB} alt=''/>
+            <img src={FamilyB} alt='' />
           </div>
           <div className='family-issues-container'>
             <h2>Family Therapy Can Help:</h2>
@@ -48,7 +48,7 @@ class Family extends Component {
                 <p>Improve Communication Skills</p>
               </li>
               <li>
-                <img src={CheckMark} alt=''/>
+                <img src={CheckMark} alt='' />
                 <p>Reduce Conflict & Improve Harmony</p>
               </li>
               <li>
@@ -56,23 +56,23 @@ class Family extends Component {
                 <p>Improve Behavior & Emotional Regulation</p>
               </li>
               <li>
-                <img src={CheckMark} alt=''/>
+                <img src={CheckMark} alt='' />
                 <p>Reduce Stress & Anxiety</p>
               </li>
               <li>
-                <img src={CheckMark} alt=''/>
+                <img src={CheckMark} alt='' />
                 <p>Coping Skills For Dealing With Grief & Loss</p>
               </li>
               <li>
-                <img src={CheckMark} alt=''/>
+                <img src={CheckMark} alt='' />
                 <p>Skills to Adapt to Changes</p>
               </li>
               <li>
-                <img src={CheckMark} alt=''/>
+                <img src={CheckMark} alt='' />
                 <p>Improved Financial Management & Decision-Making</p>
               </li>
               <li>
-                <img src={CheckMark} alt=''/>
+                <img src={CheckMark} alt='' />
                 <p>Overcome Mental health issues arising from Trauma.</p>
               </li>
             </ul>
@@ -82,23 +82,23 @@ class Family extends Component {
           <h2>WHAT TO EXPECT</h2>
           <div className='process-container'>
             <div className='process-cards'>
-              <img src={Goal} alt=''/>
+              <img src={Goal} alt='' />
               <h3>GOALS</h3>
               <p><span>Session 1: </span>An initial assessment to identify issues and concerns.</p>
               <p><span>Session 2: </span>Goal-setting to establish what the family hopes to achieve through therapy.</p>
             </div>
             <div className='process-cards'>
-              <img src={Progress} alt=''/>
+              <img src={Progress} alt='' />
               <h3>PLAN</h3>
               <p><span>Session 3: </span>Development of a treatment plan.</p>
-              <p><span>Session 4 + : </span>Regular therapy sessions and homework assignments or other exercises to be 
-              completed outside of therapy sessions.</p>
+              <p><span>Session 4 + : </span>Regular therapy sessions and homework assignments or other exercises to be
+                completed outside of therapy sessions.</p>
             </div>
             <div className='process-cards'>
-              <img src={Month} alt=''/>
+              <img src={Month} alt='' />
               <h3>FOLLOW UP</h3>
-              <p><span>Session +: </span>Gradual reduction in therapy frequency as progress is made. A focus on 
-              long-term sustainable change that can be maintained after therapy has ended.</p>
+              <p><span>Session +: </span>Gradual reduction in therapy frequency as progress is made. A focus on
+                long-term sustainable change that can be maintained after therapy has ended.</p>
             </div>
           </div>
         </div>

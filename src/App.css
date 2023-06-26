@@ -12,3 +12,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+* {
+    max-width: 2000px;
+}
+
+@media screen and (min-width: 2000px) {
+    * {
+      margin: auto;
+    }
+  }

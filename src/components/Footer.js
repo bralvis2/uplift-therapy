@@ -14,7 +14,7 @@ class Footer extends Component {
             <ul>
               <li className='email'>
                 <a href="mailto:rtorresmft@gmail.com">
-                rtorresmft@gmail.com
+                  rtorresmft@gmail.com
                 </a>
               </li>
               <li>(402) 202-9057</li>
@@ -34,46 +34,46 @@ class Footer extends Component {
                       255.5,262.17Zm0-106.58a41.29,41.29,0,1,0,41.29,41.29A41.33,41.33,0,0,0,255.5,155.59Z"></path>
                     </svg>
                   </div>
-                  4435 O Street Suite #212-B 
-                  <br/>Lincoln, NE 68510
+                  4435 O Street Suite #212-B
+                  <br />Lincoln, NE 68510
                 </a>
               </li>
             </ul>
           </div>
           <div className='footer-logo'>
             <Link to={'/'}>
-              <img src={FooterLogo} alt='Uplift Therapy Logo'/>
+              <img src={FooterLogo} alt='Uplift Therapy Logo' />
             </Link>
             <div className='socials'>
               <a href='https://www.facebook.com/UpliftTherapy' target="_blank" rel="noreferrer">
-                  <div className='social-icons'>
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                        <path d="M288 192v-38.1c0-17.2 3.8-25.9 30.5-25.9H352V64h-55.9c-68.5 
+                <div className='social-icons'>
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                    <path d="M288 192v-38.1c0-17.2 3.8-25.9 30.5-25.9H352V64h-55.9c-68.5 
                                   0-91.1 31.4-91.1 85.3V192h-45v64h45v192h83V256h56.4l7.6-64h-64z"></path>
-                      </svg>
-                  </div>
-                </a>
-                <a href="mailto:rtorresmft@gmail.com">
-                  <div className='social-icons'>
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                      <path d="M437.332 80H74.668C51.199 80 32 99.198 32 122.667v266.666C32 412.802 
+                  </svg>
+                </div>
+              </a>
+              <a href="mailto:rtorresmft@gmail.com">
+                <div className='social-icons'>
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                    <path d="M437.332 80H74.668C51.199 80 32 99.198 32 122.667v266.666C32 412.802 
                       51.199 432 74.668 432h362.664C460.801 432 480 412.802 480 389.333V122.667C480 
                       99.198 460.801 80 437.332 80zM432 170.667L256 288 80 170.667V128l176 117.333L432 
                       128v42.667z"></path>
-                    </svg>
-                  </div>
-                </a>
-                <a href="tel:+4022029057">
-                  <div className='social-icons'>
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                      <path d="M426.666 330.667c-26.666 0-52.271-4.271-75.729-11.729-7.469-2.136-16-1.073-21.332 
+                  </svg>
+                </div>
+              </a>
+              <a href="tel:4022029057">
+                <div className='social-icons'>
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                    <path d="M426.666 330.667c-26.666 0-52.271-4.271-75.729-11.729-7.469-2.136-16-1.073-21.332 
                       5.333l-46.939 46.928c-60.802-30.928-109.864-80-140.802-140.803l46.939-46.927c5.332-5.333 
                       7.462-13.864 5.332-21.333-8.537-24.531-12.802-50.136-12.802-76.803C181.333 73.604 171.734 64 
                       160 64H85.333C73.599 64 64 73.604 64 85.333 64 285.864 226.136 448 426.666 448c11.73 0 
                       21.334-9.604 21.334-21.333V352c0-11.729-9.604-21.333-21.334-21.333z"></path>
-                    </svg>
-                  </div>
-                </a>
+                  </svg>
+                </div>
+              </a>
             </div>
           </div>
           <div className='footer-nav'>

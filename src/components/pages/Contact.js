@@ -26,7 +26,7 @@ class Contact extends Component {
         </div> */}
         <div className='contact-info-section'>
           <div className='contact-info-container'>
-            <img src={Space}  alt="Office Space"/>
+            <img src={Space} alt="Office Space" />
             <div className='contact-info-content'>
               <h2>EMAIL IS THE PREFFERED METHOD OF COMMUNICATION</h2>
               <ul>
@@ -44,7 +44,7 @@ class Contact extends Component {
                   </a>
                 </li>
                 <li className='contact-info'>
-                  <a href="tel:+4022029057">
+                  <a href="tel:4022029057">
                     <div className='contact-icons'>
                       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                         <path d="M426.666 330.667c-26.666 0-52.271-4.271-75.729-11.729-7.469-2.136-16-1.073-21.332 
@@ -112,13 +112,13 @@ class Contact extends Component {
           </div>
           <Testimonials />
         </div> */}
-         <div className='policies-section'>
+        <div className='policies-section'>
           <div className='policies-content'>
             <h2>POLICIES</h2>
-            <p>We understand that unforeseen circumstances may arise, and you may need to reschedule or cancel 
-              your appointment. However, we kindly request a 24-hour notice for any cancellation or rescheduling 
-              of your appointment. Failure to provide a 24-hour notice or repeated cancellations may result in 
-              a cancellation fee. Clients with Medicaid insurance will be referred out after repeated 
+            <p>We understand that unforeseen circumstances may arise, and you may need to reschedule or cancel
+              your appointment. However, we kindly request a 24-hour notice for any cancellation or rescheduling
+              of your appointment. Failure to provide a 24-hour notice or repeated cancellations may result in
+              a cancellation fee. Clients with Medicaid insurance will be referred out after repeated
               cancellations.</p>
           </div>
         </div>
