@@ -25,7 +25,7 @@ class About extends Component {
         <div className='about-therapist'>
           <div className='about-therapist-content'>
             <h2>MEET THE THERAPIST</h2>
-            <h3>Rosi Torres, MS, LMHP</h3>
+            <h3>Rosi Torres, LIMHP, LMFT</h3>
             <p>As a therapist, witnessing my clients overcome their struggles and transform their lives
               is not just my job, it's my passion and the ultimate reward of my work. I firmly believe people
               have the ability to change at any time and reach their self-actualization. Psychotherapy is about
