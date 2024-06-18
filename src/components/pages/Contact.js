@@ -31,7 +31,7 @@ class Contact extends Component {
               <h2>EMAIL IS THE PREFFERED METHOD OF COMMUNICATION</h2>
               <ul>
                 <li className='contact-info'>
-                  <a href="mailto:rtorresmft@gmail.com">
+                  <a href="mailto:uplifttherapyne@gmail.com">
                     <div className='contact-icons'>
                       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                         <path d="M437.332 80H74.668C51.199 80 32 99.198 32 122.667v266.666C32 412.802 
@@ -40,7 +40,7 @@ class Contact extends Component {
                       128v42.667z"></path>
                       </svg>
                     </div>
-                    rtorresmft@gmail.com
+                    uplifttherapyne@gmail.com
                   </a>
                 </li>
                 <li className='contact-info'>

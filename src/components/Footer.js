@@ -10,14 +10,18 @@ class Footer extends Component {
       <div className='footer'>
         <div className='footer-content'>
           <div className='footer-contact'>
-            <h3>Rosi Torres, MS, LMHP</h3>
+            <h3>Rosi Torres, LIMHP, LMHP</h3>
             <ul>
               <li className='email'>
-                <a href="mailto:rtorresmft@gmail.com">
-                  rtorresmft@gmail.com
+                <a href="mailto:uplifttherapyne@gmail.com">
+                  uplifttherapyne@gmail.com
                 </a>
               </li>
-              <li>(402) 202-9057</li>
+              <li className='email'>
+                <a href='tel:4022029057'>
+                  (402) 202-9057
+                </a>
+              </li>
               <li className='footer-location'>
                 <a href='https://www.google.com/maps/place/4435+O+St+212+b,+Lincoln,+NE+68510/@40.8132177,-96.6604739,17z/data=!3m1!4b1!4m5!3m4!1s0x8796bc2eb9e54619:0xc41af7bc89b96a78!8m2!3d40.8132177!4d-96.657899'
                   target='_blank'
@@ -53,7 +57,7 @@ class Footer extends Component {
                   </svg>
                 </div>
               </a>
-              <a href="mailto:rtorresmft@gmail.com">
+              <a href="mailto:uplifttherapyne@gmail.com">
                 <div className='social-icons'>
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                     <path d="M437.332 80H74.668C51.199 80 32 99.198 32 122.667v266.666C32 412.802 
