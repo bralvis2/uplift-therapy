@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { } from 'react-router-dom';
+import {Link } from 'react-router-dom';
 import Cover from '../site-images/individual-cover.png'
 import DecorIcon from '../site-images/decor-icon.png'
 import CheckMark from '../SVG-icons/check-mark.svg'
@@ -98,9 +98,7 @@ class Individuals extends Component {
           <div className='individual-contact-content'>
             <h2>ARE YOU READY TO BEGIN THE JOURNEY TOWARDS HEALING?</h2>
             <img src={DecorIcon} alt='' />
-            <a href="https://rosa-torres.clientsecure.me/" target="_blank" rel="noopener noreferrer">
-    SEND US AN INQUIRY
-  </a>
+            <Link to={'/contact'}>SEND US AN INQUIRY</Link>
           </div>
         </div>
       </div>

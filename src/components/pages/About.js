@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import AboutBanner from '../site-images/about-cover.png';
 import Owner from '../site-images/owner.png';
 import CheckMark from '../SVG-icons/check-mark.svg'
@@ -121,9 +121,7 @@ class About extends Component {
           <div className='about-contact-content'>
             <h2>ARE YOU READY TO BEGIN YOUR JOURNEY TOWARDS HEALING?</h2>
             <img src={DecorIcon} alt='' />
-            <a href="https://rosa-torres.clientsecure.me/" target="_blank" rel="noopener noreferrer">
-    SEND US AN INQUIRY
-  </a>
+            <Link to={'/contact'}>SEND US AN INQUIRY</Link>
           </div>
         </div>
       </div>

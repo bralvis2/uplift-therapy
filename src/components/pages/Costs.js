@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import CostBanner from '../site-images/cost-banner.png'
 import CostA from '../site-images/cost-a.png'
 import DecorIcon from '../site-images/decor-icon.png'
@@ -67,9 +67,7 @@ class Costs extends Component {
               clients to access mental health care from the comfort of their own homes or other convenient
               locations, while also providing greater flexibility in scheduling appointments. *Available for Nebraska Residents Only.*
             </p>
-            <a href="https://rosa-torres.clientsecure.me/" target="_blank" rel="noopener noreferrer">
-    SEND US AN INQUIRY
-  </a>
+            <Link to={'/contact'}>SEND US AN INQUIRY </Link>
           </div>
         </div>
         <div className='policies-section'>
