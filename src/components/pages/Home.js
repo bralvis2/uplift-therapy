@@ -141,9 +141,9 @@ class Home extends Component {
               clients to access mental health care from the comfort of their own homes or other convenient
               locations, while also providing greater flexibility in scheduling appointments. *Available for Nebraska Residents Only.*
             </p>
-            <Link to={'/contact'}>
-              SEND US AN INQUIRY &rarr;
-            </Link>
+             <a href="https://rosa-torres.clientsecure.me/" target="_blank" rel="noopener noreferrer">
+    SEND US AN INQUIRY &rarr;
+  </a>
           </div>
         </div>
       </div>

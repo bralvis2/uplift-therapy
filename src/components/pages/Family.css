@@ -157,7 +157,10 @@
 
 .family-contact-content a:hover {
     color: var(--dark);
-    border-bottom: 1px solid var(--dark);
+    text-decoration-line: underline; 
+    text-decoration-color: var(--dark);
+    text-decoration-thickness: 1px; 
+    text-underline-offset: 10px;
 }
 
 .family-c-container {

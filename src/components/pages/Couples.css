@@ -225,7 +225,10 @@
 
 .couples-contact-content a:hover {
     color: var(--tupe);
-    border-bottom: 1px solid var(--tupe);
+    text-decoration-line: underline; 
+    text-decoration-color: var(--tupe);
+    text-decoration-thickness: 1px; 
+    text-underline-offset: 10px;
 }
 
 

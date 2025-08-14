@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import { } from 'react-router-dom';
 import FamilyA from '../site-images/family-a.png'
 import FamilyB from '../site-images/family-b.png'
 import FamilyC from '../site-images/family-c.png'
@@ -106,9 +106,9 @@ class Family extends Component {
           <div className='family-contact-content'>
             <h2>IS YOUR FAMILY READY TO BEGIN THE JOURNEY TOWARDS HEALING?</h2>
             <img src={DecorIcon} alt='' />
-            <Link to={'/contact'}>
-              SEND US AN INQUIRY
-            </Link>
+            <a href="https://rosa-torres.clientsecure.me/" target="_blank" rel="noopener noreferrer">
+    SEND US AN INQUIRY
+  </a>
           </div>
           <div className='family-c-container'>
             <img src={FamilyC} alt='Third Family example' />

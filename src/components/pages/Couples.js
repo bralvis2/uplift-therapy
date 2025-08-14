@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import { } from 'react-router-dom';
 import CoupleBanner from '../site-images/couples-banner.png'
 import DecorIconL from '../site-images/decor-icon-light.png'
 import CoupleA from '../site-images/couple-a.png'
@@ -98,9 +98,9 @@ class Couples extends Component {
           <div className='couples-contact-content'>
             <h2>ARE YOU READY TO BEGIN YOUR JOURNEY TOWARDS HEALING?</h2>
             <img src={DecorIconL} alt='' />
-            <Link to={'/contact'}>
-              SEND US AN INQUIRY
-            </Link>
+            <a href="https://rosa-torres.clientsecure.me/" target="_blank" rel="noopener noreferrer">
+    SEND US AN INQUIRY
+  </a>
           </div>
           <div className='couple-b-container'>
             <img src={CoupleB} alt='Second Couple example' />

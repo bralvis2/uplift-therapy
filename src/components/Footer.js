@@ -90,7 +90,9 @@ class Footer extends Component {
                 <li><Link to={'/family'}> Family </Link></li>
                 <li><Link to={'/individuals'}>Individuals</Link></li>
                 <li><Link to={'/costs'}>Costs</Link></li>
-                <li><Link to={'/contact'}>Contact</Link></li>
+                <li><a href="https://rosa-torres.clientsecure.me/" target="_blank" rel="noopener noreferrer">
+    Contact
+  </a></li>
               </ul>
             </nav>
           </div>
