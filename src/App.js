@@ -12,7 +12,7 @@ import Contact from './components/pages/Contact';
 import Footer from './components/Footer'
 
 
-import logo from './brand-images/uplift-logo-light.png'
+import logo from './brand-images/uplift-therapy-logo.svg'
 
 import './App.css';
 import './components/Nav.css'
