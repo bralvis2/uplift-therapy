@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.a5cbd52a.css",
-    "main.js": "/static/js/main.3db9ced1.js",
+    "main.css": "/static/css/main.aa119d83.css",
+    "main.js": "/static/js/main.420c42fa.js",
     "static/media/couple-b.png": "/static/media/couple-b.a533e6643fa50c50ac0b.png",
     "static/media/telehealth.png": "/static/media/telehealth.55c418630bd3aac550ae.png",
     "static/media/about-img-a.png": "/static/media/about-img-a.7f1c162570401f7127aa.png",
@@ -24,21 +24,21 @@
     "static/media/home-family.png": "/static/media/home-family.e38182b587087cd36f99.png",
     "static/media/owner.png": "/static/media/owner.e456ac3fc97b91c3574d.png",
     "static/media/home-decor-icon.png": "/static/media/home-decor-icon.e03225fa2e6860e3761c.png",
-    "static/media/uplift-logo-light.png": "/static/media/uplift-logo-light.47fcecf693e5d6e63d0b.png",
     "static/media/icon-light.png": "/static/media/icon-light.6e55c02f6edb6efbf3e9.png",
     "static/media/decor-icon-light.png": "/static/media/decor-icon-light.f2a352bb1634fab3b98b.png",
     "static/media/decor-icon.png": "/static/media/decor-icon.356a9bdf8a2d2c68d086.png",
+    "static/media/uplift-therapy-logo.svg": "/static/media/uplift-therapy-logo.618e90ce04d863275b45cc36989547ed.svg",
     "static/media/month.svg": "/static/media/month.bb35d3967a3a2a1a95e0ff20da223a39.svg",
     "static/media/goal.svg": "/static/media/goal.107ad1ab37fbf46c9c60839cf30b52c1.svg",
     "static/media/check-mark.svg": "/static/media/check-mark.dc2b0cf375ab29199fb97e96735f29a1.svg",
     "static/media/check-mark-dark.svg": "/static/media/check-mark-dark.e903b9180f487723d1ad759f5fe06ccd.svg",
     "index.html": "/index.html",
     "static/media/progress.svg": "/static/media/progress.f1d3c9810c7f45f81ad197e1f922dea7.svg",
-    "main.a5cbd52a.css.map": "/static/css/main.a5cbd52a.css.map",
-    "main.3db9ced1.js.map": "/static/js/main.3db9ced1.js.map"
+    "main.aa119d83.css.map": "/static/css/main.aa119d83.css.map",
+    "main.420c42fa.js.map": "/static/js/main.420c42fa.js.map"
   },
   "entrypoints": [
-    "static/css/main.a5cbd52a.css",
-    "static/js/main.3db9ced1.js"
+    "static/css/main.aa119d83.css",
+    "static/js/main.420c42fa.js"
   ]
 }
