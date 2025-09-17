@@ -37,7 +37,7 @@
 .pad-s{ padding: clamp(2rem, 0.9362rem + 3.4043vw, 4rem);}
 
 .inner-container p{
-    font-size: clamp(1rem, 0.734rem + 0.8511vw, 1.5rem);
+    font-size: 1.5rem;
     font-family: 'Alegreya Sans', sans-serif;
     line-height: 160%;
     font-weight: 600;
@@ -45,7 +45,7 @@
 }
 
 .inner-container li{
-    font-size: clamp(1rem, 0.734rem + 0.8511vw, 1.5rem);
+    font-size: 1.5rem;
     font-family: 'Alegreya Sans', sans-serif;
     line-height: 160%;
     font-weight: 600;
