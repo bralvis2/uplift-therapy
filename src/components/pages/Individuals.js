@@ -98,7 +98,7 @@ class Individuals extends Component {
           <div className='individual-contact-content'>
             <h2>ARE YOU READY TO BEGIN THE JOURNEY TOWARDS HEALING?</h2>
             <img src={DecorIcon} alt='' />
-            <Link to={'/contact'}>SEND US AN INQUIRY</Link>
+            <a href='https://rosa-torres.clientsecure.me/' target='_blank' rel="noreferrer noopener" >SEND US AN INQUIRY</a>
           </div>
         </div>
       </div>

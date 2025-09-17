@@ -67,7 +67,7 @@ class Costs extends Component {
               clients to access mental health care from the comfort of their own homes or other convenient
               locations, while also providing greater flexibility in scheduling appointments. *Available for Nebraska Residents Only.*
             </p>
-            <Link to={'/contact'}>SEND US AN INQUIRY </Link>
+            <a href='https://rosa-torres.clientsecure.me/' target='_blank' rel="noreferrer noopener" >SEND US AN INQUIRY </a>
           </div>
         </div>
         <div className='policies-section'>

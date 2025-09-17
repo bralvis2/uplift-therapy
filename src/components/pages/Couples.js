@@ -98,7 +98,7 @@ class Couples extends Component {
           <div className='couples-contact-content'>
             <h2>ARE YOU READY TO BEGIN YOUR JOURNEY TOWARDS HEALING?</h2>
             <img src={DecorIconL} alt='' />
-            <Link to={'/contact'}>SEND US AN INQUIRY</Link>
+            <a href='https://rosa-torres.clientsecure.me/' target='_blank' rel="noreferrer noopener" >SEND US AN INQUIRY</a>
           </div>
           <div className='couple-b-container'>
             <img src={CoupleB} alt='Second Couple example' />

@@ -9,6 +9,7 @@ import Family from './components/pages/Family';
 import Individuals from './components/pages/Individuals';
 import Costs from './components/pages/Costs';
 import Contact from './components/pages/Contact';
+import PrivacyPolicy from './components/pages/Privacy-Policy';
 import Footer from './components/Footer'
 
 
@@ -36,8 +37,8 @@ const App = () => {
           <li><Link to={'/couples'}> Couples </Link></li>
           <li><Link to={'/family'}> Family </Link></li>
           <li><Link to={'/individuals'}>Individuals</Link></li>
-          <li><Link to={'/costs'}>Costs</Link></li>
-          <li><Link to={'/contact'}>Contact</Link></li>
+          <li><Link to={'/contact'}>Costs</Link></li>
+          <li><a href='https://rosa-torres.clientsecure.me/' target='_blank' rel="noreferrer noopener" >Book Now</a></li>
         </ul>
         <button className='mobile-menu-icon'
           onClick={() => setIsMobile(!isMobile)}>
@@ -53,6 +54,7 @@ const App = () => {
         <Route path="/individuals" element={<Individuals />} exact />
         <Route path="/costs" element={<Costs />} exact />
         <Route path="/contact" element={<Contact />} exact />
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} exact />
       </Routes>
       <Footer />
     </Router>

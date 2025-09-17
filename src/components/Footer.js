@@ -91,6 +91,7 @@ class Footer extends Component {
                 <li><Link to={'/individuals'}>Individuals</Link></li>
                 <li><Link to={'/costs'}>Costs</Link></li>
                 <li><Link to={'/contact'}>Contact</Link></li>
+                <li><Link to={'/privacy-policy'}>Privacy Policy</Link></li>
               </ul>
             </nav>
           </div>
