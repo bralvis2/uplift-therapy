@@ -8,6 +8,10 @@
     --dark: #262626;
 }
 
+html {
+    scroll-behavior: auto !important;
+  }
+
 * {
     margin: 0;
     padding: 0;
