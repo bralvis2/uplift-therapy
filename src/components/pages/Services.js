@@ -97,9 +97,9 @@ class Services extends Component {
             },
             {
                 id: 'ipe',
-                title: 'Immigration Psychological Evaluation Training',
+                title: 'Immigration Psychological Evaluations',
                 description:
-                    'Our specialized training programs equip mental health professionals with the skills and knowledge to conduct comprehensive immigration psychological evaluations. We provide in-depth instruction on assessment protocols, legal requirements, cultural considerations, and report writing for hardship waivers, asylum cases, VAWA petitions, and other immigration matters. Our experienced trainers help clinicians develop the expertise needed to provide high-quality, legally sound evaluations that support clients navigating the immigration process.',
+                    "Navigating an immigration case means countless hours gathering documentation, attending appointments, and seeking advocates who understand your situation. Whether you need to reinforce an asylum claim, document experiences of persecution or domestic violence, or provide evidence for a hardship waiver, I'm here to help.",
                 image: ImmigrationTraining,
                 alt: 'Therapist talking with client in office',
                 bgClass: 'light-bg',
