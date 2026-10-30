@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.c6c78446.css",
-    "main.js": "/static/js/main.51c92d64.js",
+    "main.css": "/static/css/main.5c858f61.css",
+    "main.js": "/static/js/main.7cdee82f.js",
     "static/media/couple-b.png": "/static/media/couple-b.a533e6643fa50c50ac0b.png",
     "static/media/telehealth.png": "/static/media/telehealth.55c418630bd3aac550ae.png",
     "static/media/about-img-a.png": "/static/media/about-img-a.7f1c162570401f7127aa.png",
@@ -21,9 +21,30 @@
     "static/media/home-couple.png": "/static/media/home-couple.98f6ca780578f6609ff2.png",
     "static/media/couples-banner.png": "/static/media/couples-banner.0131fcb533b42d2243b3.png",
     "static/media/home-individual.png": "/static/media/home-individual.25320f3f976d61b852cc.png",
+    "static/media/floral-bg.png": "/static/media/floral-bg.f70784d94b83626fe1ad.png",
     "static/media/home-family.png": "/static/media/home-family.e38182b587087cd36f99.png",
-    "static/media/owner.png": "/static/media/owner.e456ac3fc97b91c3574d.png",
+    "static/media/terracotta-background.jpg": "/static/media/terracotta-background.d38686d76b58fcec2201.jpg",
+    "static/media/torres-LIMHP-LMFT 1.jpg": "/static/media/torres-LIMHP-LMFT 1.6003dfe903b46aeeacce.jpg",
+    "static/media/background-transparent.jpg": "/static/media/background-transparent.1124d665716e585b101a.jpg",
+    "static/media/therapy-services-lincoln-ne.jpg": "/static/media/therapy-services-lincoln-ne.7df14f8d0b3b8e6f3c30.jpg",
+    "static/media/marriage-Counseling-lincoln-ne.jpg": "/static/media/marriage-Counseling-lincoln-ne.a1a4a980e3a7f0ca48a8.jpg",
+    "static/media/couples-therapy-session-in-lincoln-ne.jpg": "/static/media/couples-therapy-session-in-lincoln-ne.befa5f9e55fede0a70b7.jpg",
+    "static/media/internal-family-systems-counseling.jpg": "/static/media/internal-family-systems-counseling.72f8188fc53176cf9b77.jpg",
+    "static/media/couple-in-difficult-conversation.jpg": "/static/media/couple-in-difficult-conversation.d025f167cccd347e4ab0.jpg",
+    "static/media/strengthening-family-relationships.jpg": "/static/media/strengthening-family-relationships.5f9c89d8c23dd071e7d8.jpg",
+    "static/media/woman-happy-to-speak-with-ifs-therapist.jpg": "/static/media/woman-happy-to-speak-with-ifs-therapist.4d7c9e05933b88f96600.jpg",
+    "static/media/faq-about-discernment-counseling.jpg": "/static/media/faq-about-discernment-counseling.3647a15bfc7f111faddc.jpg",
     "static/media/home-decor-icon.png": "/static/media/home-decor-icon.e03225fa2e6860e3761c.png",
+    "static/media/couple-considering-relationship-decisions.jpg": "/static/media/couple-considering-relationship-decisions.a8f833e25afba61c4703.jpg",
+    "static/media/Why-Choose-EMDR-Therapy.jpg": "/static/media/Why-Choose-EMDR-Therapy.9d01931dd2c9b88ad740.jpg",
+    "static/media/Why-Choose-IFS-Therapy.jpg": "/static/media/Why-Choose-IFS-Therapy.db79a5650f55536e4c02.jpg",
+    "static/media/eye-movement-desensitization-therapy.jpg": "/static/media/eye-movement-desensitization-therapy.1d654e4ade3a2f7c9808.jpg",
+    "static/media/person-seeking-help-with-therapist.jpg": "/static/media/person-seeking-help-with-therapist.bbefba0e7e25c551fa83.jpg",
+    "static/media/faq-EMDR-therapy.jpg": "/static/media/faq-EMDR-therapy.f2aead6cec392b6ca30e.jpg",
+    "static/media/Why-Choose-Discernment-Counseling.jpg": "/static/media/Why-Choose-Discernment-Counseling.ca04b991b609c094ab5e.jpg",
+    "static/media/faq-ifs-therapy.jpg": "/static/media/faq-ifs-therapy.8790d727a562ead554b1.jpg",
+    "static/media/immigration-mental-health-evaluation.jpg": "/static/media/immigration-mental-health-evaluation.cd73f901b9f09e79bc57.jpg",
+    "static/media/individual-counseling-session.jpg": "/static/media/individual-counseling-session.a9161decb5380c4a6327.jpg",
     "static/media/icon-light.png": "/static/media/icon-light.6e55c02f6edb6efbf3e9.png",
     "static/media/decor-icon-light.png": "/static/media/decor-icon-light.f2a352bb1634fab3b98b.png",
     "static/media/decor-icon.png": "/static/media/decor-icon.356a9bdf8a2d2c68d086.png",
@@ -34,11 +55,13 @@
     "static/media/check-mark-dark.svg": "/static/media/check-mark-dark.e903b9180f487723d1ad759f5fe06ccd.svg",
     "index.html": "/index.html",
     "static/media/progress.svg": "/static/media/progress.f1d3c9810c7f45f81ad197e1f922dea7.svg",
-    "main.c6c78446.css.map": "/static/css/main.c6c78446.css.map",
-    "main.51c92d64.js.map": "/static/js/main.51c92d64.js.map"
+    "static/media/chevron-down-tupe-icon.svg": "/static/media/chevron-down-tupe-icon.3cf13f8aa2929e5f88c9c7e26a2a66db.svg",
+    "static/media/chevron-up-tupe-icon.svg": "/static/media/chevron-up-tupe-icon.80c69f9d0af7df69252b4ad241f5778b.svg",
+    "main.5c858f61.css.map": "/static/css/main.5c858f61.css.map",
+    "main.7cdee82f.js.map": "/static/js/main.7cdee82f.js.map"
   },
   "entrypoints": [
-    "static/css/main.c6c78446.css",
-    "static/js/main.51c92d64.js"
+    "static/css/main.5c858f61.css",
+    "static/js/main.7cdee82f.js"
   ]
 }
