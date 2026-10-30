@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.5c858f61.css",
-    "main.js": "/static/js/main.7cdee82f.js",
+    "main.js": "/static/js/main.26c98f85.js",
     "static/media/couple-b.png": "/static/media/couple-b.a533e6643fa50c50ac0b.png",
     "static/media/telehealth.png": "/static/media/telehealth.55c418630bd3aac550ae.png",
     "static/media/about-img-a.png": "/static/media/about-img-a.7f1c162570401f7127aa.png",
@@ -58,10 +58,10 @@
     "static/media/chevron-down-tupe-icon.svg": "/static/media/chevron-down-tupe-icon.3cf13f8aa2929e5f88c9c7e26a2a66db.svg",
     "static/media/chevron-up-tupe-icon.svg": "/static/media/chevron-up-tupe-icon.80c69f9d0af7df69252b4ad241f5778b.svg",
     "main.5c858f61.css.map": "/static/css/main.5c858f61.css.map",
-    "main.7cdee82f.js.map": "/static/js/main.7cdee82f.js.map"
+    "main.26c98f85.js.map": "/static/js/main.26c98f85.js.map"
   },
   "entrypoints": [
     "static/css/main.5c858f61.css",
-    "static/js/main.7cdee82f.js"
+    "static/js/main.26c98f85.js"
   ]
 }
