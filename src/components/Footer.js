@@ -10,7 +10,7 @@ class Footer extends Component {
       <div className='footer'>
         <div className='footer-content'>
           <div className='footer-contact'>
-            <h3>Rosi Torres, LIMHP, LMHP</h3>
+            <h3>Rosi Torres, LIMHP, LMFT</h3>
             <ul>
               <li className='email'>
                 <a href="mailto:uplifttherapyne@gmail.com">
@@ -85,18 +85,18 @@ class Footer extends Component {
               <h3>BROWSE</h3>
               <ul className='footer-nav-links'>
                 <li><Link to={'/'}>Home</Link></li>
-                <li><Link to={'/about'}>About</Link></li>
-                <li><Link to={'/couples'}> Couples </Link></li>
-                <li><Link to={'/family'}> Family </Link></li>
-                <li><Link to={'/individuals'}>Individuals</Link></li>
-                <li><Link to={'/costs'}>Costs</Link></li>
-                <li><Link to={'/contact'}>Contact</Link></li>
-                <li><Link to={'/privacy-policy'}>Privacy Policy</Link></li>
+                <li><Link to={'/about/'}>About</Link></li>
+                <li><Link to={'/couples-therapy/'}> Couples </Link></li>
+                <li><Link to={'/family-therapy/'}> Family </Link></li>
+                <li><Link to={'/individual-therapy/'}>Individuals</Link></li>
+                <li><Link to={'/costs/'}>Costs</Link></li>
+                <li><Link to={'/contact/'}>Contact</Link></li>
+                <li><Link to={'/privacy-policy/'}>Privacy Policy</Link></li>
               </ul>
             </nav>
           </div>
         </div>
-        <p className='copywrite'>&#169; 2023 Uplift Therapy</p>
+        <p className='copywrite'>&#169; 2026 Uplift Therapy</p>
       </div>
     );
   }

@@ -1,0 +1,179 @@
+.service-hero {
+    background-image: 
+    linear-gradient(to bottom, #0D0C04 0%, rgba(13, 12, 4, .5) 100%),
+        url('../site-images/therapy-services-lincoln-ne.jpg');
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    min-height: 400px;
+    max-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* Lazy loading hint for browsers that support it */
+    content-visibility: auto;
+    contain-intrinsic-size: 350px;
+}
+
+.discernment-hero {
+    background-image:
+        linear-gradient(to bottom, #0E0E0E 0%, rgba(14, 14, 14, .30) 100%),
+        url('../site-images/marriage-Counseling-lincoln-ne.jpg');
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    min-height: 400px;
+    max-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* Lazy loading hint for browsers that support it */
+    content-visibility: auto;
+    contain-intrinsic-size: 350px;
+}
+
+/* Background Overlay */
+.ifs-hero {
+    position: relative;
+    min-height: 400px;
+    max-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    content-visibility: auto;
+    contain-intrinsic-size: 350px;
+    overflow: hidden;
+}
+
+.ifs-hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url('../site-images/floral-bg.png');
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    opacity: 0.05;
+    z-index: 0;
+}
+
+.ifs-hero > * {
+    position: relative;
+    z-index: 1;
+}
+
+/* Background Overlay */
+ /* .emdr-hero {
+    position: relative;
+    min-height: 400px;
+    max-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    content-visibility: auto;
+    contain-intrinsic-size: 350px;
+    overflow: hidden;
+}
+
+.emdr-hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url('../site-images/background-transparent.jpg');
+    background-size: cover;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    opacity: 0.06;
+    z-index: 0;
+}
+
+.emdr-hero > * {
+    position: relative;
+    z-index: 1;
+}  */
+
+.ipe-hero {
+    background-image:
+        linear-gradient(to bottom, #0E0E0E 0%, rgba(14, 14, 14, .30) 100%),
+        url('../site-images/person-seeking-help-with-therapist.jpg');
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    min-height: 400px;
+    max-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* Lazy loading hint for browsers that support it */
+    content-visibility: auto;
+    contain-intrinsic-size: 350px;
+}
+
+.process-icon {
+    width: 40px;
+    height: 40px;
+    flex: 0 0 40px;
+    margin-bottom: 1rem;
+}
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 1.5rem;
+    row-gap: 4rem;
+    justify-content: center;
+}
+
+.card-container h2{
+    text-align: center;
+    width: 80%;
+}
+
+.card-style-1{
+    align-items: center;
+    width: 20%;
+    flex-grow: 1;
+}
+
+.card-style-1 h3{
+    margin:0 15px 1.75rem 15px;
+    text-align: center;
+}
+
+.card-style-1 p{
+    width: 100%;
+}
+
+
+@media screen and (max-width: 1025px){
+    .card-container{
+        flex-direction: column;
+    }
+
+    .card-container h2{
+        width: 100%;
+    }
+
+    .card-style-1{
+        width: 100%;
+    }
+
+    .large-img{
+        height: 650px;
+        overflow: hidden;
+    }
+    
+}
+
+@media screen and (max-width: 767px){
+    .large-img{
+        height: 400px;
+        overflow: hidden;
+    }
+    
+}

@@ -1,95 +1,177 @@
-.main-navbar {
+/* =========================
+   Main Navbar
+========================= */
+.nav-container{
     background-color: var(--dark);
-    display: flex;
 }
 
-.logo-item {
-    padding: 15px 0px 15px 20px;
+.main-navbar {
+    width: 95%;
+    max-width: 1920px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.logo-item img {
+    max-width: 325px;
+    height: 44px;
+}
+
+.main-nav-links,
+.nav-links-mobile {
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 .main-nav-links {
-    width: 100%;
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    list-style-type: none;
-    padding-left: 0px;
-    margin-bottom: 0px;
+    gap: 2rem;
 }
 
 .main-nav-links a,
-.nav-links-mobile a {
+.nav-links-mobile a,
+.dropdown-btn {
     color: var(--light);
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-family: 'Alegreya Sans', sans-serif;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-weight: 900;
 }
 
-.main-nav-links a:hover {
+.main-nav-links a:hover,
+.nav-links-mobile a:hover,
+.dropdown-btn:hover {
     color: var(--tupe);
 }
 
-.mobile-menu-icon {
-    display: none;
+.main-nav-link.active, .active {
+    border-bottom: 1px solid var(--tupe);
 }
 
-.nav-links-mobile {
-    display: none;
+.mobile-menu-icon{display: none;}
+
+.dropdown {
+    position: relative;
 }
 
-@media screen and (max-width: 900px) {
-    .main-navbar {
+/* =========================
+   Dropdown Menu
+========================= */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: var(--dark);
+    min-width: 230px;
+    padding: 10px 0;
+    z-index: 10;
+}
+
+.dropdown-menu li {
+    padding: 5px 20px;
+}
+
+.dropdown-menu li a:hover {
+    color: var(--tupe);
+}
+
+i.fa.fa-bars, i.fa.fa-xmark{
+    font-size: 24px !important;
+}
+
+/* Ensure underline shows for active dropdown links */
+.dropdown-menu li a.active {
+    border-bottom: 1px solid var(--tupe);
+  }
+  
+  /* Make Services underline when active or child page is active */
+  .dropdown-btn.active {
+    border-bottom: 1px solid var(--tupe);
+  }
+  
+ 
+
+@media screen and (min-width: 1025px) {
+    .dropdown:hover .dropdown-menu {
+        display: flex;
         flex-direction: column;
     }
+ }
 
-    .logo-item {
-        margin: auto;
-    }
-}
-
-@media screen and (max-width: 600px) {
-
+/* Mobile dropdown menu inside hamburger */
+@media screen and (max-width: 1025px) {
     .logo-item img {
-        margin-left: 2%;
-        width: 70%;
+        max-width: 300px;
+        height: 54px;
     }
-
-    .main-nav-links {
+    
+    .main-nav-links{
         display: none;
     }
 
-    .mobile-menu-icon {
-        display: block;
-        position: absolute;
-        top: 25px;
-        right: 25px;
-        font-size: 32px;
-        color: var(--light);
-        background-color: var(--dark);
-        border: none;
-        outline: none;
-    }
-
     .nav-links-mobile {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        list-style: none;
-        background-color: var(--dark);
-        transition: all 0.5s ease-out;
-        width: 100%;
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      background-color: var(--dark);
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.3s ease-out;
+      position: absolute; 
+      top: 70px; /* height of navbar */
+      left: 0;
+      z-index: 1000;
     }
-
-    .nav-links-mobile a:hover {
-        color: var(--tupe);
+  
+    .nav-links-mobile.open {
+      max-height: 500px; /* enough to show all items */
+      padding: 10px 20px 20px 20px;
+      gap: 10px;
     }
-
-}
-
-@media screen and (max-width: 415px) {
+  
+    .dropdown-menu {
+      position: relative; /* keep children stacked inside mobile menu */
+      display: none;
+      flex-direction: column;
+      padding: 0;
+      background: var(--dark);
+    }
+  
+    .dropdown-menu.open {
+      display: flex;
+    }
+  
     .mobile-menu-icon {
-        top: 1%;
-        font-size: 25px;
+      display: block;
+      font-size: 30px;
+      color: var(--light);
+      background: none;
+      border: none;
+      cursor: pointer;
+      position: absolute;
+      top: 20px;
+      right: 25px;
+      z-index: 1100;
     }
-}
+  }
+  
+  @media  screen and (max-width: 767px) {
+    .main-navbar {
+        height: 70px;
+    }
+    .logo-item img {
+        max-width: 250px;
+        height: 34px;
+    } 
+
+    .mobile-menu-icon {
+        top: 10px;
+      }
+  }

@@ -1,66 +1,49 @@
-import React, { useState } from 'react';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import ScrollToTop from './components/ScrollToTop'
-// import Nav from './components/Nav.js'
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import ScrollToTop from './components/ScrollToTop';
+import Nav from './components/Nav';
+import Footer from './components/Footer';
+
 import Home from './components/pages/Home';
 import About from './components/pages/About';
-import Couples from './components/pages/Couples';
-import Family from './components/pages/Family';
-import Individuals from './components/pages/Individuals';
+import Services from './components/pages/Services';
+import Couples from './components/pages/Couples-Therapy';
+import DiscernmentCounseling from './components/pages/Discernment-Counseling';
+import Family from './components/pages/Family-Therapy';
+import IFSTherapy from './components/pages/IFS-Therapy';
+import Individuals from './components/pages/Individual-Therapy';
+import EMDR from './components/pages/EMDR-Therapy';
+import IPE from './components/pages/Immigration-Psychological-Evaluation';
 import Costs from './components/pages/Costs';
 import Contact from './components/pages/Contact';
 import PrivacyPolicy from './components/pages/Privacy-Policy';
-import Footer from './components/Footer'
-
-
-import logo from './brand-images/uplift-therapy-logo.svg'
 
 import './App.css';
-import './components/Nav.css'
+// import EMDR from './components/pages/EMDR-Therapy';
 
 const App = () => {
-
-  const [isMobile, setIsMobile] = useState(false);
-
   return (
-    <Router basename='/'>
-      <nav className='main-navbar'>
-        <div className='logo-item'>
-          <Link to={'/'}>
-            <img src={logo} width={'400px'} alt='Uplift Therapy, Lincoln, Nebraska' />
-          </Link>
-        </div>
-        <ul className={isMobile ? 'nav-links-mobile' : 'main-nav-links'}
-          onClick={() => setIsMobile(false)}>
-
-          <li><Link to={'/about'}>About</Link></li>
-          <li><Link to={'/couples'}> Couples </Link></li>
-          <li><Link to={'/family'}> Family </Link></li>
-          <li><Link to={'/individuals'}>Individuals</Link></li>
-          <li><Link to={'/costs'}>Costs</Link></li>
-          <li><a href='https://rosa-torres.clientsecure.me/' target='_blank' rel="noreferrer noopener" >Book Now</a></li>
-        </ul>
-        <button className='mobile-menu-icon'
-          onClick={() => setIsMobile(!isMobile)}>
-          {isMobile ? <i className='fa fa-xmark'>&#10005;</i> : <i className='fa fa-bars'></i>}
-        </button>
-      </nav>
+    <Router basename="/">
+      <Nav />
       <ScrollToTop />
       <Routes>
-        <Route path="" element={<Home />} exact />
-        <Route path="/about" element={<About />} exact />
-        <Route path="/couples" element={<Couples />} exact />
-        <Route path="/family" element={<Family />} exact />
-        <Route path="/individuals" element={<Individuals />} exact />
-        <Route path="/costs" element={<Costs />} exact />
-        <Route path="/contact" element={<Contact />} exact />
-        <Route path="/privacy-policy" element={<PrivacyPolicy />} exact />
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/services/couples-therapy" element={<Couples />} />
+        <Route path="/services/discernment-counseling/" element={<DiscernmentCounseling/>} />
+        <Route path="/services/family-therapy" element={<Family />} />
+        <Route path="/services/ifs-therapy" element={<IFSTherapy />} />
+        <Route path="/services/individual-therapy" element={<Individuals />} />
+        <Route path="/services/emdr-therapy" element={<EMDR />} />
+        <Route path="/services/immigration-psychological-evaluation" element={<IPE />} />
+        <Route path="/costs" element={<Costs />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
       </Routes>
       <Footer />
     </Router>
   );
-
-}
-
+};
 
 export default App;

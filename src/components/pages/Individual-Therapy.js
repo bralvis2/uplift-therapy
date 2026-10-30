@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Link } from 'react-router-dom';
+// import {Link } from 'react-router-dom';
 import Cover from '../site-images/individual-cover.png'
 import DecorIcon from '../site-images/decor-icon.png'
 import CheckMark from '../SVG-icons/check-mark.svg'

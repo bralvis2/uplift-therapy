@@ -1,14 +1,16 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import AboutBanner from '../site-images/about-cover.png';
-import Owner from '../site-images/owner.png';
+import Owner from '../site-images/torres-LIMHP-LMFT 1.jpg';
 import CheckMark from '../SVG-icons/check-mark.svg'
 import ImgA from '../site-images/about-img-a.png'
 import DecorIconL from '../site-images/decor-icon-light.png'
 import DecorIcon from '../site-images/decor-icon.png'
 
 // Style Sheet
+import '../../App.css'
 import './About.css'
+
 
 class About extends Component {
   render() {
@@ -97,13 +99,18 @@ class About extends Component {
                 <img src={CheckMark} alt='check mark icon' />
                 <h4>Licensed Marriage and Family Therapist</h4>
               </div>
+              <div className='q-card-content license-card'>
+                <img src={CheckMark} alt='check mark icon' />
+                <h4>Certificate in Medical Family Therapy</h4>
+              </div>
             </div>
             <div className='q-cards'>
               <h2>EDUCATION</h2>
               <div className='q-card-content'>
                 <img src={CheckMark} alt='check mark icon' />
                 <div>
-                  <h4>MASTER OF THERAPY</h4>
+                  <h4>Masters of Science (M.S.) in Child, Youth, & Family Studies
+                    <br/><span className='block, s-em'>specialization in Marriage and Family Therapy </span></h4>
                   <p>UNIVERSITY OF NEBRASKA, LINCOLN NE</p>
                 </div>
               </div>

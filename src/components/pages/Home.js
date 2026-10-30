@@ -5,7 +5,7 @@ import DecorSun from '../site-images/home-decor-icon.png'
 import CoupleImg from '../site-images/home-couple.png'
 import FamilyImg from '../site-images/home-family.png'
 import IndImg from '../site-images/home-individual.png'
-import Owner from '../site-images/owner.png'
+import Owner from '../site-images/torres-LIMHP-LMFT 1.jpg'
 import DecorIcon from '../site-images/decor-icon.png'
 // import Testimonials from './Testimonials/Testimonials';
 // import Star from '../SVG-icons/star.svg'
@@ -48,7 +48,7 @@ class Home extends Component {
                 <p>Couples Therapy helps people reconnect with their partner by reducing conflict,
                   restoring friendship, fun and intimacy. With the intention of  resolving past hurts
                   and resentments, it creates a more loving, close, healthy relationship.<br /><br />
-                  <Link to={'/couples'}>
+                  <Link to={'/couples-therapy/'}>
                     Learn More &rarr;
                   </Link></p>
               </div>
@@ -60,7 +60,7 @@ class Home extends Component {
                 <p>Families can benefit from therapy when they experience a stressful event that strains
                   family relationships. Family therapy is designed to improve communication, problem-solving,
                   coping skills, and enhance the connection of the family unit.<br /><br />
-                  <Link to={'/family'}>
+                  <Link to={'/family-therapy/'}>
                     Learn More &rarr;
                   </Link>
                 </p>
@@ -73,7 +73,7 @@ class Home extends Component {
                 <p>Individual therapy is a personal journey toward personal growth and an increase in life
                   satisfaction. Through the process of therapy, you will develop an increased understanding
                   and insight toward yourself and those around you.<br /><br />
-                  <Link to={'/individuals'}>
+                  <Link to={'/individual-therapy/'}>
                     Learn More &rarr;
                   </Link>
                 </p>
