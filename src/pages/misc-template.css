@@ -7,7 +7,7 @@
 }
 
 .hero {
-    background-image: url('../site-images/individual-cover.png');
+    background-image: url('../assets/site-images/individual-cover.png');
     background-size: cover;
     background-position: center;
   }

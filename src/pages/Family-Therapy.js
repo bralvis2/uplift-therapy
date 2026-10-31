@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import FamilyA from '../site-images/family-a.png'
-import FamilyB from '../site-images/family-b.png'
-import FamilyC from '../site-images/family-c.png'
-import DecorIcon from '../site-images/decor-icon.png'
-import CheckMark from '../SVG-icons/check-mark.svg'
-import Goal from '../SVG-icons/goal.svg'
-import Progress from '../SVG-icons/progress.svg'
-import Month from '../SVG-icons/month.svg'
+import FamilyA from '../assets/site-images/family-a.png'
+import FamilyB from '../assets/site-images/family-b.png'
+import FamilyC from '../assets/site-images/family-c.png'
+import DecorIcon from '../assets/site-images/decor-icon.png'
+import CheckMark from '../assets/SVG-icons/check-mark.svg'
+import Goal from '../assets/SVG-icons/goal.svg'
+import Progress from '../assets/SVG-icons/progress.svg'
+import Month from '../assets/SVG-icons/month.svg'
 
 // Style Sheet
 import '../pages/Family.css'

@@ -1,10 +1,10 @@
 // components/Accordion.js
 import React, { useState } from "react";
-import { ReactComponent as ChevronUp } from '../SVG-icons/chevron-up-tupe-icon.svg';
-import { ReactComponent as ChevronDown } from '../SVG-icons/chevron-down-tupe-icon.svg';
+import { ReactComponent as ChevronUp } from '../assets/SVG-icons/chevron-up-tupe-icon.svg';
+import { ReactComponent as ChevronDown } from '../assets/SVG-icons/chevron-down-tupe-icon.svg';
 
 import "./Accordion.css";
-import '../../App.css';
+import '../App.css';
 
 const AccordionItem = ({ 
     question, 

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import Cover from '../site-images/individual-cover.png'
+// import Cover from '../assets/site-images/individual-cover.png'
 
 // Style Sheet
 import './misc-template.css'

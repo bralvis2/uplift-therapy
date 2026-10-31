@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
-import { ReactComponent as CheckMark } from '../SVG-icons/check-mark-dark.svg';
-import { ReactComponent as GoalIcon } from '../SVG-icons/goal.svg';
-import { ReactComponent as ProgressIcon } from '../SVG-icons/progress.svg';
-import { ReactComponent as MonthIcon } from '../SVG-icons/month.svg';
-import DiscernmentTherapyBenefit from '../site-images/Why-Choose-Discernment-Counseling.jpg';
-import AboutDiscernmentTherapy from '../site-images/couple-in-difficult-conversation.jpg';
-import FAQDiscernmentTherapy from '../site-images/faq-about-discernment-counseling.jpg';
-import Accordion from "./Accordion";
+import { ReactComponent as CheckMark } from '../assets/SVG-icons/check-mark-dark.svg';
+import { ReactComponent as GoalIcon } from '../assets/SVG-icons/goal.svg';
+import { ReactComponent as ProgressIcon } from '../assets/SVG-icons/progress.svg';
+import { ReactComponent as MonthIcon } from '../assets/SVG-icons/month.svg';
+import DiscernmentTherapyBenefit from '../assets/site-images/Why-Choose-Discernment-Counseling.jpg';
+import AboutDiscernmentTherapy from '../assets/site-images/couple-in-difficult-conversation.jpg';
+import FAQDiscernmentTherapy from '../assets/site-images/faq-about-discernment-counseling.jpg';
+import Accordion from "../components/Accordion";
 
 import './Home.css';
-import '../../App.css';
+import '../App.css';
 import './Services.css';
 
 class DiscernmentCounseling extends Component {

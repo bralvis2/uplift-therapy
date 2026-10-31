@@ -1,15 +1,14 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { BadgeCheck, Video, ShieldCheck, Award } from 'lucide-react';
-import AboutBanner from '../site-images/about-cover.png';
-import Owner from '../site-images/torres-LIMHP-LMFT 1.jpg';
-import CheckMark from '../SVG-icons/check-mark.svg'
-import ImgA from '../site-images/about-img-a.png'
-import DecorIconL from '../site-images/decor-icon-light.png'
-import DecorIcon from '../site-images/decor-icon.png'
+import Owner from '../assets/site-images/torres-LIMHP-LMFT 1.jpg';
+import CheckMark from '../assets/SVG-icons/check-mark.svg'
+import ImgA from '../assets/site-images/about-img-a.png'
+import DecorIconL from '../assets/site-images/decor-icon-light.png'
+import DecorIcon from '../assets/site-images/decor-icon.png'
 
 // Style Sheet
-import '../../App.css'
+import '../App.css'
 import './About.css'
 
 

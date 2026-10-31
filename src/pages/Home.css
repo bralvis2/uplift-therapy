@@ -1,6 +1,6 @@
 .home-hero {
     background-image: 
-        url('../site-images/therapy-in-lincoln-nebraska.jpg');
+        url('../assets/site-images/therapy-in-lincoln-nebraska.jpg');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -29,98 +29,6 @@
     width: 100%;
     margin-bottom: 2rem;
 
-}
-
-/* Welcome Section */
-.welcome {
-    background-color: var(--light);
-    padding: 10px;
-}
-
-.welcome-container {
-    width: 75%;
-    margin: auto;
-    padding: 20px;
-    color: var(--tupe);
-    text-align: center;
-}
-
-.welcome-container h1 {
-    font-family: 'Playfair Display', serif;
-    font-size: 3rem;
-}
-
-.welcome-container p {
-    font-family: 'Alegreya Sans', sans-serif;
-    font-weight: 800;
-    font-size: 1.5rem;
-}
-
-.welcome-container img {
-    width: 30%;
-}
-
-/* Expertise Section */
-
-.expertise {
-    width: 100%;
-    background-color: var(--light);
-
-}
-
-.expertise h1 {
-    text-align: center;
-    font-size: 3rem;
-    color: var(--tupe);
-    font-family: 'Playfair Display', serif;
-}
-
-.expertise-cards-container {
-    display: flex;
-    justify-content: space-evenly;
-    padding: 30px;
-}
-
-.expertise-cards {
-    width: 30%;
-    background-color: var(--tupe);
-    color: var(--light);
-    text-align: center;
-    border-radius: 10px;
-}
-
-.expertise-cards img {
-    width: 100%;
-    border-radius: 10px 10px 0px 0px;
-}
-
-.expertise-cards h2 {
-    font-family: 'Playfair Display', serif;
-    font-size: 2rem;
-    padding-top: 20px;
-}
-
-.expertise-cards p {
-    font-family: sans-serif;
-    font-weight: 200;
-    font-size: 1.25rem;
-    padding: 15px;
-}
-
-.expertise-card-content a {
-    font-family: 'Playfair Display', serif;
-    color: var(--light);
-    font-size: 1.25rem;
-    margin-top: 10px;
-    text-decoration: none;
-    border-bottom: 1px solid var(--light);
-    margin-bottom: 10px;
-}
-
-.expertise-card-content a:hover {
-    color: var(--dark);
-    border-bottom: 1px solid var(--dark);
-    cursor: pointer;
 }
 
 /* About the Therapist */
@@ -316,34 +224,6 @@
 }
 
 @media screen and (max-width: 950px) {
-    .welcome-container img {
-        width: 60%;
-    }
-
-    .expertise-cards-container {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .expertise-cards {
-        width: 95%;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        margin-bottom: 30px;
-    }
-
-    .expertise-cards img {
-        width: 40%;
-        border-radius: 10px 0px 0px 10px;
-    }
-
-    .expertise-card-content {
-        display: flex;
-        flex-direction: column;
-        padding: 10px;
-    }
-
     .about-therapist-image {
         height: 380px;
     }
@@ -369,26 +249,13 @@
     .hero-pad{
         padding-top: 100px;
     }
+
+    .hero-content h1{
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 750px) {
-
-    .expertise-cards {
-        width: 85%;
-        flex-direction: column;
-    }
-
-    .expertise-cards img {
-        width: 100%;
-        border-radius: 10px 10px 0px 0px;
-    }
-
-    .expertise-card-content {
-        display: flex;
-        flex-direction: column;
-        padding: 10px;
-    }
-
     .about-therapist {
         flex-direction: column-reverse;
     }
@@ -426,31 +293,6 @@
 }
 
 @media screen and (max-width: 560px) {
-    .welcome-container {
-        width: 98%;
-    }
-
-    .welcome-container h1 {
-        font-size: 2.75rem;
-    }
-
-    .welcome-container img {
-        width: 80%;
-    }
-
-    .expertise h1 {
-        font-size: 2rem;
-        padding: 0px 10px;
-    }
-
-    .expertise-cards {
-        width: 100%;
-    }
-
-    .expertise-cards p {
-        padding: 5px;
-    }
-
     .about-therapist-image {
         height: 280px;
     }

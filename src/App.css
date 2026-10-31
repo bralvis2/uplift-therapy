@@ -77,6 +77,12 @@ h1 {
     font-weight: 300;
 }
 
+.body-text-xs {
+    font-family: 'Mona Sans', sans-serif;
+    font-size: .95rem;
+    font-weight: 300;
+}
+
 .s-em{
     font-size: .75em;
 }
@@ -326,7 +332,7 @@ h1 {
     content: '';
     position: absolute;
     inset: 0;
-    background-image: url('./components/site-images/background-transparent.jpg');
+    background-image: url('./assets/site-images/background-transparent.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -353,7 +359,7 @@ h1 {
     content: '';
     position: absolute;
     inset: 0;
-    background-image: url('./components/site-images/green-linen-texture.jpg');
+    background-image: url('./assets/site-images/green-linen-texture.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -372,7 +378,7 @@ h1 {
 /* Banner Bg */
 .t-banner {
     background-image:
-        url('./components/site-images/terracotta-background.jpg');
+        url('./assets/site-images/terracotta-background.jpg');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -407,7 +413,7 @@ a.learn-more-btn, a.btn-secondary {
 background: linear-gradient(180deg, rgba(157, 111, 77, 0.8) 48%, rgba(102, 67, 43, 1) 100%);
     padding: 15px 30px;
     border: none;
-    outline: 2px solid var(--light);
+    outline: 1px solid var(--light);
     outline-offset: -6px;
     transition: background-color 0.5s ease;
 }
@@ -442,7 +448,7 @@ background: linear-gradient(180deg, rgba(157, 111, 77, 0.8) 48%, rgba(102, 67, 4
     background: var(--dark);
     padding: 10px 20px;
     border: none;
-    outline: 2px solid var(--tupe);
+    outline: 1px solid var(--tupe);
     outline-offset: -6px;
 }
 
@@ -456,7 +462,7 @@ background: linear-gradient(180deg, rgba(157, 111, 77, 0.8) 48%, rgba(102, 67, 4
     background-color: #00000000;
     padding: 15px 30px;
     border: none;
-    outline: 2px solid var(--light);
+    outline: 1px solid var(--light);
     outline-offset: -6px;
     transition: background-color 0.5s ease;
 }
@@ -493,7 +499,7 @@ background: linear-gradient(180deg, rgba(157, 111, 77, 0.8) 48%, rgba(102, 67, 4
     align-items: center;
     gap: 10px;
     cursor: pointer;
-    transition: background 0.3s ease, color 0.3s ease;
+    /* transition: background 0.3s ease, color 0.3s ease; */
 }
 
 .learn-more-btn::after {
@@ -524,12 +530,19 @@ background: linear-gradient(180deg, rgba(157, 111, 77, 0.8) 48%, rgba(102, 67, 4
     border-bottom: solid 1px var(--tupe-dark);
 }
 
+.light-learn-more {
+    color: var(--light);
+    border-bottom: solid 1px var(--light);
+}
+
 
 .tan-learn-more:hover,
-.tupe-dark-learn-more:hover {
+.tupe-dark-learn-more:hover, .light-learn-more:hover {
     color: var(--dark);
     border-color: var(--dark);
 }
+
+
 
 /* Keyframes for gentle left-right motion */
 @keyframes chevron-wiggle {

@@ -1,18 +1,17 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
-import { BadgeCheck, Video, ShieldCheck, Award } from 'lucide-react';
+import { ArrowRight, BadgeCheck, Video, ShieldCheck, Award } from 'lucide-react';
+import ServiceGrid from '../components/ServiceGrid/ServiceGrid';
 
-import DecorSun from '../site-images/home-decor-icon.png'
-import CoupleImg from '../site-images/home-couple.png'
-import FamilyImg from '../site-images/home-family.png'
-import IndImg from '../site-images/home-individual.png'
-import Owner from '../site-images/torres-LIMHP-LMFT 1.jpg'
-import DecorIcon from '../site-images/decor-icon.png'
+
+import DecorIcon from '../assets/site-images/decor-icon.png'
+import SplitFeature from '../components/SplitFeature/SplitFeature';
+import therapistImg from '../assets/site-images/uplift-therapy-torres-limhp-lmft.jpeg';
 // import Testimonials from './Testimonials/Testimonials';
 // import Star from '../SVG-icons/star.svg'
-import AboutUplift from '../site-images/couples-therapy-session-in-lincoln-ne.jpg'
-import Telehealth from '../site-images/telehealth.png'
+import AboutUplift from '../assets/site-images/couples-therapy-session-in-lincoln-ne.jpg'
+import Telehealth from '../assets/site-images/telehealth.png'
 
 import './Home.css'
 
@@ -82,9 +81,9 @@ class Home extends Component {
             </li>
           </ul>
         </div>
-       
-         
-        
+
+
+
         <div className='full-width-center pad-tb-m green-linen-bg'>
           <div className='standard-width text-image-layout'>
             <div className='half-width text-container'>
@@ -96,70 +95,35 @@ class Home extends Component {
                 comfortable, and supportive atmosphere in which the therapist takes a highly
                 collaborative treatment approach tailored to each of the client’s needs to help them
                 attain the growth they are striving for.                            </p>
+              <a href='/about/' rel="noreferrer noopener" className='btn-secondary' aria-label='Learn More About Us'>Learn More</a>
+
             </div>
             <div className='half-width image-container border-radius box-shadow outline-dark'>
               <img src={AboutUplift} alt='' className="border-radius" />
             </div>
           </div>
         </div>
-        <div className='expertise pad-t-m'>
-          <h2 className='h2 center upper tupe'>Our Clinical Focus</h2>
-          <div className='expertise-cards-container'>
-            <div className='expertise-cards'>
-              <img src={CoupleImg} alt='A couple looking at sunset' />
-              <div className='expertise-card-content pad-t-s'>
-                <h3 className='h4'>Couples</h3>
-                <p>Couples Therapy helps people reconnect with their partner by reducing conflict,
-                  restoring friendship, fun and intimacy. With the intention of  resolving past hurts
-                  and resentments, it creates a more loving, close, healthy relationship.<br /><br />
-                  <Link to={'/couples-therapy/'}>
-                    Learn More &rarr;
-                  </Link></p>
-              </div>
-            </div>
-            <div className='expertise-cards'>
-              <img src={FamilyImg} alt='A couple looking at sunset' />
-              <div className='expertise-card-content pad-t-s'>
-                <h3 className='h4'>Family</h3>
-                <p>Families can benefit from therapy when they experience a stressful event that strains
-                  family relationships. Family therapy is designed to improve communication, problem-solving,
-                  coping skills, and enhance the connection of the family unit.<br /><br />
-                  <Link to={'/family-therapy/'}>
-                    Learn More &rarr;
-                  </Link>
-                </p>
-              </div>
-            </div>
-            <div className='expertise-cards'>
-              <img src={IndImg} alt='A couple looking at sunset' />
-              <div className='expertise-card-content pad-t-s'>
-                <h3 className='h4'>Individuals</h3>
-                <p>Individual therapy is a personal journey toward personal growth and an increase in life
-                  satisfaction. Through the process of therapy, you will develop an increased understanding
-                  and insight toward yourself and those around you.<br /><br />
-                  <Link to={'/individual-therapy/'}>
-                    Learn More &rarr;
-                  </Link>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className='about-therapist'>
-          <div className='about-therapist-content'>
-            <h2>MEET THE THERAPIST</h2>
-            <h3>Rosi Torres, LIMHP , LMFT</h3>
-            <p>"As a therapist, witnessing my clients overcome their struggles and transform their lives
-              is not just my job, it's my passion and the ultimate reward of my work."</p>
-            <Link to={'/about'}>
-              Learn More &rarr;
-            </Link>
-          </div>
-          <div className='about-therapist-image'>
-            <img src={Owner} alt='Rosi Torres, MS, LMHP' />
-          </div>
-        </div>
-        <div className='home-process'>
+
+        <ServiceGrid />
+
+        <SplitFeature
+          theme="olive"
+          title="Meet the Therapist"
+          subtitle="Rosi Torres, LIMHP, LMFT"
+          quote
+          image={therapistImg}
+          imageAlt="Rosi Torres, licensed marriage and family therapist in Lincoln, NE"
+          imagePosition="center top"
+          linkText="Learn More"
+          linkTo="/about/"
+        >
+          <p>
+            “As a therapist, witnessing my clients overcome their struggles and
+            transform their lives is not just my job, it’s my passion and the
+            ultimate reward of my work.”
+          </p>
+        </SplitFeature>
+        <div className='home-process pad-t-m'>
           <h2>THE PROCESS</h2>
           <div className='home-process-container'>
             <div className='process-card'>

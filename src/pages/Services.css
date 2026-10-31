@@ -1,7 +1,7 @@
 .service-hero {
     background-image: 
     linear-gradient(to bottom, #0D0C04 0%, rgba(13, 12, 4, .5) 100%),
-        url('../site-images/therapy-services-lincoln-ne.jpg');
+        url('../assets/site-images/therapy-services-lincoln-ne.jpg');
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;
@@ -19,7 +19,7 @@
 .discernment-hero {
     background-image:
         linear-gradient(to bottom, #0E0E0E 0%, rgba(14, 14, 14, .30) 100%),
-        url('../site-images/marriage-Counseling-lincoln-ne.jpg');
+        url('../assets/site-images/marriage-Counseling-lincoln-ne.jpg');
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;
@@ -52,7 +52,7 @@
     content: "";
     position: absolute;
     inset: 0;
-    background-image: url('../site-images/floral-bg.png');
+    background-image: url('../assets/site-images/floral-bg.png');
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;
@@ -73,7 +73,7 @@
 .ipe-hero {
     background-image:
         linear-gradient(to bottom, #0E0E0E 0%, rgba(14, 14, 14, .30) 100%),
-        url('../site-images/person-seeking-help-with-therapist.jpg');
+        url('../assets/site-images/person-seeking-help-with-therapist.jpg');
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;

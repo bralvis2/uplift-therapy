@@ -1,6 +1,6 @@
 .cost-hero {
     background-image: linear-gradient(to bottom, #0d0c04b0 0%, rgba(13, 12, 4, .5) 100%),
-    url('../site-images/cost-banner.png');
+    url('../assets/site-images/cost-banner.png');
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;

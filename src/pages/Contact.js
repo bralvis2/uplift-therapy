@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
-import ContactBanner from '../site-images/contact-banner.png'
-import Space from '../site-images/contact-space.png'
-import ContactForm from './Form/Form.js'
+import Space from '../assets/site-images/contact-space.png'
+import ContactForm from '../components/Form.js'
 // import Testimonials from './Testimonials/Testimonials.js'
 // import Star from '../SVG-icons/star.svg'
-import DecorIcon from '../site-images/decor-icon.png'
+import DecorIcon from '../assets/site-images/decor-icon.png'
 
 // Style Sheet
 import './Contact.css'

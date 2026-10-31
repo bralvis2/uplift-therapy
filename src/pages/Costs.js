@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import CostBanner from '../site-images/cost-banner.png'
-import CostA from '../site-images/cost-a.png'
-import DecorIcon from '../site-images/decor-icon.png'
-import Telehealth from '../site-images/telehealth.png'
+import CostA from '../assets/site-images/cost-a.png'
+import DecorIcon from '../assets/site-images/decor-icon.png'
+import Telehealth from '../assets/site-images/telehealth.png'
 
 // Style Sheet
 import './Costs.css'

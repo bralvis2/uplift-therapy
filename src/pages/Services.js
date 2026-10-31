@@ -1,17 +1,17 @@
 // components/pages/Services.js
 import React, { Component } from 'react';
-import ServiceSection from '../ServiceSection';
+import ServiceSection from '../components/ServiceSection';
 
-import CouplesTherapy from '../site-images/couples-therapy-session-in-lincoln-ne.jpg';
-import FamilyTherapy from '../site-images/strengthening-family-relationships.jpg';
-import IndividualTherapy from '../site-images/individual-counseling-session.jpg';
-import DiscernmentTherapy from '../site-images/couple-considering-relationship-decisions.jpg';
-import IFSTherapy from '../site-images/internal-family-systems-counseling.jpg';
-import EMDRTherapy from '../site-images/eye-movement-desensitization-therapy.jpg';
-import ImmigrationTraining from '../site-images/immigration-mental-health-evaluation.jpg';
+import CouplesTherapy from '../assets/site-images/couples-therapy-session-in-lincoln-ne.jpg';
+import FamilyTherapy from '../assets/site-images/strengthening-family-relationships.jpg';
+import IndividualTherapy from '../assets/site-images/individual-counseling-session.jpg';
+import DiscernmentTherapy from '../assets/site-images/couple-considering-relationship-decisions.jpg';
+import IFSTherapy from '../assets/site-images/internal-family-systems-counseling.jpg';
+import EMDRTherapy from '../assets/site-images/eye-movement-desensitization-therapy.jpg';
+import ImmigrationTraining from '../assets/site-images/immigration-mental-health-evaluation.jpg';
 
 import './Home.css';
-import '../../App.css';
+import '../App.css';
 import './Services.css';
 
 class Services extends Component {

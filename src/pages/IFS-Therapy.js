@@ -1,16 +1,16 @@
 import React, { Component } from 'react';
-import { ReactComponent as CheckMark } from '../SVG-icons/check-mark-dark.svg';
-import { ReactComponent as GoalIcon } from '../SVG-icons/goal.svg';
-import { ReactComponent as ProgressIcon } from '../SVG-icons/progress.svg';
-import { ReactComponent as MonthIcon } from '../SVG-icons/month.svg';
-import AboutIFS from '../site-images/woman-happy-to-speak-with-ifs-therapist.jpg';
-import WhyIFS from '../site-images/Why-Choose-IFS-Therapy.jpg';
-import IFSfaq from '../site-images/faq-ifs-therapy.jpg';
+import { ReactComponent as CheckMark } from '../assets/SVG-icons/check-mark-dark.svg';
+import { ReactComponent as GoalIcon } from '../assets/SVG-icons/goal.svg';
+import { ReactComponent as ProgressIcon } from '../assets/SVG-icons/progress.svg';
+import { ReactComponent as MonthIcon } from '../assets/SVG-icons/month.svg';
+import AboutIFS from '../assets/site-images/woman-happy-to-speak-with-ifs-therapist.jpg';
+import WhyIFS from '../assets/site-images/Why-Choose-IFS-Therapy.jpg';
+import IFSfaq from '../assets/site-images/faq-ifs-therapy.jpg';
 
-import Accordion from "./Accordion";
+import Accordion from "../components/Accordion";
 
 import './Home.css';
-import '../../App.css';
+import '../App.css';
 import './Services.css';
 
 class IFSTherapy extends Component {

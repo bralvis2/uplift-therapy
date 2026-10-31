@@ -1,6 +1,6 @@
 .individual-hero {
     background-image: linear-gradient(to bottom, #0d0c04a2 0%, rgba(13, 12, 4, .01) 100%),
-    url('../site-images/individual-cover.png');
+    url('../assets/site-images/individual-cover.png');
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;

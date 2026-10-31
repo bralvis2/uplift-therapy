@@ -1,16 +1,16 @@
 import React, { Component } from 'react';
-import { ReactComponent as CheckMark } from '../SVG-icons/check-mark-dark.svg';
-import { ReactComponent as GoalIcon } from '../SVG-icons/goal.svg';
-import { ReactComponent as ProgressIcon } from '../SVG-icons/progress.svg';
-import { ReactComponent as MonthIcon } from '../SVG-icons/month.svg';
-import EMDRAbout from '../site-images/eye-movement-desensitization-therapy.jpg';
-import whyEMDR from '../site-images/Why-Choose-EMDR-Therapy.jpg';
-import FAQEMDR from '../site-images/faq-EMDR-therapy.jpg';
+import { ReactComponent as CheckMark } from '../assets/SVG-icons/check-mark-dark.svg';
+import { ReactComponent as GoalIcon } from '../assets/SVG-icons/goal.svg';
+import { ReactComponent as ProgressIcon } from '../assets/SVG-icons/progress.svg';
+import { ReactComponent as MonthIcon } from '../assets/SVG-icons/month.svg';
+import EMDRAbout from '../assets/site-images/eye-movement-desensitization-therapy.jpg';
+import whyEMDR from '../assets/site-images/Why-Choose-EMDR-Therapy.jpg';
+import FAQEMDR from '../assets/site-images/faq-EMDR-therapy.jpg';
 
-import Accordion from "./Accordion";
+import Accordion from "../components/Accordion";
 
 import './Home.css';
-import '../../App.css';
+import '../App.css';
 import './Services.css';
 
 class EMDRTherapy extends Component {

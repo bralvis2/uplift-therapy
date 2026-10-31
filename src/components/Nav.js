@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { NavLink, Link, useLocation } from 'react-router-dom';
-import logo from '../brand-images/uplift-therapy-logo-salt.svg';
+import logo from '../assets/brand-images/uplift-therapy-logo-salt.svg';
 import './Nav.css';
 import '../App.css';
 

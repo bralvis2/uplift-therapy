@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import CoupleBanner from '../site-images/couples-banner.png'
-import DecorIconL from '../site-images/decor-icon-light.png'
-import CoupleA from '../site-images/couple-a.png'
-import CoupleB from '../site-images/couple-b.png'
-import CheckMark from '../SVG-icons/check-mark-dark.svg'
-import Goal from '../SVG-icons/goal.svg'
-import Progress from '../SVG-icons/progress.svg'
-import Month from '../SVG-icons/month.svg'
+import DecorIconL from '../assets/site-images/decor-icon-light.png'
+import CoupleA from '../assets/site-images/couple-a.png'
+import CoupleB from '../assets/site-images/couple-b.png'
+import CheckMark from '../assets/SVG-icons/check-mark-dark.svg'
+import Goal from '../assets/SVG-icons/goal.svg'
+import Progress from '../assets/SVG-icons/progress.svg'
+import Month from '../assets/SVG-icons/month.svg'
 
 // Style Sheet
 import './Couples.css'
