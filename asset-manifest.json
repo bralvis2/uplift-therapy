@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.8c3179e3.css",
-    "main.js": "/static/js/main.0fbe8c27.js",
+    "main.css": "/static/css/main.1c6bd0e7.css",
+    "main.js": "/static/js/main.5f34964f.js",
     "static/media/couple-b.png": "/static/media/couple-b.a533e6643fa50c50ac0b.png",
     "static/media/telehealth.png": "/static/media/telehealth.55c418630bd3aac550ae.png",
     "static/media/about-img-a.png": "/static/media/about-img-a.7f1c162570401f7127aa.png",
@@ -24,6 +24,7 @@
     "static/media/floral-bg.png": "/static/media/floral-bg.f70784d94b83626fe1ad.png",
     "static/media/home-family.png": "/static/media/home-family.e38182b587087cd36f99.png",
     "static/media/terracotta-background.jpg": "/static/media/terracotta-background.d38686d76b58fcec2201.jpg",
+    "static/media/uplift-therapy-torres-limhp-lmft.jpeg": "/static/media/uplift-therapy-torres-limhp-lmft.bc22332322c111341d19.jpeg",
     "static/media/torres-LIMHP-LMFT 1.jpg": "/static/media/torres-LIMHP-LMFT 1.6003dfe903b46aeeacce.jpg",
     "static/media/background-transparent.jpg": "/static/media/background-transparent.1124d665716e585b101a.jpg",
     "static/media/therapy-services-lincoln-ne.jpg": "/static/media/therapy-services-lincoln-ne.7df14f8d0b3b8e6f3c30.jpg",
@@ -35,7 +36,6 @@
     "static/media/strengthening-family-relationships.jpg": "/static/media/strengthening-family-relationships.5f9c89d8c23dd071e7d8.jpg",
     "static/media/woman-happy-to-speak-with-ifs-therapist.jpg": "/static/media/woman-happy-to-speak-with-ifs-therapist.4d7c9e05933b88f96600.jpg",
     "static/media/faq-about-discernment-counseling.jpg": "/static/media/faq-about-discernment-counseling.3647a15bfc7f111faddc.jpg",
-    "static/media/home-decor-icon.png": "/static/media/home-decor-icon.e03225fa2e6860e3761c.png",
     "static/media/couple-considering-relationship-decisions.jpg": "/static/media/couple-considering-relationship-decisions.a8f833e25afba61c4703.jpg",
     "static/media/Why-Choose-EMDR-Therapy.jpg": "/static/media/Why-Choose-EMDR-Therapy.9d01931dd2c9b88ad740.jpg",
     "static/media/Why-Choose-IFS-Therapy.jpg": "/static/media/Why-Choose-IFS-Therapy.db79a5650f55536e4c02.jpg",
@@ -58,11 +58,11 @@
     "static/media/progress.svg": "/static/media/progress.f1d3c9810c7f45f81ad197e1f922dea7.svg",
     "static/media/chevron-down-tupe-icon.svg": "/static/media/chevron-down-tupe-icon.3cf13f8aa2929e5f88c9c7e26a2a66db.svg",
     "static/media/chevron-up-tupe-icon.svg": "/static/media/chevron-up-tupe-icon.80c69f9d0af7df69252b4ad241f5778b.svg",
-    "main.8c3179e3.css.map": "/static/css/main.8c3179e3.css.map",
-    "main.0fbe8c27.js.map": "/static/js/main.0fbe8c27.js.map"
+    "main.1c6bd0e7.css.map": "/static/css/main.1c6bd0e7.css.map",
+    "main.5f34964f.js.map": "/static/js/main.5f34964f.js.map"
   },
   "entrypoints": [
-    "static/css/main.8c3179e3.css",
-    "static/js/main.0fbe8c27.js"
+    "static/css/main.1c6bd0e7.css",
+    "static/js/main.5f34964f.js"
   ]
 }
