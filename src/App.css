@@ -342,6 +342,33 @@ h1 {
     z-index: 1;
 }
 
+.green-linen-bg {
+    position: relative;
+    overflow: hidden;
+    background-color: var(--olive-400);
+}
+
+/* Overlay the transparent texture */
+.green-linen-bg::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: url('./components/site-images/green-linen-texture.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.08;
+    /* tweak for subtlety */
+    pointer-events: none;
+    z-index: 0;
+}
+
+/* keep all section content above the overlay */
+.green-linen-bg>* {
+    position: relative;
+    z-index: 1;
+}
+
 /* Banner Bg */
 .t-banner {
     background-image:

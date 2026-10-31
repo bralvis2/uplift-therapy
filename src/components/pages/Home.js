@@ -11,8 +11,7 @@ import Owner from '../site-images/torres-LIMHP-LMFT 1.jpg'
 import DecorIcon from '../site-images/decor-icon.png'
 // import Testimonials from './Testimonials/Testimonials';
 // import Star from '../SVG-icons/star.svg'
-import BCBS from '../site-images/Bcbs-Logo-Blue-Cross-Shield-PNG.png'
-import TelehealthIcon from '../SVG-icons/telehealth-icon.svg'
+import AboutUplift from '../site-images/couples-therapy-session-in-lincoln-ne.jpg'
 import Telehealth from '../site-images/telehealth.png'
 
 import './Home.css'
@@ -83,25 +82,33 @@ class Home extends Component {
             </li>
           </ul>
         </div>
-        <div className='welcome'>
-          <div className='welcome-container'>
-            <img src={DecorSun} alt='' />
-            <h2 className='h2'>Welcome to Uplift Therapy!</h2>
-            <p>Uplift Therapy helps individuals, couples, and families who are experiencing emotional
-              and behavioral difficulties. With growth in mind, Uplift Therapy aims to enhance
-              relationships and improve functioning in daily life. Therapy is conducted in a safe,
-              comfortable, and supportive atmosphere in which the therapist takes a highly
-              collaborative treatment approach tailored to each of the client’s needs to help them
-              attain the growth they are striving for.</p>
+       
+         
+        
+        <div className='full-width-center pad-tb-m green-linen-bg'>
+          <div className='standard-width text-image-layout'>
+            <div className='half-width text-container'>
+              <h2 className='h2 light'>About Uplift Therapy</h2>
+              <p className='body-text light'>
+                Uplift Therapy helps individuals, couples, and families who are experiencing emotional
+                and behavioral difficulties. With growth in mind, Uplift Therapy aims to enhance
+                relationships and improve functioning in daily life. Therapy is conducted in a safe,
+                comfortable, and supportive atmosphere in which the therapist takes a highly
+                collaborative treatment approach tailored to each of the client’s needs to help them
+                attain the growth they are striving for.                            </p>
+            </div>
+            <div className='half-width image-container border-radius box-shadow outline-dark'>
+              <img src={AboutUplift} alt='' className="border-radius" />
+            </div>
           </div>
         </div>
-        <div className='expertise'>
+        <div className='expertise pad-t-m'>
           <h2 className='h2 center upper tupe'>Our Clinical Focus</h2>
           <div className='expertise-cards-container'>
             <div className='expertise-cards'>
               <img src={CoupleImg} alt='A couple looking at sunset' />
-              <div className='expertise-card-content'>
-                <h3>Couples</h3>
+              <div className='expertise-card-content pad-t-s'>
+                <h3 className='h4'>Couples</h3>
                 <p>Couples Therapy helps people reconnect with their partner by reducing conflict,
                   restoring friendship, fun and intimacy. With the intention of  resolving past hurts
                   and resentments, it creates a more loving, close, healthy relationship.<br /><br />
@@ -112,8 +119,8 @@ class Home extends Component {
             </div>
             <div className='expertise-cards'>
               <img src={FamilyImg} alt='A couple looking at sunset' />
-              <div className='expertise-card-content'>
-                <h3>Family</h3>
+              <div className='expertise-card-content pad-t-s'>
+                <h3 className='h4'>Family</h3>
                 <p>Families can benefit from therapy when they experience a stressful event that strains
                   family relationships. Family therapy is designed to improve communication, problem-solving,
                   coping skills, and enhance the connection of the family unit.<br /><br />
@@ -125,8 +132,8 @@ class Home extends Component {
             </div>
             <div className='expertise-cards'>
               <img src={IndImg} alt='A couple looking at sunset' />
-              <div className='expertise-card-content'>
-                <h3>Individuals</h3>
+              <div className='expertise-card-content pad-t-s'>
+                <h3 className='h4'>Individuals</h3>
                 <p>Individual therapy is a personal journey toward personal growth and an increase in life
                   satisfaction. Through the process of therapy, you will develop an increased understanding
                   and insight toward yourself and those around you.<br /><br />
