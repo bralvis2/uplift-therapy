@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.5c858f61.css",
-    "main.js": "/static/js/main.26c98f85.js",
+    "main.css": "/static/css/main.d742dbf2.css",
+    "main.js": "/static/js/main.fe58267e.js",
     "static/media/couple-b.png": "/static/media/couple-b.a533e6643fa50c50ac0b.png",
     "static/media/telehealth.png": "/static/media/telehealth.55c418630bd3aac550ae.png",
     "static/media/about-img-a.png": "/static/media/about-img-a.7f1c162570401f7127aa.png",
@@ -15,7 +15,6 @@
     "static/media/cost-banner.png": "/static/media/cost-banner.8496b202d15f33adee52.png",
     "static/media/couple-a.png": "/static/media/couple-a.85890a3e7283ab57fbbf.png",
     "static/media/individual-a.png": "/static/media/individual-a.1b6e4ebb7624bdf61500.png",
-    "static/media/home-cover.png": "/static/media/home-cover.8ac4ce74efdb8d7a17bf.png",
     "static/media/contact-space.png": "/static/media/contact-space.54651bdb74d9d7aa59f3.png",
     "static/media/individual-b.png": "/static/media/individual-b.5c792ea477c351f9ba23.png",
     "static/media/home-couple.png": "/static/media/home-couple.98f6ca780578f6609ff2.png",
@@ -27,6 +26,7 @@
     "static/media/torres-LIMHP-LMFT 1.jpg": "/static/media/torres-LIMHP-LMFT 1.6003dfe903b46aeeacce.jpg",
     "static/media/background-transparent.jpg": "/static/media/background-transparent.1124d665716e585b101a.jpg",
     "static/media/therapy-services-lincoln-ne.jpg": "/static/media/therapy-services-lincoln-ne.7df14f8d0b3b8e6f3c30.jpg",
+    "static/media/therapy-in-lincoln-nebraska.jpg": "/static/media/therapy-in-lincoln-nebraska.e4c6b209cf856702a421.jpg",
     "static/media/marriage-Counseling-lincoln-ne.jpg": "/static/media/marriage-Counseling-lincoln-ne.a1a4a980e3a7f0ca48a8.jpg",
     "static/media/couples-therapy-session-in-lincoln-ne.jpg": "/static/media/couples-therapy-session-in-lincoln-ne.befa5f9e55fede0a70b7.jpg",
     "static/media/internal-family-systems-counseling.jpg": "/static/media/internal-family-systems-counseling.72f8188fc53176cf9b77.jpg",
@@ -46,9 +46,10 @@
     "static/media/immigration-mental-health-evaluation.jpg": "/static/media/immigration-mental-health-evaluation.cd73f901b9f09e79bc57.jpg",
     "static/media/individual-counseling-session.jpg": "/static/media/individual-counseling-session.a9161decb5380c4a6327.jpg",
     "static/media/icon-light.png": "/static/media/icon-light.6e55c02f6edb6efbf3e9.png",
+    "static/media/telehealth-icon.svg": "/static/media/telehealth-icon.4b9c4a566c029ca3b1ca9ddd32b39c1c.svg",
     "static/media/decor-icon-light.png": "/static/media/decor-icon-light.f2a352bb1634fab3b98b.png",
     "static/media/decor-icon.png": "/static/media/decor-icon.356a9bdf8a2d2c68d086.png",
-    "static/media/uplift-therapy-logo.svg": "/static/media/uplift-therapy-logo.618e90ce04d863275b45cc36989547ed.svg",
+    "static/media/uplift-therapy-logo-salt.svg": "/static/media/uplift-therapy-logo-salt.9e6cc5f315c190f0dc21ee8d2eaac925.svg",
     "static/media/month.svg": "/static/media/month.bb35d3967a3a2a1a95e0ff20da223a39.svg",
     "static/media/goal.svg": "/static/media/goal.107ad1ab37fbf46c9c60839cf30b52c1.svg",
     "static/media/check-mark.svg": "/static/media/check-mark.dc2b0cf375ab29199fb97e96735f29a1.svg",
@@ -57,11 +58,11 @@
     "static/media/progress.svg": "/static/media/progress.f1d3c9810c7f45f81ad197e1f922dea7.svg",
     "static/media/chevron-down-tupe-icon.svg": "/static/media/chevron-down-tupe-icon.3cf13f8aa2929e5f88c9c7e26a2a66db.svg",
     "static/media/chevron-up-tupe-icon.svg": "/static/media/chevron-up-tupe-icon.80c69f9d0af7df69252b4ad241f5778b.svg",
-    "main.5c858f61.css.map": "/static/css/main.5c858f61.css.map",
-    "main.26c98f85.js.map": "/static/js/main.26c98f85.js.map"
+    "main.d742dbf2.css.map": "/static/css/main.d742dbf2.css.map",
+    "main.fe58267e.js.map": "/static/js/main.fe58267e.js.map"
   },
   "entrypoints": [
-    "static/css/main.5c858f61.css",
-    "static/js/main.26c98f85.js"
+    "static/css/main.d742dbf2.css",
+    "static/js/main.fe58267e.js"
   ]
 }
