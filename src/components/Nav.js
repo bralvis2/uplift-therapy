@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
 import { NavLink, Link, useLocation } from 'react-router-dom';
-import logo from '../brand-images/uplift-therapy-logo.svg';
+import logo from '../brand-images/uplift-therapy-logo-salt.svg';
 import './Nav.css';
 import '../App.css';
 
 const Nav = () => {
     const [isMobile, setIsMobile] = useState(false);
+    const [scrolled, setScrolled] = useState(false);   // <-- add this
     const location = useLocation();
 
     // Close mobile menu when resizing to desktop
@@ -19,7 +20,13 @@ const Nav = () => {
         window.addEventListener('resize', handleResize);
         return () => window.removeEventListener('resize', handleResize);
     }, []);
-
+    // Turn nav black after scrolling
+    React.useEffect(() => {
+        const handleScroll = () => setScrolled(window.scrollY > 50);
+        handleScroll(); // set correct state on mount / route change
+        window.addEventListener('scroll', handleScroll, { passive: true });
+        return () => window.removeEventListener('scroll', handleScroll);
+    }, []);
 
     const links = [
         { label: 'About', path: '/about/' },
@@ -44,7 +51,7 @@ const Nav = () => {
 
 
     return (
-        <div className="full-width nav-container">
+        <div className={`full-width nav-container center-center ${scrolled || isMobile ? 'nav-scrolled' : ''}`}>
             <nav className="main-navbar">
                 <div className="logo-item">
                     <Link

@@ -42,7 +42,7 @@ class IFSTherapy extends Component {
         return (
             <div>
 
-                <div className='full-width pad-tb-m ifs-hero dark-bg cta-2'>
+                <div className='full-width-center pad-t-l pad-b-m hero-pad ifs-hero dark-bg'>
                     <div className='standard-width'>
                         <h1 className='h1 light'>Internal Family Systems (IFS) Therapy</h1>
                         <p className='body-text light margin-bottom'>Healing by Understanding All the Parts of You</p>
@@ -50,7 +50,7 @@ class IFSTherapy extends Component {
                     </div>
                 </div>
 
-                <div className='full-width pad-tb-m dark-bg'>
+                <div className='full-width-center pad-tb-m dark-bg'>
                     <div className='standard-width text-image-layout'>
                         <div className='half-width text-container'>
                             <h2 className='h2 light'>About Internal Family Systems Therapy</h2>
@@ -64,7 +64,7 @@ class IFSTherapy extends Component {
                     </div>
                 </div>
 
-                <div className='full-width salt-400-bg pad-tb-m'>
+                <div className='full-width-center salt-400-bg pad-tb-m'>
                     <div className='standard-width text-image-layout reverse'>
                         <div className='half-width image-container border-radius box-shadow outline-olive-700 large-img'>
                             <img src={WhyIFS} alt='test' className="border-radius" />
@@ -95,7 +95,7 @@ class IFSTherapy extends Component {
                     </div>
                 </div>
 
-                <div className='full-width pad-tb-m olive-900-bg'>
+                <div className='full-width-center pad-tb-m olive-900-bg'>
                     <div className='standard-width card-container'>
                         <h2 className='h2 light'>The Internal Family Systems Therapy Process</h2>
 
@@ -124,9 +124,9 @@ class IFSTherapy extends Component {
 
                     </div>
                 </div>
-                <div className='full-width light-bg pad-tb-m faq-container'>
+                <div className='full-width-center light-bg pad-tb-m faq-container'>
                     <div className='standard-width text-image-layout'>
-                    <h2 className='h2 dark margin-bottom-m full-width'>Frequently Asked Questions</h2>
+                    <h2 className='h2 dark margin-bottom-m full-width-center'>Frequently Asked Questions</h2>
                         <div className='half-width'>
                             <Accordion
                                 items={faqItems}
@@ -140,7 +140,7 @@ class IFSTherapy extends Component {
                     </div>
                 </div>
 
-                <div className='full-width pad-tb-m style-bg-1 dark-bg cta-2'>
+                <div className='full-width-center pad-tb-m style-bg-1 dark-bg cta-2'>
                     <div className='pad-s standard-width outline-light'>
                         <h2 className='h1 light'>Ready to Understand and Heal All Parts of Yourself?</h2>
                         <p className='body-text light'>

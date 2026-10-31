@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
+import { BadgeCheck, Video, ShieldCheck, Award } from 'lucide-react';
 import AboutBanner from '../site-images/about-cover.png';
 import Owner from '../site-images/torres-LIMHP-LMFT 1.jpg';
 import CheckMark from '../SVG-icons/check-mark.svg'
@@ -16,13 +17,55 @@ class About extends Component {
   render() {
     return (
       <div className='about'>
-        <div className='about-cover'>
-          <div className='about-page-image'>
-            <img src={AboutBanner} alt='Tall Grass in wind' />
+        <div
+          className="full-width-center about-hero pad-t-l pad-b-m"
+          role="img"
+          aria-label="Professional Therapy Services in Lincoln, Nebraska"
+        >
+          <div className="hub-hero-width">
+            <h1 className="light h1">About Uplift Therapy</h1>
+            <p className='hero-subtitle light'>Compassionate, Specialized Therapy in Lincoln, NE.
+            Warmest	Care That Helps You Feel Seen, Understood, and Hopeful.</p>
           </div>
-          <div className='about-title'>
-            <h2>ABOUT</h2>
-          </div>
+        </div>
+        <div className='full-width-center trust-container'>
+          <ul className="hero-trust" aria-label="Why clients choose Uplift Therapy">
+            <li className="hero-trust__item">
+              <BadgeCheck className="hero-trust__icon" aria-hidden="true" />
+              <div>
+                <span className="hero-trust__label">Licensed</span>
+                <span className="hero-trust__value">Marriage &amp; Family Therapist</span>
+              </div>
+            </li>
+
+            <li className="hero-trust__item">
+              <Video className="hero-trust__icon" aria-hidden="true" />
+              <div>
+                <span className="hero-trust__label">Telehealth</span>
+                <span className="hero-trust__value">Available across Nebraska</span>
+              </div>
+            </li>
+
+            <li className="hero-trust__item">
+              <ShieldCheck className="hero-trust__icon" aria-hidden="true" />
+              <div>
+                <span className="hero-trust__label">In-network</span>
+                <span className="hero-trust__value">BCBS, Midlands Choice &amp; Medicaid</span>
+              </div>
+            </li>
+
+            <li className="hero-trust__item">
+              <Award className="hero-trust__icon" aria-hidden="true" />
+              <div>
+                <span className="hero-trust__label">Specialized training</span>
+                <span className="hero-trust__chips">
+                  <Link className="hero-trust__chip" to="/services/couples-therapy/">Gottman Level 2</Link>
+                  <Link className="hero-trust__chip" to="/services/ifs-therapy/">IFS Level 1</Link>
+                  <Link className="hero-trust__chip" to="/services/emdr-therapy/">EMDR</Link>
+                </span>
+              </div>
+            </li>
+          </ul>
         </div>
         <div className='about-therapist'>
           <div className='about-therapist-content'>
@@ -110,7 +153,7 @@ class About extends Component {
                 <img src={CheckMark} alt='check mark icon' />
                 <div>
                   <h4>Masters of Science (M.S.) in Child, Youth, & Family Studies
-                    <br/><span className='block, s-em'>specialization in Marriage and Family Therapy </span></h4>
+                    <br /><span className='block, s-em'>specialization in Marriage and Family Therapy </span></h4>
                   <p>UNIVERSITY OF NEBRASKA, LINCOLN NE</p>
                 </div>
               </div>

@@ -12,12 +12,14 @@ class Costs extends Component {
   render() {
     return (
       <div>
-        <div className='cost-banner'>
-          <div className='cost-banner-image'>
-            <img src={CostBanner} alt='' />
-          </div>
-          <div className='cost-banner-quote'>
-            <h1>COST</h1>
+       <div
+          className="full-width-center cost-hero pad-t-l pad-b-m"
+          role="img"
+          aria-label="Professional Therapy Services in Lincoln, Nebraska"
+        >
+          <div className="hub-hero-width">
+            <h1 className="light h1">Cost of Therapy & Insurance Accepted in Lincoln, NE</h1>
+            <p className='hero-subtitle light'>Session fees, in-network insurance, and our policies, all in one place.</p>
           </div>
         </div>
         <div className='insurance-section'>

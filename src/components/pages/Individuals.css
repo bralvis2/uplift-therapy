@@ -1,30 +1,18 @@
-.individual-banner {
-    position: relative;
-}
-
-.individual-cover {
-    width: 100%;
+.individual-hero {
+    background-image: linear-gradient(to bottom, #0d0c04a2 0%, rgba(13, 12, 4, .01) 100%),
+    url('../site-images/individual-cover.png');
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    min-height: 400px;
+    max-height: 400px;
     display: flex;
-}
-
-.individual-cover img {
-    width: 100%;
-}
-
-.indiv-banner-quote {
-    background-color: hsla(0, 0%, 5%, 0.38);
-    color: var(--light);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     text-align: center;
-    padding: 20px;
-    font-family: 'Playfair Display', serif;
+    /* Lazy loading hint for browsers that support it */
+    content-visibility: auto;
+    contain-intrinsic-size: 350px;
 }
 
 /* Individual Therapy Intro */

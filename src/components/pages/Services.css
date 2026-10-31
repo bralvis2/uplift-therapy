@@ -65,36 +65,10 @@
     z-index: 1;
 }
 
-/* Background Overlay */
- /* .emdr-hero {
-    position: relative;
-    min-height: 400px;
-    max-height: 400px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    content-visibility: auto;
-    contain-intrinsic-size: 350px;
-    overflow: hidden;
+.ipe-hero .standard-width{
+    max-width: 1000px !important;
 }
 
-.emdr-hero::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background-image: url('../site-images/background-transparent.jpg');
-    background-size: cover;
-    background-position: bottom center;
-    background-repeat: no-repeat;
-    opacity: 0.06;
-    z-index: 0;
-}
-
-.emdr-hero > * {
-    position: relative;
-    z-index: 1;
-}  */
 
 .ipe-hero {
     background-image:
@@ -104,7 +78,7 @@
     background-position: top center;
     background-repeat: no-repeat;
     min-height: 400px;
-    max-height: 400px;
+    max-height: 450px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -174,6 +148,10 @@
     .large-img{
         height: 400px;
         overflow: hidden;
+    }
+
+    .service-hero, .discernment-hero, .ifs-hero, .ipe-hero{
+        max-height: 100%;
     }
     
 }

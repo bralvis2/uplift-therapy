@@ -13,17 +13,15 @@ class Contact extends Component {
   render() {
     return (
       <div className='contact'>
-        <div className='contact-cover'>
-          <div className='contact-page-image'>
-            <img src={ContactBanner} alt='Road towards the sunset' />
-          </div>
-          <div className='cover-quote-two'>
-            <h2>SEND US AN INQUIRY</h2>
+        <div
+          className="full-width-center contact-hero pad-t-l pad-b-m"
+          role="img"
+          aria-label="Professional Therapy Services in Lincoln, Nebraska"
+        >
+          <div className="hub-hero-width">
+            <h1 className="light h1">Contact Us</h1>
           </div>
         </div>
-        {/* <div className='message'>
-          <h2>WE ARE CURRENTLY NOT TAKING NEW CLIENTS</h2>
-        </div> */}
         <div className='contact-info-section'>
           <div className='contact-info-container'>
             <img src={Space} alt="Office Space" />

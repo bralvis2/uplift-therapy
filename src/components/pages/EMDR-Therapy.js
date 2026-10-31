@@ -48,7 +48,7 @@ class EMDRTherapy extends Component {
     return (
       <div>
 
-        <div className='full-width pad-tb-m ifs-hero coffee-900-bg'>
+        <div className='full-width-center pad-t-l pad-b-m hero-pad ifs-hero coffee-900-bg'>
           <div className='standard-width'>
             <h1 className='h1 light'>EMDR Therapy</h1>
             <p className='body-text light margin-bottom'>Evidence-Based Healing for Trauma and Distressing Life Experiences</p>
@@ -56,7 +56,7 @@ class EMDRTherapy extends Component {
           </div>
         </div>
 
-        <div className='full-width pad-tb-m dark-bg'>
+        <div className='full-width-center pad-tb-m dark-bg'>
           <div className='standard-width text-image-layout'>
             <div className='half-width text-container'>
               <h2 className='h2 light'>About EMDR Therapy</h2>
@@ -70,7 +70,7 @@ class EMDRTherapy extends Component {
           </div>
         </div>
 
-        <div className='full-width salt-400-bg pad-tb-m'>
+        <div className='full-width-center salt-400-bg pad-tb-m'>
           <div className='standard-width text-image-layout reverse'>
             <div className='half-width image-container border-radius box-shadow outline-olive-700 large-img'>
               <img src={whyEMDR} alt='test' className="border-radius" />
@@ -105,7 +105,7 @@ class EMDRTherapy extends Component {
           </div>
         </div>
 
-        <div className='full-width pad-tb-m olive-900-bg'>
+        <div className='full-width-center pad-tb-m olive-900-bg'>
           <div className='standard-width card-container'>
             <h2 className='h2 light'>The EMDR Therapy Process</h2>
 
@@ -135,9 +135,9 @@ class EMDRTherapy extends Component {
 
           </div>
         </div>
-        <div className='full-width light-bg pad-tb-m faq-container'>
+        <div className='full-width-center light-bg pad-tb-m faq-container'>
           <div className='standard-width text-image-layout'>
-            <h2 className='h2 dark margin-bottom-m full-width'>Frequently Asked Questions</h2>
+            <h2 className='h2 dark margin-bottom-m full-width-center'>Frequently Asked Questions</h2>
             <div className='half-width'>
               <Accordion
                 items={faqItems}
@@ -149,7 +149,7 @@ class EMDRTherapy extends Component {
           </div>
         </div>
 
-        <div className='full-width pad-tb-m style-bg-1 coffee-900-bg cta-2'>
+        <div className='full-width-center pad-tb-m style-bg-1 coffee-900-bg cta-2'>
           <div className='pad-s standard-width outline-light'>
             <h2 className='h1 light'>Ready to Find Relief from Past Trauma?</h2>
             <p className='body-text light'>

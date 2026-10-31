@@ -46,7 +46,7 @@ class DiscernmentCounseling extends Component {
         return (
             <div>
 
-                <div className='full-width pad-tb-l discernment-hero'>
+                <div className='full-width-center pad-t-l pad-b-m hero-pad discernment-hero'>
                     <div className='pad-s standard-width'>
                         <h1 className='h1 light'>Discernment Counseling</h1>
                         <p className='body-text light margin-bottom'>Finding Clarity When You’re Unsure About Your Relationship</p>
@@ -54,7 +54,7 @@ class DiscernmentCounseling extends Component {
                     </div>
                 </div>
 
-                <div className='full-width pad-tb-m dark-bg'>
+                <div className='full-width-center pad-tb-m dark-bg'>
                     <div className='standard-width text-image-layout'>
                         <div className='half-width text-container'>
                             <h2 className='h2 light'>About Discernment Counseling</h2>
@@ -71,7 +71,7 @@ class DiscernmentCounseling extends Component {
                     </div>
                 </div>
 
-                <div className='full-width light-bg pad-tb-m'>
+                <div className='full-width-center light-bg pad-tb-m'>
                     <div className='standard-width text-image-layout reverse'>
                         <div className='half-width image-container border-radius box-shadow outline-dark large-img'>
                             <img src={DiscernmentTherapyBenefit} alt='test' className="border-radius" />
@@ -92,7 +92,7 @@ class DiscernmentCounseling extends Component {
                     </div>
                 </div>
 
-                <div className='full-width pad-tb-m dark-bg'>
+                <div className='full-width-center pad-tb-m dark-bg'>
                     <div className='standard-width card-container'>
                         <h2 className='h2 light'>The Discernment Counseling Process</h2>
 
@@ -119,9 +119,9 @@ class DiscernmentCounseling extends Component {
 
                     </div>
                 </div>
-                <div className='full-width light-bg pad-tb-m faq-container'>
+                <div className='full-width-center light-bg pad-tb-m faq-container'>
                     <div className='standard-width text-image-layout'>
-                    <h2 className='h2 dark margin-bottom-m full-width'>Frequently Asked Questions</h2>
+                    <h2 className='h2 dark margin-bottom-m full-width-center'>Frequently Asked Questions</h2>
 
                         <div className='half-width'>
                             <Accordion
@@ -134,7 +134,7 @@ class DiscernmentCounseling extends Component {
                     </div>
                 </div>
 
-                <div className='full-width pad-tb-m style-bg-1 dark-bg cta-2'>
+                <div className='full-width-center pad-tb-m style-bg-1 dark-bg cta-2'>
                     <div className='pad-s standard-width outline-light'>
                         <h2 className='h1 light'>Ready to Gain Clarity About Your Marriage?</h2>
                         <p className='body-text light'>Schedule a consultation to explore your options in a safe, structured setting</p>

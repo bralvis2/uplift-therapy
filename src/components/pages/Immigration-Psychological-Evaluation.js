@@ -47,7 +47,7 @@ class IPE extends Component {
         return (
             <div>
 
-                <div className='full-width pad-tb-m ipe-hero cta-2'>
+                <div className='full-width-center pad-t-l pad-b-m hero-pad ipe-hero'>
                     <div className='standard-width'>
                         <h1 className='h1 light'>Immigration Psychological Evaluations</h1>
                         <p className='body-text light margin-bottom'>Comprehensive, trauma-informed evaluations that document your story and strengthen your immigration case with clinical evidence.</p>
@@ -55,7 +55,7 @@ class IPE extends Component {
                     </div>
                 </div>
 
-                <div className='full-width pad-tb-m dark-bg'>
+                <div className='full-width-center pad-tb-m dark-bg'>
                     <div className='standard-width text-image-layout'>
                         <div className='half-width text-container'>
                             <h2 className='h2 light'>Strengthen Your Immigration Case with Expert Psychological Evaluations</h2>
@@ -69,7 +69,7 @@ class IPE extends Component {
                     </div>
                 </div>
 
-                <div className='full-width salt-400-bg pad-tb-m'>
+                <div className='full-width-center salt-400-bg pad-tb-m'>
                     <div className='standard-width text-image-layout reverse'>
                         <div className='half-width image-container border-radius box-shadow outline-olive-700 large-img'>
                             <img src={WhyIFS} alt='test' className="border-radius" />
@@ -101,7 +101,7 @@ class IPE extends Component {
                     </div>
                 </div>
 
-                <div className='full-width pad-tb-m olive-900-bg'>
+                <div className='full-width-center pad-tb-m olive-900-bg'>
                     <div className='standard-width card-container'>
                         <h2 className='h2 light'>The Immigration Psychological Evaluation Process</h2>
 
@@ -130,7 +130,7 @@ class IPE extends Component {
 
                     </div>
                 </div>
-                <div className='full-width pad-tb-m t-banner'>
+                <div className='full-width-center pad-tb-m t-banner'>
                     <div className='pad-s standard-width light-bg outline-coffee'>
                         <h2 className='h1'>Payment</h2>
                         <p className='body-text'>
@@ -150,9 +150,9 @@ class IPE extends Component {
                         <a href='https://rosa-torres.clientsecure.me/' target='_blank' rel="noreferrer noopener" className='btn-tan'>Book Now</a>
                     </div>
                 </div>
-                <div className='full-width light-bg pad-tb-m faq-container'>
+                <div className='full-width-center light-bg pad-tb-m faq-container'>
                     <div className='standard-width text-image-layout'>
-                        <h2 className='h2 dark margin-bottom-m full-width'>Frequently Asked Questions</h2>
+                        <h2 className='h2 dark margin-bottom-m full-width-center'>Frequently Asked Questions</h2>
                         <div className='half-width'>
                             <Accordion
                                 items={faqItems}
@@ -166,7 +166,7 @@ class IPE extends Component {
                     </div>
                 </div>
 
-                <div className='full-width pad-tb-m style-bg-1 dark-bg cta-2'>
+                <div className='full-width-center pad-tb-m style-bg-1 dark-bg cta-2'>
                     <div className='pad-s standard-width outline-light'>
                         <h2 className='h1 salt-400'>Let's Connect</h2>
                         <p className='body-text salt-400'>

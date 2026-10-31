@@ -16,12 +16,14 @@ class Individuals extends Component {
   render() {
     return (
       <div>
-        <div className='individual-banner'>
-          <div className='individual-cover'>
-            <img src={Cover} alt='' />
-          </div>
-          <div className='indiv-banner-quote'>
-            <h1>INDIVIDUAL THERAPY</h1>
+       <div
+          className="full-width-center individual-hero pad-t-l pad-b-m hero-pad"
+          role="img"
+          aria-label="Professional Therapy Services in Lincoln, Nebraska"
+        >
+          <div className="hub-hero-width">
+            <h1 className="light h1">Individual Counseling & Therapy in Lincoln, NE</h1>
+            <p className='hero-subtitle light'>Evidence-based care from a licensed marriage and family therapist, with in-person and telehealth sessions.</p>
           </div>
         </div>
         <div className='indiv-intro'>

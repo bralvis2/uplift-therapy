@@ -114,7 +114,7 @@ class Services extends Component {
             <div>
                 {/* Hero Section */}
                 <div
-                    className="full-width service-hero pad-tb-l"
+                    className="full-width-center service-hero pad-t-l pad-b-m hero-pad"
                     role="img"
                     aria-label="Professional Therapy Services in Lincoln, Nebraska"
                 >
@@ -132,7 +132,7 @@ class Services extends Component {
                     <ServiceSection key={service.id} {...service} reverse={index % 2 !== 0} />
                 ))}
 
-                <div className='full-width pad-tb-m style-bg-1 dark-bg cta-2' >
+                <div className='full-width-center pad-tb-m style-bg-1 dark-bg cta-2' >
                     <div className='pad-s standard-width outline-light'>
                         <h2 className='h1 light'>Not sure which service is right for you?</h2>
                         <p className='body-text light'>Contact us today to schedule a consultation and discover how our compassionate, evidence-based therapy services in Lincoln can support you and your loved ones.</p>

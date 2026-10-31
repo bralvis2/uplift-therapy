@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import CoverPage from '../site-images/home-cover.png'
+import { Helmet } from 'react-helmet-async';
+import { BadgeCheck, Video, ShieldCheck, Award } from 'lucide-react';
+
 import DecorSun from '../site-images/home-decor-icon.png'
 import CoupleImg from '../site-images/home-couple.png'
 import FamilyImg from '../site-images/home-family.png'
@@ -9,6 +11,8 @@ import Owner from '../site-images/torres-LIMHP-LMFT 1.jpg'
 import DecorIcon from '../site-images/decor-icon.png'
 // import Testimonials from './Testimonials/Testimonials';
 // import Star from '../SVG-icons/star.svg'
+import BCBS from '../site-images/Bcbs-Logo-Blue-Cross-Shield-PNG.png'
+import TelehealthIcon from '../SVG-icons/telehealth-icon.svg'
 import Telehealth from '../site-images/telehealth.png'
 
 import './Home.css'
@@ -17,19 +21,72 @@ class Home extends Component {
   render() {
     return (
       <div className='home'>
-        <div className='home-cover'>
-          <div className='cover-page-image'>
-            <img src={CoverPage} alt='Sun set cover page' />
+        <Helmet>
+          <title>Therapy in Lincoln, Nebraska | Uplift Therapy</title>
+          <meta
+            name="description"
+            content="Uplift Therapy offers couples, family, individual, EMDR, and IFS therapy in Lincoln, NE. Telehealth for Nebraska residents. Schedule a consultation."
+          />
+        </Helmet>
+
+        <div
+          className="full-width-center home-hero v-center"
+          role="img"
+          aria-label="Professional Therapy Services in Lincoln, Nebraska"
+        >
+          <div className="standard-width pad-t-l pad-b-m hero-content hero-pad">
+            <h1 className="light">Compassionate Therapy in Lincoln, NE for Individuals, Couples, and Families</h1>
+            <p className="hero-subtitle light">
+              Take the first step towards healing. You don’t have to figure it out alone.
+            </p>
+            <a href='https://rosa-torres.clientsecure.me/' target='_blank' rel="noreferrer noopener" className='btn-tan'>Book Now</a>
+            <a href='/services/' rel="noreferrer noopener" className='btn-secondary'>Explore Services</a>
           </div>
-          <div className='cover-quote'>
-            <h2>TAKE THE FIRST STEP TOWARDS HEALING</h2>
-            <p>-therapy is not a sign of weakness, but a courageous act of self-care.</p>
-          </div>
+        </div>
+
+        <div className='full-width-center trust-container'>
+          <ul className="hero-trust" aria-label="Why clients choose Uplift Therapy">
+            <li className="hero-trust__item">
+              <BadgeCheck className="hero-trust__icon" aria-hidden="true" />
+              <div>
+                <span className="hero-trust__label">Licensed</span>
+                <span className="hero-trust__value">Marriage &amp; Family Therapist</span>
+              </div>
+            </li>
+
+            <li className="hero-trust__item">
+              <Video className="hero-trust__icon" aria-hidden="true" />
+              <div>
+                <span className="hero-trust__label">Telehealth</span>
+                <span className="hero-trust__value">Available across Nebraska</span>
+              </div>
+            </li>
+
+            <li className="hero-trust__item">
+              <ShieldCheck className="hero-trust__icon" aria-hidden="true" />
+              <div>
+                <span className="hero-trust__label">In-network</span>
+                <span className="hero-trust__value">BCBS, Midlands Choice &amp; Medicaid</span>
+              </div>
+            </li>
+
+            <li className="hero-trust__item">
+              <Award className="hero-trust__icon" aria-hidden="true" />
+              <div>
+                <span className="hero-trust__label">Specialized training</span>
+                <span className="hero-trust__chips">
+                  <Link className="hero-trust__chip" to="/services/couples-therapy/">Gottman Level 2</Link>
+                  <Link className="hero-trust__chip" to="/services/ifs-therapy/">IFS Level 1</Link>
+                  <Link className="hero-trust__chip" to="/services/emdr-therapy/">EMDR</Link>
+                </span>
+              </div>
+            </li>
+          </ul>
         </div>
         <div className='welcome'>
           <div className='welcome-container'>
             <img src={DecorSun} alt='' />
-            <h1>Welcome to Uplift Therapy!</h1>
+            <h2 className='h2'>Welcome to Uplift Therapy!</h2>
             <p>Uplift Therapy helps individuals, couples, and families who are experiencing emotional
               and behavioral difficulties. With growth in mind, Uplift Therapy aims to enhance
               relationships and improve functioning in daily life. Therapy is conducted in a safe,
@@ -39,12 +96,12 @@ class Home extends Component {
           </div>
         </div>
         <div className='expertise'>
-          <h1>OUR CLINICAL FOCUS</h1>
+          <h2 className='h2 center upper tupe'>Our Clinical Focus</h2>
           <div className='expertise-cards-container'>
             <div className='expertise-cards'>
               <img src={CoupleImg} alt='A couple looking at sunset' />
               <div className='expertise-card-content'>
-                <h2>Couples</h2>
+                <h3>Couples</h3>
                 <p>Couples Therapy helps people reconnect with their partner by reducing conflict,
                   restoring friendship, fun and intimacy. With the intention of  resolving past hurts
                   and resentments, it creates a more loving, close, healthy relationship.<br /><br />
@@ -56,7 +113,7 @@ class Home extends Component {
             <div className='expertise-cards'>
               <img src={FamilyImg} alt='A couple looking at sunset' />
               <div className='expertise-card-content'>
-                <h2>Family</h2>
+                <h3>Family</h3>
                 <p>Families can benefit from therapy when they experience a stressful event that strains
                   family relationships. Family therapy is designed to improve communication, problem-solving,
                   coping skills, and enhance the connection of the family unit.<br /><br />
@@ -69,7 +126,7 @@ class Home extends Component {
             <div className='expertise-cards'>
               <img src={IndImg} alt='A couple looking at sunset' />
               <div className='expertise-card-content'>
-                <h2>Individuals</h2>
+                <h3>Individuals</h3>
                 <p>Individual therapy is a personal journey toward personal growth and an increase in life
                   satisfaction. Through the process of therapy, you will develop an increased understanding
                   and insight toward yourself and those around you.<br /><br />
@@ -142,7 +199,7 @@ class Home extends Component {
               locations, while also providing greater flexibility in scheduling appointments. *Available for Nebraska Residents Only.*
             </p>
             <a href='https://rosa-torres.clientsecure.me/' target='_blank' rel="noreferrer noopener" >SEND US AN INQUIRY &rarr;</a>
-  
+
           </div>
         </div>
       </div>

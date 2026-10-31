@@ -2,12 +2,25 @@
    Main Navbar
 ========================= */
 .nav-container{
-    background-color: var(--dark);
+    background-color: #00000000;
+    z-index: 9999 !important;
+    position: sticky;
+    top: 0;
+    margin-bottom: -84px;
+    transition: background-color 0.5s ease;
+}
+
+.nav-container:hover{
+    background-color: #1F1F1F;
+}
+
+.nav-container.nav-scrolled {
+    background-color: #1F1F1F;
 }
 
 .main-navbar {
     width: 95%;
-    max-width: 1920px;
+    max-width: 1880px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -107,6 +120,9 @@ i.fa.fa-bars, i.fa.fa-xmark{
 
 /* Mobile dropdown menu inside hamburger */
 @media screen and (max-width: 1025px) {
+    .main-navbar{
+        padding: 10px 0px;
+    }
     .logo-item img {
         max-width: 300px;
         height: 54px;
@@ -156,7 +172,7 @@ i.fa.fa-bars, i.fa.fa-xmark{
       border: none;
       cursor: pointer;
       position: absolute;
-      top: 20px;
+      top: 10px;
       right: 25px;
       z-index: 1100;
     }

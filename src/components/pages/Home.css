@@ -1,40 +1,34 @@
-/* Cover Page Section */
-.home-cover {
-    position: relative;
-}
-
-.cover-page-image {
+.home-hero {
+    background-image: 
+        url('../site-images/therapy-in-lincoln-nebraska.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 600px;
+    height: 83vh;
     display: flex;
-    width: 100%;
+    /* Lazy loading hint for browsers that support it */
+    content-visibility: auto;
+    contain-intrinsic-size: 350px;
+    z-index: 0 !important;
 }
 
-.cover-page-image img {
-    width: 100%;
-}
-
-.cover-quote {
-    background-color: hsla(0, 0%, 5%, 0.38);
-    color: var(--light);
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
+.hero-content{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
+    flex-wrap: wrap;
+    row-gap: .75rem;
+    column-gap: 30px;
 }
 
-.cover-quote h2 {
-    font-family: 'Alegreya Sans', sans-serif;
-    font-size: 3.5rem;
+.hero-content h1{
+    width: 75%;
+    max-width: 1200px;
+    text-wrap: balance;
 }
+.hero-content p{
+    width: 100%;
+    margin-bottom: 2rem;
 
-.cover-quote p {
-    font-family: 'Alegreya Sans', sans-serif;
-    font-size: 2rem;
 }
 
 /* Welcome Section */
@@ -326,14 +320,6 @@
         width: 60%;
     }
 
-    .cover-quote h2 {
-        font-size: 2rem;
-    }
-
-    .cover-quote p {
-        font-size: 1rem;
-    }
-
     .expertise-cards-container {
         flex-direction: column;
         align-items: center;
@@ -375,6 +361,14 @@
     }
 
 
+}
+@media screen and (max-width: 767px){
+    .home-hero {
+        height: 100%;
+    }
+    .hero-pad{
+        padding-top: 100px;
+    }
 }
 
 @media screen and (max-width: 750px) {
@@ -442,16 +436,6 @@
 
     .welcome-container img {
         width: 80%;
-    }
-
-    .cover-quote {
-        position: static;
-        background-color: hsla(0, 0%, 5%, 0.88);
-    }
-
-    .cover-quote p {
-        font-size: 1.25rem;
-        margin-bottom: 0px;
     }
 
     .expertise h1 {

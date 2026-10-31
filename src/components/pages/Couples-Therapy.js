@@ -16,12 +16,14 @@ class Couples extends Component {
   render() {
     return (
       <div className='couples'>
-        <div className='couples-banner-container'>
-          <div className='couples-banner-image'>
-            <img src={CoupleBanner} alt='Couple on the beach' />
-          </div>
-          <div className='couple-banner-quote'>
-            <h1>COUPLES THERAPY</h1>
+       <div
+          className="full-width-center couples-hero pad-t-l pad-b-m"
+          role="img"
+          aria-label="Professional Therapy Services in Lincoln, Nebraska"
+        >
+          <div className="hub-hero-width">
+            <h1 className="light h1">Couples Counseling & Marriage Therapy in Lincoln, NE</h1>
+            <p className='hero-subtitle light'>Evidence-based care from a licensed marriage and family therapist trained in the Gottman Method.</p>
           </div>
         </div>
         <div className='couples-intro'>

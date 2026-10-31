@@ -16,7 +16,7 @@ const ServiceSection = ({
   link
 }) => {
   return (
-    <div className={`full-width pad-tb-m ${bgClass}`} id={id}>
+    <div className={`full-width-center pad-tb-m ${bgClass}`} id={id}>
       <div className={`standard-width text-image-layout ${reverse ? 'reverse' : ''}`}>
         {/* When not reversed: text on left, image on right */}
         {!reverse ? (
